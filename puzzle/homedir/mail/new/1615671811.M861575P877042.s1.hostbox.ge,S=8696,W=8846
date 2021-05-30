@@ -1,0 +1,150 @@
+Return-Path: <quote99@toolmolding.cc>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 4F+rMgMyTWDyYQ0ADX6OZQ
+	(envelope-from <quote99@toolmolding.cc>)
+	for <puzzle@s1.hostbox.ge>; Sun, 14 Mar 2021 01:43:31 +0400
+Return-path: <quote99@toolmolding.cc>
+Envelope-to: escape@puzzle.ge
+Delivery-date: Sun, 14 Mar 2021 01:43:31 +0400
+Received: from mail-io1-f66.google.com ([209.85.166.66]:38027)
+	by s1.hostbox.ge with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94)
+	(envelope-from <quote99@toolmolding.cc>)
+	id 1lLC2h-003g96-UQ
+	for escape@puzzle.ge; Sun, 14 Mar 2021 01:43:31 +0400
+Received: by mail-io1-f66.google.com with SMTP id k2so29584813ioh.5
+        for <escape@puzzle.ge>; Sat, 13 Mar 2021 13:43:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=toolmolding-cc.20150623.gappssmtp.com; s=20150623;
+        h=message-id:from:subject:to:mime-version:reply-to:date;
+        bh=ziY0Qp3IKYOa4SeEbrKmfGtZyr+gW08VJGxSWehCDwY=;
+        b=miblEdfV2JZpeTxaKJ+IU3kvsn9y7N+vBf+YJxhDvcIEC3ru+su1QKdGkNaf8q+mPW
+         SRK57cKC4UTEJkpNPOa5OvuE1JBsSnA3LWlm/Bp0l3XsGfmYc7wd2A/R2NKaZvGXMefm
+         i5bRQqewWmrBFQVnFl7gbaoPXc9m38Zl0V0ohB7EKH3fwHX6e0Z/F/e1R7OWgkhyeclI
+         aDXkRPskMkJLAUesuzDG8yKkKGnsYZphFyrSzOF27pgGSrTkwrs23m5LldSFGgs6zIKU
+         oKcz9QoF3r8NcnZkZBdM+DqjKo4DAqNj5Z0tQgbkHIZv9CXBsfDokwsir3OWxpLJ7neR
+         eByg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:from:subject:to:mime-version:reply-to
+         :date;
+        bh=ziY0Qp3IKYOa4SeEbrKmfGtZyr+gW08VJGxSWehCDwY=;
+        b=ipowSN/dJL3dYO+7IcPeS6QunzkRqC2EjhHASwgoqhVHnEwGR2qJw7t9I1ZCoYTvqU
+         nKqOkd8kTLBCzwiJJvAoIOZURfrub74U9R7YTp3cYsy3Omrj1TWKkpkWc1i1+mp1lrce
+         bysuyQkuKkPm0VIoiZpcut5H5C8n/9zeQRFivs+/TpbeF/eSadXQ9TRxb5FvkTmOPeU1
+         IWDoVZO1WXdiN2L5wvI1Ohaqvjx2c/5sMiOuIt40YZT9W75mbN/J4ncLXeCTBuLV/jCW
+         gqKh6vmBhsGmkYJchWBTTaG/DgVGM9HaifSzv9SRb1jmCwyQc+MnS9Big0y72Uuw3g07
+         ekaQ==
+X-Gm-Message-State: AOAM532D7XOW8KQLgv9jCihu1fQ/NbrSLIzNeB997Kvw7eLOcMqt7+61
+	ZQHAOtTPW7VRmpGjGhcICIxi7pSQT0aB5g==
+X-Google-Smtp-Source: ABdhPJx36BoTFBObV+ARSLCFWjsGG8S1lNBGsNsZxy/PrEl2f9K0vmdq15n5r9XE0E/ujoSSAFcnsA==
+X-Received: by 2002:a02:a691:: with SMTP id j17mr4509674jam.14.1615671764222;
+        Sat, 13 Mar 2021 13:42:44 -0800 (PST)
+Received: from quote99 ([45.56.153.231])
+        by smtp.googlemail.com with ESMTPSA id c5sm3048732ioi.0.2021.03.13.13.42.41
+        for <escape@puzzle.ge>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sat, 13 Mar 2021 13:42:43 -0800 (PST)
+Message-ID: <604d31d3.1c69fb81.a98ca.d132@mx.google.com>
+From: "quote" <quote99@toolmolding.cc>
+Subject: plastic injection mould maker and moulding company
+To: escape@puzzle.ge
+Content-Type: multipart/alternative; charset=UTF-8; boundary="zi1=_acz8uCWxyLZuhvxVn9JchnAoG6GBv"
+MIME-Version: 1.0
+Reply-To: "quote" <quote@toolmolding.cc>
+Date: Sun, 14 Mar 2021 05:38:52 +0800
+X-Spam-Status: No, score=3.7
+X-Spam-Score: 37
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "s1.hostbox.ge",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, We are a professional plastic injection mould
+    maker and moulding company in China. if you need,so please send me your drawings
+    with request,and we can quote it for you. Hope to be a good partner of yo
+    [...] 
+ Content analysis details:   (3.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format
+
+--zi1=_acz8uCWxyLZuhvxVn9JchnAoG6GBv
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: Base64
+Content-Disposition: inline
+
+RGVhciBTaXIvTWFkYW0sDQogDQpXZSBhcmUgYSBwcm9mZXNzaW9uYWwgcGxhc3RpYyBpbmplY3Rp
+b24gbW91bGQgbWFrZXIgYW5kIG1vdWxkaW5nIGNvbXBhbnkgaW4gQ2hpbmEuDQppZiB5b3UgbmVl
+ZCxzbyBwbGVhc2Ugc2VuZCBtZSB5b3VyIGRyYXdpbmdzIHdpdGggcmVxdWVzdCxhbmQgd2UgY2Fu
+IHF1b3RlIGl0IGZvciB5b3UuDQpIb3BlIHRvIGJlIGEgZ29vZCBwYXJ0bmVyIG9mIHlvdXIgY29t
+cGFueS4NCiANCkJlc3QgUmVnYXJkcywgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIA0KVG9ueSAoU2FsZXMgVGVhbSkNCg==
+
+--zi1=_acz8uCWxyLZuhvxVn9JchnAoG6GBv
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: Base64
+Content-Disposition: inline
+
+PEhUTUwgeG1sbnM6byA9ICJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2Ui
+PjxIRUFEPjxUSVRMRT48L1RJVExFPg0KPE1FVEEgY29udGVudD10ZXh0L2h0bWw7Y2hhcnNldD1V
+VEYtOCBodHRwLWVxdWl2PUNvbnRlbnQtVHlwZT4NCjxNRVRBIG5hbWU9R0VORVJBVE9SIGNvbnRl
+bnQ9Ik1TSFRNTCAxMS4wMC45NjAwLjE5MjA0Ij48L0hFQUQ+DQo8Qk9EWT4NCjxQIGNsYXNzPU1z
+b05vcm1hbCBzdHlsZT0iTUFSR0lOOiAwY20gMGNtIDBwdCI+PFNQQU4gbGFuZz1FTi1VUyBzdHls
+ZT0iRk9OVC1TSVpFOiAxMXB0OyBDT0xPUjogYmxhY2s7IG1zby10aGVtZWNvbG9yOiB0ZXh0MSI+
+PEZPTlQgZmFjZT1DYWxpYnJpPkRlYXIgU2lyL01hZGFtLDxvOnA+PC9vOnA+PC9GT05UPjwvU1BB
+Tj48L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGNtIDBjbSAwcHQiPjxT
+UEFOIGxhbmc9RU4tVVMgc3R5bGU9IkZPTlQtU0laRTogMTFwdDsgQ09MT1I6IGJsYWNrOyBtc28t
+dGhlbWVjb2xvcjogdGV4dDEiPjxvOnA+PEZPTlQgZmFjZT1DYWxpYnJpPiZuYnNwOzwvRk9OVD48
+L286cD48L1NQQU4+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBjbSAw
+Y20gMHB0Ij48U1BBTiBsYW5nPUVOLVVTIHN0eWxlPSJGT05ULVNJWkU6IDExcHQ7IENPTE9SOiBi
+bGFjazsgbXNvLXRoZW1lY29sb3I6IHRleHQxIj48Rk9OVCBmYWNlPUNhbGlicmk+V2UgYXJlIGEg
+cHJvZmVzc2lvbmFsIHBsYXN0aWMgaW5qZWN0aW9uIG1vdWxkIG1ha2VyIGFuZCBtb3VsZGluZyBj
+b21wYW55IGluIENoaW5hLjxvOnA+PC9vOnA+PC9GT05UPjwvU1BBTj48L1A+DQo8UCBjbGFzcz1N
+c29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGNtIDBjbSAwcHQiPjxTUEFOIGxhbmc9RU4tVVMgc3R5
+bGU9IkZPTlQtU0laRTogMTFwdDsgQ09MT1I6IGJsYWNrOyBtc28tdGhlbWVjb2xvcjogdGV4dDEi
+PjxGT05UIGZhY2U9Q2FsaWJyaT5pZiB5b3UgbmVlZCxzbyBwbGVhc2Ugc2VuZCBtZSB5b3VyIGRy
+YXdpbmdzIHdpdGggcmVxdWVzdCxhbmQgd2UgY2FuIHF1b3RlIGl0IGZvciB5b3UuPG86cD48L286
+cD48L0ZPTlQ+PC9TUEFOPjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iTUFSR0lOOiAw
+Y20gMGNtIDBwdCI+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMXB0OyBDT0xP
+UjogYmxhY2s7IG1zby10aGVtZWNvbG9yOiB0ZXh0MSI+PEZPTlQgZmFjZT1DYWxpYnJpPkhvcGUg
+dG8gYmUgYSBnb29kIHBhcnRuZXIgb2YgeW91ciBjb21wYW55LjxvOnA+PC9vOnA+PC9GT05UPjwv
+U1BBTj48L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9Ik1BUkdJTjogMGNtIDBjbSAwcHQi
+PjxTUEFOIGxhbmc9RU4tVVMgc3R5bGU9IkZPTlQtU0laRTogMTFwdDsgQ09MT1I6IGJsYWNrOyBt
+c28tdGhlbWVjb2xvcjogdGV4dDEiPjxvOnA+PEZPTlQgZmFjZT1DYWxpYnJpPiZuYnNwOzwvRk9O
+VD48L286cD48L1NQQU4+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBj
+bSAwY20gMHB0OyB0YWItc3RvcHM6IGNlbnRlciAzNDguOTVwdCI+PFNQQU4gbGFuZz1FTi1VUyBz
+dHlsZT0iRk9OVC1TSVpFOiAxMXB0OyBDT0xPUjogYmxhY2s7IG1zby10aGVtZWNvbG9yOiB0ZXh0
+MSI+PEZPTlQgZmFjZT1DYWxpYnJpPkJlc3QgUmVnYXJkcyw8U1BBTiBzdHlsZT0ibXNvLXRhYi1j
+b3VudDogMSI+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDwvU1BBTj48bzpwPjwvbzpw
+PjwvRk9OVD48L1NQQU4+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJNQVJHSU46IDBj
+bSAwY20gMHB0Ij48U1BBTiBsYW5nPUVOLVVTIHN0eWxlPSJGT05ULVNJWkU6IDExcHQ7IENPTE9S
+OiBibGFjazsgbXNvLXRoZW1lY29sb3I6IHRleHQxIj48Rk9OVCBmYWNlPUNhbGlicmk+VG9ueSAo
+U2FsZXMgVGVhbSk8L0ZPTlQ+PG86cD48L286cD48L1NQQU4+PC9QPjwvQk9EWT48L0hUTUw+DQo=
+
+--zi1=_acz8uCWxyLZuhvxVn9JchnAoG6GBv--
+

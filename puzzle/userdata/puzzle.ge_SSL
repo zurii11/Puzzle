@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/puzzle/public_html
+group: puzzle
+hascgi: 0
+homedir: /home/puzzle
+ip: 185.139.56.200
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@puzzle.ge
+serveralias: mail.puzzle.ge www.puzzle.ge
+servername: puzzle.ge
+ssl: 1
+usecanonicalname: 'Off'
+user: puzzle
+userdirprotect: ''

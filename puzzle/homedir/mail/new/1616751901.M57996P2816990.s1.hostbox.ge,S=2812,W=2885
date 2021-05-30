@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 4vHFAh2tXWDe+yoADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Fri, 26 Mar 2021 13:45:01 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Fri, 26 Mar 2021 13:45:01 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lPj1Y-00BopG-UZ
+	for puzzle@s1.hostbox.ge; Fri, 26 Mar 2021 13:45:01 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lPj1S-00Boo8-Fa@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1616751900-eximdsn-2007312481
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lPj1Y-00BopG-UZ@s1.hostbox.ge>
+Date: Fri, 26 Mar 2021 13:45:00 +0400
+
+--1616751900-eximdsn-2007312481
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    host alt2.gmail-smtp-in.l.google.com [173.194.202.26]
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    550-5.2.1 The user you are trying to contact is receiving mail at a rate that
+    550-5.2.1 prevents additional messages from being delivered. For more
+    550-5.2.1 information, please visit
+    550 5.2.1  https://support.google.com/mail/?p=ReceivingRatePerm k9si895033plk.404 - gsmtp
+
+--1616751900-eximdsn-2007312481
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; alt2.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.2.1 The user you are trying to contact is receiving mail at a rate that
+ 550-5.2.1 prevents additional messages from being delivered. For more
+ 550-5.2.1 information, please visit
+ 550 5.2.1  https://support.google.com/mail/?p=ReceivingRatePerm k9si895033plk.404 - gsmtp
+
+--1616751900-eximdsn-2007312481
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lPj1S-00Boo8-Fa
+	for gzhandler@gmail.com; Fri, 26 Mar 2021 13:44:54 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 114.119.131.202
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 114.119.131.202
+Message-Id: <E1lPj1S-00Boo8-Fa@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Fri, 26 Mar 2021 13:44:54 +0400
+
+https://puzzle.ge/product/-175mm-eRotC
+
+--1616751900-eximdsn-2007312481--

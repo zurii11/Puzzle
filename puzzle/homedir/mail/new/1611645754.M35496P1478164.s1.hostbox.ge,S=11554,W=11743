@@ -1,0 +1,189 @@
+Return-Path: <quote99@metalparts.info>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id GIXyATrDD2AUjhYADX6OZQ
+	(envelope-from <quote99@metalparts.info>)
+	for <puzzle@s1.hostbox.ge>; Tue, 26 Jan 2021 11:22:34 +0400
+Return-path: <quote99@metalparts.info>
+Envelope-to: escape@puzzle.ge
+Delivery-date: Tue, 26 Jan 2021 11:22:34 +0400
+Received: from mail-io1-f50.google.com ([209.85.166.50]:39072)
+	by s1.hostbox.ge with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <quote99@metalparts.info>)
+	id 1l4IgH-006Cv5-C2
+	for escape@puzzle.ge; Tue, 26 Jan 2021 11:22:33 +0400
+Received: by mail-io1-f50.google.com with SMTP id e22so31762052iog.6
+        for <escape@puzzle.ge>; Mon, 25 Jan 2021 23:22:08 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=metalparts-info.20150623.gappssmtp.com; s=20150623;
+        h=message-id:from:subject:to:mime-version:reply-to:date;
+        bh=ts+cqXcTX5HdPj9sqdJ2s4wA7UjQY4lRx8PcyvtSKHM=;
+        b=QUo7YbVR0TqndAtUpvgZQU8+1Xw4D4FHjkVG/qQcA11DjGg3oq++N+s+Ml2vejLM57
+         uVh5nzBflQIvVIHsHMyiHQoxIOFvCXhY+4PIYEflODFiZZ3iL5d3MfsdmwAt3F2//Bi2
+         wMpAgZK+oBozicsZ97KUf9s/QNBlR/UX81M1+KKkF2DDvtxjXTruJ90JoAnV9KsduXqo
+         d8M3CIomR3J8BmexyRySCeRaXZCGxfvhXjSIJb2CoqBIqry7weMRdLoZI3qCPm4vTH8Q
+         Uof9bs5HFAwwaeUIlL5WoYCquJI7bsQQPynwgesa0EbxzMikfu1Tcu9XF1HjD1E0va3R
+         11oQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:from:subject:to:mime-version:reply-to
+         :date;
+        bh=ts+cqXcTX5HdPj9sqdJ2s4wA7UjQY4lRx8PcyvtSKHM=;
+        b=Muvn1yyQqj+LrRn0fGo85wWEhSUPPxlLp7UxH6llwOqx8At2hvuBm7EHCg4zhQFxkU
+         2FxvidNVfLbX0UR2g5qb62X5DWg5eZpOkgaG8HAiPcII4Z1VVCa3QH+8PVDYY2fn4R4f
+         5ZsHyVCZwN1KKwS/k0QcdzIV3WnkOCNGiqWVchDpa9AZEkeZ54McbpYpVJDDM/oGr5y7
+         jXzEE+AuRNj/oJj7Q2XW5jCws3BOmTV09A1NSXxEF2/r47r3kQCK/bs5turiNuZRc9M6
+         awZruhoXXlqOJ1lmdYlUt1y6DLp5CENrx5jhR1COiugMBrNXYYz0grlvFWDkM1aBjmcT
+         yNTg==
+X-Gm-Message-State: AOAM532UuIG0JmgVYXb3mghxSJnuMwlfVgNNvtnEOUIahAKDxHXo1ulu
+	ru11ozthfxU9vUAg8EdmAB5hsaBWFlJgJn1p
+X-Google-Smtp-Source: ABdhPJzhvJkZlquSVQCYEvfmsCvpASVPseC+3ttk7RIa/JjhTfhYfI9HTK36VDlfpFRzuYevtR4XXQ==
+X-Received: by 2002:a6b:b50a:: with SMTP id e10mr128998iof.50.1611645705926;
+        Mon, 25 Jan 2021 23:21:45 -0800 (PST)
+Received: from quote99 ([45.56.153.216])
+        by smtp.googlemail.com with ESMTPSA id j1sm9864296ilu.78.2021.01.25.23.21.41
+        for <escape@puzzle.ge>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Mon, 25 Jan 2021 23:21:45 -0800 (PST)
+Message-ID: <600fc309.1c69fb81.36569.e63a@mx.google.com>
+From: "quote" <quote99@metalparts.info>
+Subject: (A) We supply best price casters in China.
+To: escape@puzzle.ge
+Content-Type: multipart/alternative; charset=UTF-8; boundary="=_8DwXaMz6Y36TwMoJBEDAZbtozHR9MYlJ"
+MIME-Version: 1.0
+Reply-To: "quote" <quote@metalparts.info>
+Date: Tue, 26 Jan 2021 15:20:39 +0800
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "s1.hostbox.ge",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Mr/Ms, We supply best price casters in China. so if you
+    need this. please let me know.thanks. Regards 
+ Content analysis details:   (2.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: 027cgb.cn]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                              domains in spam/malware
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format
+
+--=_8DwXaMz6Y36TwMoJBEDAZbtozHR9MYlJ
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: Base64
+Content-Disposition: inline
+
+RGVhciBNci9NcywNCiANCldlIHN1cHBseSBiZXN0IHByaWNlIGNhc3RlcnMgaW4gQ2hpbmEuDQpz
+byBpZiB5b3UgbmVlZCB0aGlzLiBwbGVhc2UgbGV0IG1lIGtub3cudGhhbmtzLg0KIA0KUmVnYXJk
+cw0KIA0KSmFjayANCiANCg==
+
+--=_8DwXaMz6Y36TwMoJBEDAZbtozHR9MYlJ
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: Base64
+Content-Disposition: inline
+
+PEhUTUwgeG1sbnM6bz48SEVBRD48VElUTEU+PC9USVRMRT4NCjxNRVRBIGNvbnRlbnQ9dGV4dC9o
+dG1sO2NoYXJzZXQ9VVRGLTggaHR0cC1lcXVpdj1Db250ZW50LVR5cGU+DQo8TUVUQSBuYW1lPUdF
+TkVSQVRPUiBjb250ZW50PSJNU0hUTUwgMTEuMDAuOTYwMC4xOTIwNCI+PC9IRUFEPg0KPEJPRFk+
+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFD
+RTogbm9ybWFsOyBXT1JELVNQQUNJTkc6IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9S
+OiByZ2IoMCwwLDApOyBURVhULUFMSUdOOiBsZWZ0OyBGT05UOiAxNnB4LzEyLjhwdCBDYWxpYnJp
+OyBNQVJHSU46IDBjbSAwY20gMHB0OyBXSURPV1M6IDE7IExFVFRFUi1TUEFDSU5HOiBub3JtYWw7
+IFRFWFQtSU5ERU5UOiAwcHg7IC13ZWJraXQtdGV4dC1zdHJva2Utd2lkdGg6IDBweCIgYWxpZ249
+bGVmdD48Rk9OVCBmYWNlPUNhbGlicmk+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpF
+OiAxMnB0OyBDT0xPUjogcmdiKDMxLDczLDEyNSkiPkRlYXIgTXIvTXMsPC9TUEFOPjxTUEFOIGxh
+bmc9RU4tVVMgc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IGJsYWNrIj48bzpwPjwvbzpw
+PjwvU1BBTj48L0ZPTlQ+PC9QPg0KPFAgY2xhc3M9TXNvTm9ybWFsIHN0eWxlPSJCQUNLR1JPVU5E
+OiB3aGl0ZTsgV0hJVEUtU1BBQ0U6IG5vcm1hbDsgV09SRC1TUEFDSU5HOiAwcHg7IFRFWFQtVFJB
+TlNGT1JNOiBub25lOyBDT0xPUjogcmdiKDAsMCwwKTsgVEVYVC1BTElHTjogbGVmdDsgRk9OVDog
+MTZweC8xMi44cHQgQ2FsaWJyaTsgTUFSR0lOOiAwY20gMGNtIDBwdDsgV0lET1dTOiAxOyBMRVRU
+RVItU1BBQ0lORzogbm9ybWFsOyBURVhULUlOREVOVDogMHB4OyAtd2Via2l0LXRleHQtc3Ryb2tl
+LXdpZHRoOiAwcHgiIGFsaWduPWxlZnQ+PEZPTlQgZmFjZT1DYWxpYnJpPjxTUEFOIGxhbmc9RU4t
+VVMgc3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IHJnYigzMSw3MywxMjUpIj4mbmJzcDs8
+L1NQQU4+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogYmxh
+Y2siPjxvOnA+PC9vOnA+PC9TUEFOPjwvRk9OVD48L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5
+bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFDRTogbm9ybWFsOyBXT1JELVNQQUNJTkc6
+IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9SOiByZ2IoMCwwLDApOyBGT05UOiAxNnB4
+LzEyLjhwdCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20gMHB0OyBXSURPV1M6IDE7IExFVFRFUi1T
+UEFDSU5HOiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7IC13ZWJraXQtdGV4dC1zdHJva2Utd2lk
+dGg6IDBweCI+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjog
+cmdiKDMxLDczLDEyNSkiPjxGT05UIGZhY2U9Q2FsaWJyaT5XZSBzdXBwbHkgYmVzdCBwcmljZSBj
+YXN0ZXJzIGluIENoaW5hLjxvOnA+PC9vOnA+PC9GT05UPjwvU1BBTj48L1A+DQo8UCBjbGFzcz1N
+c29Ob3JtYWwgc3R5bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFDRTogbm9ybWFsOyBX
+T1JELVNQQUNJTkc6IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9SOiByZ2IoMCwwLDAp
+OyBGT05UOiAxNnB4LzEyLjhwdCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20gMHB0OyBXSURPV1M6
+IDE7IExFVFRFUi1TUEFDSU5HOiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7IC13ZWJraXQtdGV4
+dC1zdHJva2Utd2lkdGg6IDBweCI+PEZPTlQgZmFjZT1DYWxpYnJpPjxTUEFOIGxhbmc9RU4tVVMg
+c3R5bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IHJnYigzMSw3MywxMjUpIj5zbyBpZiB5b3Ug
+bmVlZCB0aGlzLiBwbGVhc2UgbGV0IG1lIGtub3cudGhhbmtzLjwvU1BBTj48U1BBTiBsYW5nPUVO
+LVVTIHN0eWxlPSJGT05ULVNJWkU6IDEycHQ7IENPTE9SOiBibGFjayI+PG86cD48L286cD48L1NQ
+QU4+PC9GT05UPjwvUD4NCjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iQkFDS0dST1VORDogd2hp
+dGU7IFdISVRFLVNQQUNFOiBub3JtYWw7IFdPUkQtU1BBQ0lORzogMHB4OyBURVhULVRSQU5TRk9S
+TTogbm9uZTsgQ09MT1I6IHJnYigwLDAsMCk7IEZPTlQ6IDE2cHgvMTIuOHB0IENhbGlicmk7IE1B
+UkdJTjogMGNtIDBjbSAwcHQ7IFdJRE9XUzogMTsgTEVUVEVSLVNQQUNJTkc6IG5vcm1hbDsgVEVY
+VC1JTkRFTlQ6IDBweDsgLXdlYmtpdC10ZXh0LXN0cm9rZS13aWR0aDogMHB4Ij48Rk9OVCBmYWNl
+PUNhbGlicmk+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjog
+cmdiKDMxLDczLDEyNSkiPiZuYnNwOzwvU1BBTj48U1BBTiBsYW5nPUVOLVVTIHN0eWxlPSJGT05U
+LVNJWkU6IDEycHQ7IENPTE9SOiBibGFjayI+PG86cD48L286cD48L1NQQU4+PC9GT05UPjwvUD4N
+CjxQIGNsYXNzPU1zb05vcm1hbCBzdHlsZT0iQkFDS0dST1VORDogd2hpdGU7IFdISVRFLVNQQUNF
+OiBub3JtYWw7IFdPUkQtU1BBQ0lORzogMHB4OyBURVhULVRSQU5TRk9STTogbm9uZTsgQ09MT1I6
+IHJnYigwLDAsMCk7IEZPTlQ6IDE2cHgvMTIuOHB0IENhbGlicmk7IE1BUkdJTjogMGNtIDBjbSAw
+cHQ7IFdJRE9XUzogMTsgTEVUVEVSLVNQQUNJTkc6IG5vcm1hbDsgVEVYVC1JTkRFTlQ6IDBweDsg
+LXdlYmtpdC10ZXh0LXN0cm9rZS13aWR0aDogMHB4Ij48Rk9OVCBmYWNlPUNhbGlicmk+PFNQQU4g
+bGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogcmdiKDMxLDczLDEyNSki
+PlJlZ2FyZHM8L1NQQU4+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBD
+T0xPUjogYmxhY2siPjxvOnA+PC9vOnA+PC9TUEFOPjwvRk9OVD48L1A+DQo8UCBjbGFzcz1Nc29O
+b3JtYWwgc3R5bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFDRTogbm9ybWFsOyBXT1JE
+LVNQQUNJTkc6IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9SOiByZ2IoMCwwLDApOyBG
+T05UOiAxNnB4LzEyLjhwdCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20gMHB0OyBXSURPV1M6IDE7
+IExFVFRFUi1TUEFDSU5HOiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7IC13ZWJraXQtdGV4dC1z
+dHJva2Utd2lkdGg6IDBweCI+PEZPTlQgZmFjZT1DYWxpYnJpPjxTUEFOIGxhbmc9RU4tVVMgc3R5
+bGU9IkZPTlQtU0laRTogMTJwdDsgQ09MT1I6IHJnYigzMSw3MywxMjUpIj4mbmJzcDs8L1NQQU4+
+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogYmxhY2siPjxv
+OnA+PC9vOnA+PC9TUEFOPjwvRk9OVD48L1A+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9IkJB
+Q0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFDRTogbm9ybWFsOyBXT1JELVNQQUNJTkc6IDBweDsg
+VEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9SOiByZ2IoMCwwLDApOyBGT05UOiAxNnB4LzEyLjhw
+dCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20gMHB0OyBXSURPV1M6IDE7IExFVFRFUi1TUEFDSU5H
+OiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7IC13ZWJraXQtdGV4dC1zdHJva2Utd2lkdGg6IDBw
+eCI+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogcmdiKDMx
+LDczLDEyNSkiPjxGT05UIGZhY2U9Q2FsaWJyaT5KYWNrJm5ic3A7PC9GT05UPjwvU1BBTj48L1A+
+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFD
+RTogbm9ybWFsOyBXT1JELVNQQUNJTkc6IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9S
+OiByZ2IoMCwwLDApOyBGT05UOiAxNnB4LzEyLjhwdCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20g
+MHB0OyBXSURPV1M6IDE7IExFVFRFUi1TUEFDSU5HOiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7
+IC13ZWJraXQtdGV4dC1zdHJva2Utd2lkdGg6IDBweCI+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0i
+Rk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogcmdiKDMxLDczLDEyNSkiPjwvU1BBTj4mbmJzcDs8L1A+
+DQo8UCBjbGFzcz1Nc29Ob3JtYWwgc3R5bGU9IkJBQ0tHUk9VTkQ6IHdoaXRlOyBXSElURS1TUEFD
+RTogbm9ybWFsOyBXT1JELVNQQUNJTkc6IDBweDsgVEVYVC1UUkFOU0ZPUk06IG5vbmU7IENPTE9S
+OiByZ2IoMCwwLDApOyBGT05UOiAxNnB4LzEyLjhwdCBDYWxpYnJpOyBNQVJHSU46IDBjbSAwY20g
+MHB0OyBXSURPV1M6IDE7IExFVFRFUi1TUEFDSU5HOiBub3JtYWw7IFRFWFQtSU5ERU5UOiAwcHg7
+IC13ZWJraXQtdGV4dC1zdHJva2Utd2lkdGg6IDBweCI+PFNQQU4gbGFuZz1FTi1VUyBzdHlsZT0i
+Rk9OVC1TSVpFOiAxMnB0OyBDT0xPUjogcmdiKDMxLDczLDEyNSkiPjxGT05UIGZhY2U9Q2FsaWJy
+aT48L0ZPTlQ+PC9TUEFOPjxTUEFOIGxhbmc9RU4tVVMgc3R5bGU9IkZPTlQtU0laRTogMTJwdDsg
+Q09MT1I6IGJsYWNrIj48SU1HIGNsYXNzPWltYWdlX3pvb21pbiBzdHlsZT0nQ1VSU09SOiB1cmwo
+Ii4uLy4uL0NvbW1vbi9Gb3hVSS9JbWFnZXMvTmV3L0ljb24vem9vbWluLmN1ciIpLCBwb2ludGVy
+OyBNQVgtV0lEVEg6IDEwMCU7IEhFSUdIVDogYXV0byAhaW1wb3J0YW50JyBib3JkZXI9MCBoc3Bh
+Y2U9MCBzcmM9Imh0dHA6Ly9teS4wMjdjZ2IuY24vNjA4NjE1LzFfMTMyNTI2ODE1NjY1MTQ1NDY5
+LkpQRyI+PC9TUEFOPjwvUD48L0JPRFk+PC9IVE1MPg0K
+
+--=_8DwXaMz6Y36TwMoJBEDAZbtozHR9MYlJ--
+

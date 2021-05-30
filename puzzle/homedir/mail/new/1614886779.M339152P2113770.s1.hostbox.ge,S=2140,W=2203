@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id +Qv+EXs3QWDqQCAADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Thu, 04 Mar 2021 23:39:39 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Thu, 04 Mar 2021 23:39:39 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lHtox-008rt0-46
+	for puzzle@s1.hostbox.ge; Thu, 04 Mar 2021 23:39:39 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lHtow-008rst-UN@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1614886779-eximdsn-1832383901
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lHtox-008rt0-46@s1.hostbox.ge>
+Date: Thu, 04 Mar 2021 23:39:39 +0400
+
+--1614886779-eximdsn-1832383901
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (62%)) allowed. Message discarded.
+
+--1614886779-eximdsn-1832383901
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1614886779-eximdsn-1832383901
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lHtow-008rst-UN
+	for gzhandler@gmail.com; Thu, 04 Mar 2021 23:39:39 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 54.36.149.15
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 54.36.149.15
+Message-Id: <E1lHtow-008rst-UN@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Thu, 04 Mar 2021 23:39:38 +0400
+
+https://puzzle.ge/product/---sUWlx
+
+--1614886779-eximdsn-1832383901--

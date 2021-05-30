@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id uBXAOpTAB2D3+joADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Wed, 20 Jan 2021 09:33:08 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Wed, 20 Jan 2021 09:33:08 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l267A-00GDj1-Ql
+	for puzzle@s1.hostbox.ge; Wed, 20 Jan 2021 09:33:08 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1l267A-00GDiu-Lj@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1611120788-eximdsn-1247926000
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l267A-00GDj1-Ql@s1.hostbox.ge>
+Date: Wed, 20 Jan 2021 09:33:08 +0400
+
+--1611120788-eximdsn-1247926000
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (62%)) allowed. Message discarded.
+
+--1611120788-eximdsn-1247926000
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1611120788-eximdsn-1247926000
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.93)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1l267A-00GDiu-Lj
+	for gzhandler@gmail.com; Wed, 20 Jan 2021 09:33:08 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 69.30.221.250
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 69.30.221.250
+Message-Id: <E1l267A-00GDiu-Lj@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Wed, 20 Jan 2021 09:33:08 +0400
+
+https://puzzle.ge/product/-4-110-100-9906x57---10--Tanex-J1i6y
+
+--1611120788-eximdsn-1247926000--

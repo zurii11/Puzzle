@@ -1,0 +1,24 @@
+; cPanel first:92.0.6 (update_time):1609936565 Cpanel::ZoneFile::VERSION:1.3 hostname:s1.hostbox.ge latest:92.0.6
+; Zone file for puzzle.ge
+$TTL 14400
+puzzle.ge.	86400	IN	SOA	ns1.hostbox.ge.	hostbox\.ge.gmail.com.	(
+						2021010602 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+
+puzzle.ge.	86400	IN	NS	ns1.hostbox.ge.
+puzzle.ge.	86400	IN	NS	ns2.hostbox.ge.
+
+
+puzzle.ge.	14400	IN	A	185.139.56.200
+
+puzzle.ge.	14400	IN	MX	0	puzzle.ge.
+
+mail	14400	IN	CNAME	puzzle.ge.
+www	14400	IN	CNAME	puzzle.ge.
+ftp	14400	IN	A	185.139.56.200
+puzzle.ge.	14400	IN	TXT	"v=spf1 +a +mx +ip4:185.139.56.200 ~all"
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqBM6rqMBrnkGodzeT3TXGS1/tA5WT/gOtO+DPjMUEwwkNiEHD4yloTI+t7KxxclR+YoldcrJMGKzuRWTE17se/zPwr1UOEp9yCbe81R1f4agMYyCSfdVIA2M06+OQbSRaySOvPzS9x0i1Avppvhe1sggNgf+oP9xsWP4sNi3Wkm6Ykiu2KrujDpp3LTjPONNs" fWe1fpE7xQQTkLGfEd+X5HGQSs+q34nq++6q66Zk/TsgfUJU4VI9eFP/9YTYgVSNcbk3CHcvhppqObY6S+jl2Iv/LZLkLRArN1Krmufj/FQWPKn+J/PYLn0hiItyt1Lilgax7QKPp4Vfu8ERjLR9QIDAQAB\;
+_cpanel-dcv-test-record	14400	IN	TXT	_cpanel-dcv-test-record=vQ7S5HJ4P92KCz5v6gwtNfZoKFr5OC5_gmJdyv65eWYZ6RfMDU_LQWEQfaAj_5S3

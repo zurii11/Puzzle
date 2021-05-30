@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id rhvnLTVnemDaewcADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Sat, 17 Apr 2021 08:42:29 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Sat, 17 Apr 2021 08:42:29 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lXcmr-0023dT-Jh
+	for puzzle@s1.hostbox.ge; Sat, 17 Apr 2021 08:42:29 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lXcmr-0023dM-Da@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1618634549-eximdsn-1931836736
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lXcmr-0023dT-Jh@s1.hostbox.ge>
+Date: Sat, 17 Apr 2021 08:42:29 +0400
+
+--1618634549-eximdsn-1931836736
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (71%)) allowed. Message discarded.
+
+--1618634549-eximdsn-1931836736
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1618634549-eximdsn-1931836736
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lXcmr-0023dM-Da
+	for gzhandler@gmail.com; Sat, 17 Apr 2021 08:42:29 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 114.119.133.213
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 114.119.133.213
+Message-Id: <E1lXcmr-0023dM-Da@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Sat, 17 Apr 2021 08:42:29 +0400
+
+https://puzzle.ge/product/---A4--7--Deli-Stationery-ewC8g
+
+--1618634549-eximdsn-1931836736--

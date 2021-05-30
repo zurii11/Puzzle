@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 6B1UFAQoO2CobCQADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Sun, 28 Feb 2021 09:20:04 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Sun, 28 Feb 2021 09:20:04 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1lGEUu-00A11S-6F
+	for puzzle@s1.hostbox.ge; Sun, 28 Feb 2021 09:20:04 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lGEUt-00A11F-UP@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1614489604-eximdsn-1903409175
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lGEUu-00A11S-6F@s1.hostbox.ge>
+Date: Sun, 28 Feb 2021 09:20:04 +0400
+
+--1614489604-eximdsn-1903409175
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1614489604-eximdsn-1903409175
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1614489604-eximdsn-1903409175
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.93)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lGEUt-00A11F-UP
+	for gzhandler@gmail.com; Sun, 28 Feb 2021 09:20:04 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 54.36.148.242
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 54.36.148.242
+Message-Id: <E1lGEUt-00A11F-UP@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Sun, 28 Feb 2021 09:20:03 +0400
+
+https://puzzle.ge/product/-NP502-7oer7
+
+--1614489604-eximdsn-1903409175--

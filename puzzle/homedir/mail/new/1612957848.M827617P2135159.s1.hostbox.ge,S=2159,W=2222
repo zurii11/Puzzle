@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 0FgQMZjII2B3lCAADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Wed, 10 Feb 2021 15:50:48 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Wed, 10 Feb 2021 15:50:48 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l9o1A-008xRu-L0
+	for puzzle@s1.hostbox.ge; Wed, 10 Feb 2021 15:50:48 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1l9o1A-008xRf-Fn@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1612957848-eximdsn-170723433
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l9o1A-008xRu-L0@s1.hostbox.ge>
+Date: Wed, 10 Feb 2021 15:50:48 +0400
+
+--1612957848-eximdsn-170723433
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (83%)) allowed. Message discarded.
+
+--1612957848-eximdsn-170723433
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1612957848-eximdsn-170723433
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.93)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1l9o1A-008xRf-Fn
+	for gzhandler@gmail.com; Wed, 10 Feb 2021 15:50:48 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 54.36.149.88
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 54.36.149.88
+Message-Id: <E1l9o1A-008xRf-Fn@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Wed, 10 Feb 2021 15:50:48 +0400
+
+https://puzzle.ge/product/-High-glossy-CGP230G-5R-50-dBWoC
+
+--1612957848-eximdsn-170723433--

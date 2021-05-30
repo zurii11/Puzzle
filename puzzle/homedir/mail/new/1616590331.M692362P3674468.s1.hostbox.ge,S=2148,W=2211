@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 7RkRKfs1W2BkETgADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Wed, 24 Mar 2021 16:52:11 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Wed, 24 Mar 2021 16:52:11 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lP2zb-00FPtX-HO
+	for puzzle@s1.hostbox.ge; Wed, 24 Mar 2021 16:52:11 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lP2zb-00FPtN-9l@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1616590331-eximdsn-1921628344
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lP2zb-00FPtX-HO@s1.hostbox.ge>
+Date: Wed, 24 Mar 2021 16:52:11 +0400
+
+--1616590331-eximdsn-1921628344
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1616590331-eximdsn-1921628344
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1616590331-eximdsn-1921628344
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lP2zb-00FPtN-9l
+	for gzhandler@gmail.com; Wed, 24 Mar 2021 16:52:11 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 114.119.143.119
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 114.119.143.119
+Message-Id: <E1lP2zb-00FPtN-9l@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Wed, 24 Mar 2021 16:52:11 +0400
+
+https://puzzle.ge/product/----VuCu7
+
+--1616590331-eximdsn-1921628344--

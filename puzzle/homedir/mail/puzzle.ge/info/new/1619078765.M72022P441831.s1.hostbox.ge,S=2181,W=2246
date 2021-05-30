@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: info@puzzle.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id mDcnBG0ugWDnvQYADX6OZQ
+	(envelope-from <>)
+	for <info@puzzle.ge>; Thu, 22 Apr 2021 12:06:05 +0400
+Return-path: <>
+Envelope-to: info@puzzle.ge
+Delivery-date: Thu, 22 Apr 2021 12:06:05 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lZULc-001rhy-T6
+	for info@puzzle.ge; Thu, 22 Apr 2021 12:06:04 +0400
+X-Failed-Recipients: jaba1266@bk.ru
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: info@puzzle.ge
+References: <c24f18e50f24e6bc98dcbd2bfe293d0a@puzzle.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1619078764-eximdsn-1823207276
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lZULc-001rhy-T6@s1.hostbox.ge>
+Date: Thu, 22 Apr 2021 12:06:04 +0400
+
+--1619078764-eximdsn-1823207276
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  jaba1266@bk.ru
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1619078764-eximdsn-1823207276
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;jaba1266@bk.ru
+Status: 5.0.0
+
+--1619078764-eximdsn-1823207276
+Content-type: text/rfc822-headers
+
+Return-path: <info@puzzle.ge>
+Received: from puzzle (helo=puzzle.ge)
+	by s1.hostbox.ge with local-smtp (Exim 4.94)
+	(envelope-from <info@puzzle.ge>)
+	id 1lZULb-001rhL-2H
+	for jaba1266@bk.ru; Thu, 22 Apr 2021 12:06:04 +0400
+Message-ID: <c24f18e50f24e6bc98dcbd2bfe293d0a@puzzle.ge>
+Date: Thu, 22 Apr 2021 12:06:02 +0400
+Subject: Order Placed - 20210422-120602
+From: info@puzzle.ge
+To: jaba1266@bk.ru
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="_=_swift_1619078762_9f9eb4b7e2adb82bfc047bf45c8f5e8d_=_"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1619078764-eximdsn-1823207276--

@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id OIGBJBIoT2AS2DEADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Mon, 15 Mar 2021 13:25:38 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Mon, 15 Mar 2021 13:25:38 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lLjTm-00Di9x-FJ
+	for puzzle@s1.hostbox.ge; Mon, 15 Mar 2021 13:25:38 +0400
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lLMjO-006eWQ-I4@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1615800338-eximdsn-2007546160
+MIME-Version: 1.0
+Subject: Warning: message 1lLMjO-006eWQ-I4 delayed 24 hours
+Message-Id: <E1lLjTm-00Di9x-FJ@s1.hostbox.ge>
+Date: Mon, 15 Mar 2021 13:25:38 +0400
+
+--1615800338-eximdsn-2007546160
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 24 hours on the queue on s1.hostbox.ge.
+
+The message identifier is:     1lLMjO-006eWQ-I4
+The subject of the message is: 
+The date of the message is:    Sun, 14 Mar 2021 13:08:14 +0400
+
+The address to which the message has not yet been delivered is:
+
+  gzhandler@gmail.com
+    Delay reason: H=alt4.gmail-smtp-in.l.google.com [142.250.138.26]:
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    450-4.2.1 The user you are
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1615800338-eximdsn-2007546160
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: delayed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 4.0.0
+
+--1615800338-eximdsn-2007546160
+Content-type: text/rfc822-headers
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lLMjO-006eWQ-I4
+	for gzhandler@gmail.com; Sun, 14 Mar 2021 13:08:14 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 54.36.148.96
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 54.36.148.96
+Message-Id: <E1lLMjO-006eWQ-I4@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Sun, 14 Mar 2021 13:08:14 +0400
+
+
+--1615800338-eximdsn-2007546160--

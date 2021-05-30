@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id vUCuET7XZ2DkFgoADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Sat, 03 Apr 2021 06:47:26 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Sat, 03 Apr 2021 06:47:26 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lSWJq-002nX7-3z
+	for puzzle@s1.hostbox.ge; Sat, 03 Apr 2021 06:47:26 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lSWJp-002nW1-TT@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1617418046-eximdsn-1891021659
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lSWJq-002nX7-3z@s1.hostbox.ge>
+Date: Sat, 03 Apr 2021 06:47:26 +0400
+
+--1617418046-eximdsn-1891021659
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1617418046-eximdsn-1891021659
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1617418046-eximdsn-1891021659
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lSWJp-002nW1-TT
+	for gzhandler@gmail.com; Sat, 03 Apr 2021 06:47:25 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 54.36.148.140
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 54.36.148.140
+Message-Id: <E1lSWJp-002nW1-TT@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Sat, 03 Apr 2021 06:47:25 +0400
+
+https://puzzle.ge/product/--QrplM
+
+--1617418046-eximdsn-1891021659--

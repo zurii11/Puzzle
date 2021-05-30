@@ -1,0 +1,286 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 3hZOB6mimWCqsj4ADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Tue, 11 May 2021 01:16:25 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Tue, 11 May 2021 01:16:25 +0400
+Received: from mail-lf1-f65.google.com ([209.85.167.65]:38728)
+	by s1.hostbox.ge with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	id 1lgDGJ-00HEp0-7V
+	for puzzle@s1.hostbox.ge; Tue, 11 May 2021 01:16:25 +0400
+Received: by mail-lf1-f65.google.com with SMTP id r5so8300963lfr.5
+        for <puzzle@s1.hostbox.ge>; Mon, 10 May 2021 14:16:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20161025;
+        h=to:auto-submitted:message-id:date:from:subject:references
+         :in-reply-to;
+        bh=zETexdB1/uYtaxTtcNcYj+bNAzKv5fZlrX+bbyPsWIA=;
+        b=pWckhxi/lQTwPZWIzScwcYbNGfoSy9xzHxG2UNcbjj8gJJhrvSmq9IVcagtJY58hdl
+         RMCQSQILmQwOtcogyBSdkw45i4wm7NJc5kDMS7ll0/74FtLD9MTRItqM3xzBHVKwksK2
+         wsOl4WE14MgTW8M1Oe9VAg0Fu0djmoHGtHmWw9p7pvtme9QdN84KVCP1yib24m5IgC+t
+         pxXgKWzC8Mw1K56TapqI+fjK4aZnGCAb1tXVMPUf3lpHa6kq486IG5XbQTEnp3qS5Xf/
+         cNYrJL+cmq+PuvypwggceTCvSKX85t4sXUwgXDNE10J8u/t9F4f5g3SfwHnIAqWz0WHJ
+         cvgA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:to:auto-submitted:message-id:date:from:subject
+         :references:in-reply-to;
+        bh=zETexdB1/uYtaxTtcNcYj+bNAzKv5fZlrX+bbyPsWIA=;
+        b=ulzTaf+zGS8h4gzB0awW/ti1cZqO5/1tSHbYPnAtBvG3YyMYnNtuuA7aI1WIpEAojR
+         oo/rnDGlKtJiO8UvCtZR0GQAVW6FhwfQ7dOFcalYcTg8B9yopbBg0vobw0zRRMsj8mBI
+         1Ctklf02Gocs0fGXLLQ31O1FVWGMhgDNDNcvAr/qfHu4FmHQ7qcrdD06uOEXghiz6XPc
+         3jREkLRtjwl5u8zVqRMT8dgvOzjP3reO/703nk2uCKufsjRkRhMFYYu6bJ9fEBcGZQRI
+         r1CadDAgJ/WSnpT6lPVDKtk5WDwyUiSH5/PyFvoHmFMEOFiJf7fL6wHBZ+nW08NiIEdz
+         rWjQ==
+X-Gm-Message-State: AOAM5313nPvah32tt5oJBMrszZ+qrWfsGBUFoShFG7n4vi3EU1wRBiur
+	C+EraAFbOPTQ9XMujxRSmUaEbGcXJKUhDks/KuO4Fw==
+X-Google-Smtp-Source: ABdhPJwQPef4fEW7swPCTUPJ5HcN3ywph8who2Jwu33qZUMN71ub/kG8RnxlrxZEGeHlN+8Kokc/y3yg4LQpIgKwGAomH6LQfT8I28g=
+X-Received: by 2002:a05:6512:118c:: with SMTP id g12mr18109749lfr.316.1620681341443;
+        Mon, 10 May 2021 14:15:41 -0700 (PDT)
+Content-Type: multipart/report; boundary="000000000000a69c6905c20047db"; report-type=delivery-status
+To: puzzle@s1.hostbox.ge
+Received: by 2002:a05:6512:118c:: with SMTP id g12mr7822787lfr.316; Mon, 10
+ May 2021 14:15:41 -0700 (PDT)
+Auto-Submitted: auto-replied
+Message-ID: <6099a27d.1c69fb81.7fee1.cbb1.GMR@mx.google.com>
+Date: Mon, 10 May 2021 14:15:41 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+References: <E1lgDFa-00HEoR-EV@s1.hostbox.ge>
+In-Reply-To: <E1lgDFa-00HEoR-EV@s1.hostbox.ge>
+X-Failed-Recipients: gzhandler@gmail.com
+X-Spam-Status: No, score=2.1
+X-Spam-Score: 21
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "s1.hostbox.ge",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ** Recipient inbox full ** Your message couldn't be delivered
+    to gzhandler@gmail.com. Their inbox is full, or it's getting too much mail
+    right now. The response was: 
+ Content analysis details:   (2.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: googlemail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mailer-daemon[at]googlemail.com]
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required
+                             MIME headers
+  1.0 FREEMAIL_REPLY         From and body contain different freemails
+X-Spam-Flag: NO
+
+--000000000000a69c6905c20047db
+Content-Type: multipart/related; boundary="000000000000a69c9005c20047dc"
+
+--000000000000a69c9005c20047dc
+Content-Type: multipart/alternative; boundary="000000000000a69c9205c20047dd"
+
+--000000000000a69c9205c20047dd
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Recipient inbox full **
+
+Your message couldn't be delivered to gzhandler@gmail.com. Their inbox is full, or it's getting too much mail right now.
+
+
+
+The response was:
+
+Storage quota exceeded
+
+--000000000000a69c9205c20047dd
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Recipient inbox full
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message couldn't be delivered to <a style='color:#212121;text-decoration:none'><b>gzhandler@gmail.com</b></a>. Their inbox is full, or it's getting too much mail right now.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response was:<br/>
+<p style="font-family:monospace">
+Storage quota exceeded
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--000000000000a69c9205c20047dd--
+--000000000000a69c9005c20047dc
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+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
+AFCdVg4msK/6AAAAAElFTkSuQmCC
+--000000000000a69c9005c20047dc--
+--000000000000a69c6905c20047db
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; puzzle@s1.hostbox.ge
+Arrival-Date: Mon, 10 May 2021 14:15:40 -0700 (PDT)
+X-Original-Message-ID: <E1lgDFa-00HEoR-EV@s1.hostbox.ge>
+
+Final-Recipient: rfc822; gzhandler@gmail.com
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: smtp; Storage quota exceeded
+Last-Attempt-Date: Mon, 10 May 2021 14:15:41 -0700 (PDT)
+
+--000000000000a69c6905c20047db
+Content-Type: message/rfc822
+
+X-Google-Smtp-Source: ABdhPJxvBOtoQ0RHUpAe89jYHEzooiLQWB7JXo2oCJwQSiYXYczxtOc/Ev4YWBhR58TQ4Vr1Weyz
+X-Received: by 2002:a05:6512:118c:: with SMTP id g12mr18109708lfr.316.1620681340123;
+        Mon, 10 May 2021 14:15:40 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620681340; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wFenRZtbsfzVVEeh5B8GE0bN2gEPgi5eY/aJTSB0mIqPEtWy/nV8o/l6hBomiribv/
+         /mmo1mjfXB8Z8eK9RHeIzCSoEo5SIZ/okZ3bb/RX5Je/YmpQS9uB9aEnJ71fTPaXrCIG
+         0T33CHgmleVMIV7O6Gk8NrHS7rrpsOXxXT/pY7fsHls5LweXs5nZRCIbwsrEiiLuZ2G6
+         tgJrxB7rC3gD6NF7HAOA6eltzZN2ELhn9ZxgxGAmrgVDEeiAFDPu8dAPZlsDSFAwqdrX
+         JBM7mBRgQfved2wtB5Ce141CL5P3T6rkG9I/yq4faKwiqmF0PincOHaeLDyE/1XJUdWH
+         X8Rg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:from:message-id:subject:to:dkim-signature;
+        bh=REctnokghK6ss+GuoNSbgxq2F/iyMgN1kDvHtQPpVQY=;
+        b=j037BFjfrVEvCRcHRPjvSjU+AeRjGpRzo9CM7X/E9mne5wisdHOURWvigTUaXNYG5G
+         fvbB9RGi72I4bjfBTMc38ZjadqYJMSqFDbpbXn4HmV4j13x+JbU1lJ6yu0jPPGZ8WgRn
+         OzRuca8SGEvkjtag8oLu6r3YYKLSWibv+lfgvN1yra6jtE2wz4E0Pa1/gO8xPQV90ZZm
+         uCogRL/7jyZpup5T+7iMvQ5Ck9LFuejLn9/p85QRkfetPpRZ3sbvKamlsj3OJvJdmE5W
+         bC79VJ3cdKFWfiB/vfiyGbRAG4DAjN8kdYQI+o9ylykSlE9MUl1PhjIULimx6l8u5E1k
+         FPTQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@puzzle.ge header.s=default header.b=PfKHoW6n;
+       spf=pass (google.com: domain of puzzle@s1.hostbox.ge designates 185.139.56.200 as permitted sender) smtp.mailfrom=puzzle@s1.hostbox.ge
+Return-Path: <puzzle@s1.hostbox.ge>
+Received: from s1.hostbox.ge (s1.hostbox.ge. [185.139.56.200])
+        by mx.google.com with ESMTPS id z6si12966304ljz.421.2021.05.10.14.15.39
+        for <gzhandler@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 May 2021 14:15:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of puzzle@s1.hostbox.ge designates 185.139.56.200 as permitted sender) client-ip=185.139.56.200;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@puzzle.ge header.s=default header.b=PfKHoW6n;
+       spf=pass (google.com: domain of puzzle@s1.hostbox.ge designates 185.139.56.200 as permitted sender) smtp.mailfrom=puzzle@s1.hostbox.ge
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=puzzle.ge;
+	s=default; h=Date:From:Message-Id:Subject:To:Sender:Reply-To:Cc:MIME-Version:
+	Content-Type:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=REctnokghK6ss+GuoNSbgxq2F/iyMgN1kDvHtQPpVQY=; b=PfKHoW6nVPHg5VhADwDZ1jhiSM
+	NQ3fAUZ6FhN5Ss2MORBIRVSH0ihiHxdOLdFrH1t/KBx0kjvDonVaRlg4Adovz9fwW7V8+FOwfyXAg
+	BNtqMCOzIHhy48fKFo8XeR5D5Pm5cjp4d5DkHl8hvz9kf/tf0Chw18vG01gndrz0eZ1Hr6HdCEklU
+	m8OLLinhYDNmiUuk7SLfiLFf+bUASFT4sU8wFjq9dhCEg1ZCAW7NZ7agayf+MZMxvRUmaW1858WS+
+	qv2jhxrWgMDJVXAlBe18//nLCUrGjiF9B1cxw80OpIVf2ByL+04KUgVb2cTjRcmhxM/BsCgfy/90F
+	1kUKJwgQ==;
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94.2)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lgDFa-00HEoR-EV
+	for gzhandler@gmail.com; Tue, 11 May 2021 01:15:38 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 114.119.153.15
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 114.119.153.15
+Message-Id: <E1lgDFa-00HEoR-EV@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Tue, 11 May 2021 01:15:38 +0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - s1.hostbox.ge
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [1216 990] / [47 12]
+X-AntiAbuse: Sender Address Domain - s1.hostbox.ge
+X-Get-Message-Sender-Via: s1.hostbox.ge: authenticated_id: puzzle/primary_hostname/system user
+X-Authenticated-Sender: s1.hostbox.ge: puzzle
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: puzzle.ge:/public_html
+
+https://puzzle.ge/product/--4--RHBvV
+
+--000000000000a69c6905c20047db--

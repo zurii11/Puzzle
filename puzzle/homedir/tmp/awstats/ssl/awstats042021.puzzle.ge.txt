@@ -1,0 +1,740 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202104 will be lost/reset.
+# Last config file used to build this data file was /home/puzzle/tmp/awstats/ssl/awstats.puzzle.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2690                
+POS_VISITOR 11037               
+POS_DAY 18689               
+POS_DOMAIN 3632                
+POS_LOGIN 4080                
+POS_ROBOT 4235                
+POS_WORMS 4997                
+POS_EMAILSENDER 5128                
+POS_EMAILRECEIVER 5271                
+POS_SESSION 19511               
+POS_SIDER 19718               
+POS_FILETYPES 5406                
+POS_DOWNLOADS 5727                
+POS_OS 5775                
+POS_BROWSER 6004                
+POS_SCREENSIZE 7236                
+POS_UNKNOWNREFERER 7310                
+POS_UNKNOWNREFERERBROWSER 7996                
+POS_ORIGIN 8569                
+POS_SEREFERRALS 8710                
+POS_PAGEREFS 9023                
+POS_SEARCHWORDS 9205                
+POS_KEYWORDS 9444                
+POS_MISC 2354                
+POS_ERRORS 9592                
+POS_CLUSTER 3936                
+POS_SIDER_404 9786                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210501000003 283 74725 18363940988926
+FirstTime 20210401061622
+LastTime 20210430220244
+LastUpdate 20210501162754 283 0 282 0 0
+TotalVisits 158                 
+TotalUnique 111                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 234                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 25 203 9057812 478 552 13841139
+1 5 9 575565 345 424 9746482
+2 11 99 1999338 429 478 11780435
+3 9 122 5422297 645 724 15919838
+4 2 4 399970 426 471 10017016
+5 5 6 396577 343 417 11402355
+6 8 106 8795724 521 653 15220837
+7 10 110 6779102 475 543 10965698
+8 4 56 4725675 408 476 10850576
+9 11 23 1291290 489 561 12060272
+10 11 76 3749659 424 453 8984991
+11 140 1291 208154821 570 667 18099116
+12 107 528 24563509 467 517 9705599
+13 30 230 10882437 442 638 60834128
+14 21 154 11062225 368 419 9163519
+15 16 139 14255301 368 400 8244255
+16 28 205 10821073 421 544 16446038
+17 23 233 8305358 343 373 8248580
+18 28 221 9273710 338 479 11585232
+19 31 347 23674373 356 535 36180296
+20 13 89 13666344 377 509 19813947
+21 6 66 3535785 245 318 7442067
+22 19 153 11374365 353 449 15249435
+23 24 334 18751243 443 635 40525738
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+ge 446 3425 316042416
+ru 70 1128 67746527
+us 58 171 22285231
+id 4 4 33672
+gr 3 3 567819
+fr 3 60 3175092
+au 3 3 17444
+lv 0 1 30401
+jp 0 1 75333
+nl 0 1 9034
+de 0 2 341271
+in 0 1 91103
+mx 0 1 753438
+it 0 1 286455
+es 0 1 40413
+br 0 1 17904
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+bot[\s_+:,\.\;\/\\-] 5697 117583048 20210430235611 0
+AhrefsBot/ 1985 37091517 20210430234043 0
+MJ12bot/ 1547 150580819 20210430225827 0
+YandexBot/ 855 14612346 20210430190945 0
+bingbot/ 732 48721279 20210430233627 0
+Googlebot/ 377 5754399 20210430235452 0
+bingpreview 78 4290617 20210430233634 0
+Googlebot\-Image/ 49 7277671 20210430122852 0
+yandex 17 647325 20210429214451 0
+Mail\.RU_Bot/ 7 196199 20210423114014 0
+no_user_agent 6 584628 20210423005706 0
+facebookexternalhit/ 3 11800 20210421085038 0
+YandexImages/ 2 10128 20210408183447 0
+discover 1 16255 20210427221501 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 606 20210414204758 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+png 1257 262020630 0 0
+jpg 62 907963 0 0
+jpeg 1152 105162722 0 0
+svg 7 591438 0 0
+html 95 6038602 0 0
+Unknown 368 4159052 0 0
+ttf 5 183075 0 0
+eot 2 156326 0 0
+js 900 13250003 0 0
+css 814 7521732 0 0
+woff2 109 6110368 0 0
+env 8 4848 0 0
+gif 25 5406794 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win7 394 35
+ios_iphone 208 10
+win8 2 0
+linuxandroid 504 34
+win8.1 204 14
+linux 39 11
+Unknown 30 30
+winvista 1 1
+macosx12 56 3
+winxp 4 3
+win10 3287 441
+macosx 75 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 56
+chrome89.0.4389.128 1685 265
+edge18 2 0
+safari14.0 1 0
+opera73.0.3856.421 2 0
+chrome89.0.4389.90 105 6
+safari12.1 1 1
+chrome90.0.4430.66 60 3
+chrome87.0.4280.101 1 0
+firefox11.0 1 0
+chrome57.0.2987.110 1 1
+chrome41.0.2227.0 2 2
+chrome88.0.4324.152 92 6
+mozilla 3 3
+Unknown 26 26
+msie7.0 2 0
+chrome83.0.4103.106 58 3
+opera75.0.3969.171 3 0
+opera75.0.3969.243 52 3
+chrome81.0.4044.129 8 8
+firefox88.0 2 0
+chrome89.0.4389.105 228 21
+chrome90.0.4430.72 96 6
+chrome89.0.4389.114 673 100
+opera75.0.3969.149 3 0
+chrome74.0.3729.157 1 1
+chrome69.2.0.1713 8 0
+safari12.1.2 2 0
+android 1 0
+chrome86.0.4240.111 1 0
+chrome90.0.4430.82 6 0
+chrome90.0.4430.91 54 3
+opera73.0.3856.424 62 4
+chrome89.0.4389.86 207 13
+chrome40.0.2214.93 2 2
+safari10.0 1 0
+chrome85.0.4183.101 30 1
+chrome90.0.4430.93 189 28
+chrome88.0.4324.111 51 3
+safari 30 1
+chrome56.0.2924.87 29 1
+msie9.0 14 0
+chrome88.0.4324.182 255 16
+netscape 1 1
+safari14.0.3 247 13
+chrome79.0.3945.130 1 0
+chrome41.0.2225.0 3 3
+chrome42.0.2311.90 12 12
+chrome83.0.4103.44 63 3
+chrome41.0.2224.3 3 3
+chrome88.0.4324.150 1 0
+chrome88.0.4324.181 1 0
+firefox87.0 92 6
+msie11.0 73 4
+chrome86.0.4240.110 2 0
+edge13 3 0
+chrome90.0.4430.85 252 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+python-requests/2.25.1 20210408002331
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210406142752
+Mozilla 20210420115724
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210430220142
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210430001452
+IDBTE4M_CODE87 20210408002330
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+python-requests/2.25.1 20210408002331
+IDBTE4M_CODE87 20210408002330
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210430001452
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210430220142
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 76 131
+From1 0 0
+From2 56 212
+From3 3 3
+From4 452 4458
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 9
+www_google_com 20 124
+bing 0 13
+www_google_ru 1 1
+www_google_com_hk 12 12
+www_google_ge 1 6
+www_google_lv 0 1
+images_search_yahoo_com 0 30
+yandexru 22 24
+google_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://3dacq.georgiancard.ge 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%e1%83%a1%e1%83%90%e1%83%a5%e1%83%90%e1%83%a6%e1%83%90%e1%83%9a%e1%83%93%e1%83%94+a4 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+a4 1
+%e1%83%a1%e1%83%90%e1%83%a5%e1%83%90%e1%83%a6%e1%83%90%e1%83%9a%e1%83%93%e1%83%94 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+400 1 347
+302 129 25643
+404 576 950633
+508 5 1120
+419 3 1737
+405 14 647353
+500 107 2264914
+206 10 1051135
+301 26 6070
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 38
+/pler.php 4 -
+/product/---DnC0S 1 -
+/.git/config 4 -
+/product/----ein3B 1 -
+/product/--1WZPL 1 -
+/product/--3lBAf 1 -
+/product/----m8v9f 1 -
+/product/---13--rbYAJ 1 -
+/product/----mahLB 1 -
+/product/---V0waQ 1 -
+/owa/auth/logon.aspx 1 -
+/phpmyadmin/ 1 -
+/product/----yTDBo 1 -
+/product/--g6cQu 1 -
+/product/--YsEsq 1 -
+/product/variant_price 3 -
+/product/----JfUCY 5 -
+/robots.txt 471 -
+/product/---d4CtZ 1 -
+/subcategory/ 2 -
+/product/--QvtZx 1 -
+/users/ 6 -
+/public/ 45 https://puzzle.ge/terms
+/wp-content/db-cache.php 1 -
+/product/-A4-----35---WYjUG 1 -
+/product/--68xPw 1 -
+/product/--A4-ZUS6Y 1 -
+/product/---U0TIO 1 -
+/public/frontend/images/xloading.gif 7 https://puzzle.ge/public/frontend/css/xzoom.css
+/product/-A4-----30---NTweG 1 -
+/product/-A3-xUZ8o 1 -
+/product/---xrp19 1 -
+/product/--A4-hR9Sv 1 -
+/product/--6PujI 1 -
+/product/----z3cP8 1 -
+/product/Test-product-LEWJz 1 -
+/product/--KfDzl 1 -
+/product/-A4-----35---978Zx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 234
+188.169.11.131 313 1765 209558149 20210429164936
+178.134.113.29 18 125 4598887 20210421124729
+91.151.136.110 17 109 4191480 20210429000547
+91.184.107.23 15 95 9175569 20210405145618
+95.105.64.209 6 90 4764431 20210409025802
+93.177.147.221 4 59 3539373 20210409130403
+178.134.148.17 4 72 5541357 20210403161148
+5.3.247.15 4 62 4063674 20210412232245
+5.165.171.145 4 61 6354653 20210428194906
+45.9.46.150 4 68 11207634 20210426201150
+158.46.54.189 4 62 4063672 20210409002252
+94.181.77.222 4 61 6354646 20210404150153
+92.241.80.110 4 59 3029538 20210429170146
+185.70.54.222 4 65 3508460 20210428163724
+95.104.91.159 3 53 1823771 20210430073458
+95.104.5.91 3 54 1739858 20210403031446
+80.241.253.82 3 61 3552534 20210413221441
+188.233.23.108 3 51 4191162 20210403153917
+78.40.107.129 3 54 1521180 20210421140347
+5.166.5.248 3 53 2367907 20210404235724
+93.157.144.31 3 51 4144135 20210416073631
+95.104.55.79 3 65 3906629 20210423121710
+145.255.0.52 3 51 4191165 20210406232053
+212.58.121.50 3 54 2392310 20210417233239
+176.226.133.33 3 53 2367898 20210403135055
+34.105.69.97 1 1 0 20210415034848
+176.221.151.132 0 1 19244 
+15.222.23.228 1 1 606 20210426205901
+185.115.137.1 0 1 91103 
+185.99.8.85 0 1 10128 
+34.96.130.32 1 1 189559 20210410010335
+207.46.13.142 0 2 16378 
+173.255.118.89 1 1 16235 20210405221442
+35.185.211.76 1 1 0 20210423024033
+34.77.162.6 1 1 189845 20210408220747
+66.249.83.211 0 9 1238285 
+94.43.188.128 0 1 41719 
+85.117.56.75 0 2 205249 
+34.77.162.21 1 1 188415 20210430001452
+85.114.247.147 0 1 96502 
+107.150.63.174 1 1 16262 20210425131904
+92.118.160.37 1 1 188415 20210417031707
+178.134.30.218 0 2 1195912 
+95.137.138.86 0 1 53440 
+95.137.180.201 0 1 319725 
+89.247.127.75 0 1 257234 
+54.169.205.91 1 1 606 20210420115724
+35.197.31.4 1 1 0 20210409203746
+213.200.15.108 0 1 57213 
+77.73.53.38 0 1 10128 
+213.200.15.151 0 1 91103 
+5.44.132.17 0 1 90493 
+34.82.138.254 1 1 0 20210409203744
+93.177.138.250 0 1 102894 
+34.86.35.26 1 1 188415 20210403091212
+5.44.132.30 0 1 627240 
+34.82.148.35 1 1 0 20210418200314
+212.58.120.35 0 2 253144 
+91.151.136.187 2 6 115942 20210430094342
+46.49.32.90 0 1 597956 
+187.189.102.122 0 1 753438 
+104.131.94.82 1 1 189559 20210406135947
+212.58.120.230 0 1 34743 
+45.9.46.143 0 1 452675 
+34.105.10.54 1 1 0 20210418200312
+207.46.13.36 0 2 18045 
+151.36.10.60 0 1 286455 
+35.227.183.67 1 1 0 20210423024032
+178.134.161.54 0 1 597956 
+188.169.84.59 0 1 84559 
+192.151.156.189 2 2 32490 20210426165548
+138.197.1.141 1 1 188415 20210406142752
+185.70.52.235 0 1 58219 
+34.77.162.12 1 1 188415 20210421052636
+94.137.186.131 0 1 235078 
+66.249.83.207 0 8 650368 
+91.151.136.139 1 2 49512 20210408123847
+212.58.121.4 0 1 91103 
+185.70.55.177 1 25 264559 20210414003306
+34.77.162.23 1 1 189559 20210403120317
+36.71.226.141 2 2 16837 20210422075446
+37.232.81.250 0 1 56224 
+83.58.38.164 0 1 40413 
+213.200.31.203 0 1 91103 
+37.46.104.13 0 1 27198 
+58.85.100.217 0 1 75333 
+34.77.162.11 1 1 189559 20210406040115
+178.134.216.70 0 3 183086 
+81.16.240.232 0 1 534654 
+188.129.255.162 0 1 55440 
+34.82.224.231 1 1 0 20210415034850
+185.70.53.25 0 1 19244 
+188.121.203.69 0 2 136088 
+178.134.198.138 0 2 1243599 
+165.227.64.145 1 1 189845 20210406131953
+192.151.156.190 1 1 16231 20210417191324
+82.211.151.49 0 1 15141 
+34.96.130.31 2 2 379118 20210427213456
+185.115.137.2 0 1 597956 
+34.96.130.30 1 1 188415 20210423175843
+185.70.52.82 0 1 37665 
+212.58.103.87 0 5 1076791 
+94.43.0.84 0 1 90493 
+91.151.136.174 2 2 7979 20210408210954
+200.211.37.130 0 1 17904 
+91.151.138.213 3 60 3385850 20210430110944
+46.49.12.178 0 1 540446 
+66.249.81.151 0 1 91036 
+95.137.177.44 3 63 4172270 20210416232915
+5.178.135.2 0 3 398863 
+37.232.29.14 0 2 561716 
+46.172.13.49 3 51 3603441 20210428194838
+176.74.90.213 0 11 2909647 
+176.74.80.86 0 1 90493 
+176.221.159.166 0 1 597956 
+40.77.167.25 0 2 34276 
+92.118.160.57 1 1 189845 20210404121525
+34.86.35.28 1 1 188415 20210408223303
+185.168.225.12 0 1 402773 
+34.82.181.33 1 1 0 20210428053038
+46.147.167.102 3 39 587822 20210414230204
+213.131.41.166 0 2 133058 
+46.49.120.30 0 1 597956 
+37.232.124.223 1 5 950142 20210430220244
+45.9.46.160 0 2 2029456 
+91.151.136.118 2 2 8108 20210427074619
+207.46.13.150 0 2 8633 
+212.58.120.112 0 1 91036 
+136.169.168.83 3 47 1875996 20210409192905
+5.178.184.163 3 64 3492238 20210423030815
+176.74.94.197 0 8 1647642 
+62.168.186.56 3 57 2762762 20210415181000
+185.118.84.10 0 1 597956 
+84.155.215.127 0 1 84037 
+45.9.46.145 0 1 473933 
+15.236.18.204 1 1 0 20210412150130
+92.54.214.10 0 1 11324 
+45.9.46.164 0 1 121167 
+193.176.214.29 3 59 3053925 20210424125535
+109.238.229.78 0 1 115009 
+5.164.157.149 3 40 656366 20210423194029
+69.197.185.133 2 2 32517 20210414015918
+185.70.55.90 0 1 37660 
+92.51.76.2 0 1 188295 
+34.86.35.29 1 1 189559 20210414081842
+92.118.160.13 1 1 189559 20210430220142
+208.110.85.68 3 3 48716 20210424193158
+5.178.151.197 0 1 102355 
+94.43.94.245 0 1 37519 
+91.151.136.84 2 2 8107 20210426225227
+212.58.114.29 0 1 121167 
+107.150.60.35 1 1 16259 20210403144008
+34.96.130.27 1 1 189559 20210424052738
+78.40.107.143 0 1 13414 
+46.147.157.93 3 51 1071342 20210420021512
+212.58.102.82 0 1 94917 
+34.77.162.32 2 2 379404 20210416062815
+207.46.13.158 0 1 18962 
+85.254.75.87 0 1 30401 
+95.137.128.84 0 1 57213 
+13.56.160.67 1 1 16235 20210425180024
+3.66.175.125 1 1 606 20210420015336
+91.151.136.115 2 3 22686 20210418094154
+178.141.201.215 3 39 587817 20210406180342
+185.115.137.3 0 2 552939 
+212.58.120.77 0 1 771516 
+185.115.137.13 0 1 76595 
+207.46.13.75 0 1 4622 
+109.172.150.235 3 48 1917888 20210401124956
+91.151.136.163 3 4 57494 20210408190512
+31.192.8.37 0 1 534654 
+91.151.137.41 2 2 7979 20210419202849
+145.255.0.211 3 51 4191165 20210412062413
+37.232.114.8 0 1 41719 
+34.86.35.21 1 1 188415 20210427113115
+188.169.65.134 0 2 318776 
+178.134.150.53 0 1 90493 
+178.134.21.82 0 1 771516 
+178.134.166.146 0 1 243670 
+94.43.74.194 0 1 91103 
+77.92.248.197 3 52 1387376 20210428225402
+213.200.31.220 0 1 597956 
+31.146.188.118 0 1 1893695 
+176.221.165.122 0 1 561328 
+188.169.45.180 0 1 108162 
+176.74.125.12 0 2 242789 
+212.58.119.194 0 1 91103 
+212.58.102.120 0 7 1906680 
+78.120.136.97 0 1 121167 
+5.178.186.84 0 1 567664 
+178.141.79.217 3 53 2367900 20210408132522
+94.43.75.13 0 1 121167 
+212.58.120.43 1 30 394062 20210405173136
+139.59.181.96 3 3 17444 20210408002331
+178.134.18.206 0 1 84559 
+178.134.72.237 2 6 10209 20210415201032
+77.92.238.144 0 2 177801 
+31.146.184.206 0 3 76853 
+94.180.129.89 3 51 4191165 20210405064948
+161.97.114.94 1 1 606 20210430190151
+31.146.56.243 0 1 30401 
+212.58.120.38 0 1 597956 
+212.58.103.223 0 1 235078 
+94.137.175.125 0 1 53440 
+66.249.83.209 1 12 1009027 20210413124652
+34.96.130.10 1 1 188415 20210413170051
+34.82.116.197 1 1 0 20210428053037
+95.137.230.226 0 1 91103 
+134.90.0.3 0 1 57213 
+34.77.162.16 1 1 189845 20210402225506
+34.96.130.17 1 1 189845 20210409110304
+91.151.136.96 2 3 65742 20210413223251
+95.104.116.102 0 1 21330 
+45.9.46.14 0 1 121167 
+212.58.102.70 3 62 4690681 20210426194227
+180.245.91.127 2 2 16835 20210428093811
+107.150.59.230 2 2 32490 20210416225527
+46.49.25.65 3 54 2180219 20210430183644
+212.58.103.121 0 3 325436 
+213.127.78.252 0 1 9034 
+34.86.35.30 2 2 377974 20210420042659
+31.192.12.207 0 1 627054 
+185.70.55.98 0 1 597956 
+62.220.63.73 3 47 1875998 20210416080948
+134.19.245.199 2 44 1929132 20210429180150
+188.129.138.138 0 1 13414 
+212.72.143.34 0 2 115772 
+207.46.13.146 0 4 19158 
+188.129.238.141 0 4 419020 
+45.143.108.72 0 1 91103 
+91.151.136.119 0 1 52328 
+62.212.54.208 0 1 22786 
+5.152.58.179 3 56 2204480 20210422214016
+46.49.58.181 0 1 91103 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210401 20 178 7725461 6
+20210402 8 14 1568752 4
+20210403 18 252 19139255 8
+20210404 8 119 9244328 3
+20210405 28 240 16211206 6
+20210406 18 138 6348216 8
+20210407 15 24 1345154 5
+20210408 15 80 4350384 8
+20210409 17 222 13662063 7
+20210410 1 15 3493315 1
+20210411 0 1 597956 0
+20210412 14 161 8672045 4
+20210413 22 145 8409480 10
+20210414 6 74 2267447 4
+20210415 18 164 4381275 7
+20210416 16 171 11316532 8
+20210417 5 57 2687449 3
+20210418 4 8 1036991 3
+20210419 7 13 1310623 2
+20210420 16 71 1720393 7
+20210421 16 126 4146832 6
+20210422 197 1372 209329173 4
+20210423 13 179 9866500 7
+20210424 5 62 3266673 3
+20210425 3 22 2669431 3
+20210426 27 233 17970645 7
+20210427 9 14 992355 5
+20210428 18 236 15622956 7
+20210429 28 224 10478420 4
+20210430 15 189 11682243 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 6
+15mn-30mn 8
+0s-30s 131
+30mn-1h 3
+5mn-15mn 4
+1h+ 3
+2mn-5mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 70
+/ 95 6038602 73 65
+/ajax-search 73 41371 1 0
+/admin 58 376102 3 32
+/public/frontend/fonts/fontawesome-webfont.woff2 50 3703776 0 16
+/public/frontend/fonts/line-awesome.woff2 49 2121016 0 19
+/login 36 54857 30 0
+/product/variant_price 22 1261 0 9
+/search 22 449766 9 1
+/admin/orders 20 240320 1 2
+/products/sku_combination_edit 19 380 0 0
+/subsubcategories/get_subsubcategories_by_subcategory 10 664 0 0
+/.env 8 4848 8 5
+/cardpayment 7 118737 0 0
+/admin/products/admin 7 1638614 0 0
+/contact 7 103972 3 0
+/public/fonts/glyphicons-halflings-regular.woff2 5 54090 0 2
+/checkout 5 79584 0 0
+/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2 5 231486 0 1
+/checkout/delivery_info 5 80724 0 0
+/subcategories/get_subcategories_by_category 5 6196 0 0
+/admin/customers 5 40851 0 4
+/public/css/demo/fonts/nifty-demo-icons.ttf 5 183075 0 0
+/product/-102---DELI-STATIONERY-rYXAq 3 56160 0 0
+/product/-64010-lqMxn 3 53357 3 0
+/product/--lWXEr 3 54265 3 0
+/admin/orders_by_pickup_point 1 5275 0 0
+/admin/products/admin/eyJpdiI6IitnMDZBcFJqSWhZZEk1NHR3RHU2WHc9PSIsInZhbHVlIjoiazFTOXFlcDZMV1ZCU1VrTm54YU9iUT09IiwibWFjIjoiMDVkYjk3MTZhMjQ0OTdhNDNhMjZlNjc2MTczNDg2MTVlMWYwMWMzNGU0ODI5Njk5M2IyODJhMmMzODdiNzc2MyJ9/edit 1 10941 0 0
+/product/--3--Deli-Stationery-uhLsW 1 17943 1 0
+/public/frontend/fonts/fontawesome-webfont.eot 1 98417 0 0
+/admin/orders/eyJpdiI6IkR3VWxDK25GUkd2c2xsXC8zSkpGTEVBPT0iLCJ2YWx1ZSI6ImdwZFdwSXF1ZjBhdHIrbGtsemdCMnc9PSIsIm1hYyI6ImI5YjI4NmVkYjc5MGRhMzI3YzliMWI5ZDNiMzVjZDU5YTYyNDE0N2M4NDliOGQ1ZDFkZGNhNTc2YjViZmNjZTYifQ==/show 1 6768 0 0
+/admin/products/admin/eyJpdiI6InR4b2hHd01vdThmUWY5OTN5M3hBdnc9PSIsInZhbHVlIjoiNUE0S1FmcGNjYTdtUmRPQ051NkJ1Zz09IiwibWFjIjoiYzQ0MjAxZmU5MmExMjliNTU2YTgxOTdjZjBkMzJiODExNzM5NDFjOTY4OGQyNWQxMzhhZWExMTdmNGJlNTk4OSJ9/edit 1 10987 0 0
+/product/--YSiUd 1 18243 1 0
+/product/-A3-0556-4AY5u 1 18395 0 0
+/product/----Deli-Stationery-KbITy 1 18478 1 0
+/admin/sales 1 11897 0 0
+/product/--80x100-7RFbn 1 18578 1 0
+/product/--30-48--Deli-Stationery-suPq7 1 17709 1 0
+/terms 1 14064 1 0
+/admin/products/admin/eyJpdiI6IkI3TkxyNXhjbUwrRUNjZTYzUmY3dFE9PSIsInZhbHVlIjoiQTZ3OUlvY1c0UlhwOTNUdXB3dnhNUT09IiwibWFjIjoiNDI3Y2MyZDBiNWVjMzBmYWRiZWM3YWNlMjZiMDAwZGIwMGMyYjAwOTNkMzg0ZTk4YWYwZDU5ODdmMjY1NTdmMSJ9/edit 1 10985 0 0
+/cart/addtocart 2 1262 0 0
+/product/--A3-80-500--vmPyV 1 17768 1 0
+/product/---5HWGV 1 18878 0 0
+/product/----Deli-Stationery-a23rj 2 36835 2 0
+/categories 2 30458 2 0
+/admin/stock_report 1 16166 0 0
+/admin/products/admin/eyJpdiI6IkN5a1dVYXpGR0VzUzlkUEpzTk9BNVE9PSIsInZhbHVlIjoiQ3hvNFpBUWU3Wk94UCtsdHNxWnZIZz09IiwibWFjIjoiNzE0YzIzN2U2ZjRiNjM5MjRiYjU4N2QzNjE3ODNlYzkyYzg0ZTQ3NjkwMzY0NGFjYTFhYjc1Yzc4MGJiOTI0MyJ9/edit 1 10947 0 0
+/cart 2 32772 0 0
+/subcategory/9 1 15902 0 0
+/product/----6desn 1 18397 1 0
+/admin/newsletter 1 5944 0 0
+/subcategory/6 3 45442 0 0
+/subcategory/19 1 14763 0 0
+/admin/orders/eyJpdiI6Ik1rZHZZVHhDRk1SaGRHaDlMaHFhQVE9PSIsInZhbHVlIjoieks0aXVyYng0UUFEUUZFdEpWZ0JqUT09IiwibWFjIjoiNGY0MDlkYzRjNWZiZmNiOWQ2NDYyZTdiMjY2NWU4YjljYTA1YzA2OWJmYmRlMzdhMDc1Yzk5ZmQwNThlMDhlZiJ9/show 1 6856 0 0
+/recharge 1 20 0 0
+/cart/nav-cart-items 2 1978 0 0
+/product/--AexA0 1 17283 1 0
+/purchase_history/details 2 2252 0 0
+/admin/orders/eyJpdiI6InAxVUlKM2xEaTJ2WFlrVnRyM0xqYlE9PSIsInZhbHVlIjoiZVl1N3RRcjgxN3pJbGl2a0JZK2dTZz09IiwibWFjIjoiYmU4MmY2MDViM2FmNmQzNzAwODlhMmM5MDUzN2MwZDM2NDJkYWNjODcyZjA4MzBkOWZiYTg3ZDFmMWZkMWE2NyJ9/show 1 6765 0 0
+/product/--A4-80-500-Double-A-cGIUG 3 53160 3 0
+/admin/flash_deals/create 1 17420 0 0
+/admin/orders/eyJpdiI6IjFWeHd2SnBiZ3B2Z1FnUVNmTGhFNUE9PSIsInZhbHVlIjoiZ05VWkQ1cXhTcnl4WWVXTmlsQWpIUT09IiwibWFjIjoiODZhOTZlN2RkZmVlZGFkOGMzM2Q1ODE3MWU1MjkyYjRjYjFiNDEzZjQzNzZmNGE1NjcxNmEyOWFhYzhjM2IzNSJ9/show 1 6830 0 0
+/product/--Deli-Stationery-4ujhc 2 37013 2 1
+/public/frontend/fonts/line-awesome.eot 1 57909 0 0
+/product/--NuoiY 2 37197 2 0
+/product/--A3-300-MorJm 1 17323 1 0
+/admin/flash_deals 2 10894 0 0
+/admin/in_house_sale_report 1 17119 0 1
+/admin/products/admin/eyJpdiI6IjI1R2puZVdxYlBmd3M0aTV5OVROTnc9PSIsInZhbHVlIjoiNkVWbEhldk9XK3UwSjhYK0hJZTFKdz09IiwibWFjIjoiNmE3ODNjNmEyYjRlYjcxNDQ5ZWFkZTFlMjUxNDk0ZGFiNWQwZjA5ZDhjMWQ4OTM5MWVhYTNlMTUxZWNiODZhOSJ9/edit 1 10958 0 0
+/specialoders 1 16779 0 0
+/product/---A4-7ublI 3 56227 3 0
+END_SIDER

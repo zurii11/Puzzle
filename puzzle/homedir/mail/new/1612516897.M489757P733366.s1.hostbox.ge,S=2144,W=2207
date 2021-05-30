@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 3gz4HCEOHWC2MAsADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Fri, 05 Feb 2021 13:21:37 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Fri, 05 Feb 2021 13:21:37 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l7xJ3-0034mP-Bh
+	for puzzle@s1.hostbox.ge; Fri, 05 Feb 2021 13:21:37 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1l7xJ3-0034mF-6B@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1612516897-eximdsn-832666870
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l7xJ3-0034mP-Bh@s1.hostbox.ge>
+Date: Fri, 05 Feb 2021 13:21:37 +0400
+
+--1612516897-eximdsn-832666870
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1612516897-eximdsn-832666870
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1612516897-eximdsn-832666870
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.93)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1l7xJ3-0034mF-6B
+	for gzhandler@gmail.com; Fri, 05 Feb 2021 13:21:37 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: www.puzzle.ge/index.php for 66.249.64.9
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 66.249.64.9
+Message-Id: <E1l7xJ3-0034mF-6B@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Fri, 05 Feb 2021 13:21:37 +0400
+
+http://www.puzzle.ge/product/--4---LFJgY
+
+--1612516897-eximdsn-832666870--

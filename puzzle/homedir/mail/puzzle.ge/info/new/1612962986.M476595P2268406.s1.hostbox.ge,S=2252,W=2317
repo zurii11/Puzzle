@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: info@puzzle.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id pvnWGKrcI2D2nCIADX6OZQ
+	(envelope-from <>)
+	for <info@puzzle.ge>; Wed, 10 Feb 2021 17:16:26 +0400
+Return-path: <>
+Envelope-to: info@puzzle.ge
+Delivery-date: Wed, 10 Feb 2021 17:16:26 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l9pM2-009W77-6E
+	for info@puzzle.ge; Wed, 10 Feb 2021 17:16:26 +0400
+X-Failed-Recipients: futkaradzemariana@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: info@puzzle.ge
+References: <4afd4342c2ec25e4ec7f8a6a1eb35676@www.puzzle.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1612962986-eximdsn-415802590
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l9pM2-009W77-6E@s1.hostbox.ge>
+Date: Wed, 10 Feb 2021 17:16:26 +0400
+
+--1612962986-eximdsn-415802590
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  futkaradzemariana@yahoo.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (83%)) allowed. Message discarded.
+
+--1612962986-eximdsn-415802590
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;futkaradzemariana@yahoo.com
+Status: 5.0.0
+
+--1612962986-eximdsn-415802590
+Content-type: text/rfc822-headers
+
+Return-path: <info@puzzle.ge>
+Received: from puzzle (helo=www.puzzle.ge)
+	by s1.hostbox.ge with local-smtp (Exim 4.93)
+	(envelope-from <info@puzzle.ge>)
+	id 1l9pLy-009W6K-Ky
+	for futkaradzemariana@yahoo.com; Wed, 10 Feb 2021 17:16:26 +0400
+Message-ID: <4afd4342c2ec25e4ec7f8a6a1eb35676@www.puzzle.ge>
+Date: Wed, 10 Feb 2021 17:16:22 +0400
+Subject: Order Placed - 20210210-051617
+From: info@puzzle.ge
+To: futkaradzemariana@yahoo.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="_=_swift_1612962982_d8decc4fcc0b2b22519d5c5013e6aed6_=_"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1612962986-eximdsn-415802590--

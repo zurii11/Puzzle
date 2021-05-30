@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id yE97A+DkDmBEcwYADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Mon, 25 Jan 2021 19:33:52 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Mon, 25 Jan 2021 19:33:52 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l43sF-001nLN-UV
+	for puzzle@s1.hostbox.ge; Mon, 25 Jan 2021 19:33:52 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1l43sF-001nLE-Oq@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1611588831-eximdsn-1486307698
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l43sF-001nLN-UV@s1.hostbox.ge>
+Date: Mon, 25 Jan 2021 19:33:51 +0400
+
+--1611588831-eximdsn-1486307698
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1611588831-eximdsn-1486307698
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1611588831-eximdsn-1486307698
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.93)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1l43sF-001nLE-Oq
+	for gzhandler@gmail.com; Mon, 25 Jan 2021 19:33:51 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 78.46.61.245
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 78.46.61.245
+Message-Id: <E1l43sF-001nLE-Oq@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Mon, 25 Jan 2021 19:33:51 +0400
+
+https://puzzle.ge/product/-HB-12-4-i73QK
+
+--1611588831-eximdsn-1486307698--

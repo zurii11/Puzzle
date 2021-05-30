@@ -1,0 +1,1002 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/puzzle/tmp/awstats/awstats.puzzle.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2004                
+POS_TIME 2675                
+POS_VISITOR 26399               
+POS_DAY 32652               
+POS_DOMAIN 3631                
+POS_LOGIN 4050                
+POS_ROBOT 4205                
+POS_WORMS 4745                
+POS_EMAILSENDER 4876                
+POS_EMAILRECEIVER 5019                
+POS_SESSION 33392               
+POS_SIDER 33602               
+POS_FILETYPES 5154                
+POS_DOWNLOADS 5563                
+POS_OS 5756                
+POS_BROWSER 6019                
+POS_SCREENSIZE 7426                
+POS_UNKNOWNREFERER 7500                
+POS_UNKNOWNREFERERBROWSER 7994                
+POS_ORIGIN 8248                
+POS_SEREFERRALS 8391                
+POS_PAGEREFS 8602                
+POS_SEARCHWORDS 8795                
+POS_KEYWORDS 8947                
+POS_MISC 2338                
+POS_ERRORS 9006                
+POS_CLUSTER 3906                
+POS_SIDER_404 9194                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201000037 410 123425 20462404186244
+FirstTime 0
+LastTime 20210131233052
+LastUpdate 20210201164459 410 0 409 0 0
+TotalVisits 188                 
+TotalUnique 144                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 151                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 12 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 79 178 4931323 444 553 9945458
+1 78 204 8514617 386 416 7346842
+2 70 70 1759920 340 387 8197350
+3 68 68 1426959 510 548 11001757
+4 71 127 3911559 321 341 6331819
+5 67 67 1089518 364 421 8311123
+6 72 72 1760576 293 321 6470261
+7 76 252 10544815 240 263 4288820
+8 72 121 1133947 231 255 4302776
+9 69 122 3506514 202 216 4186370
+10 76 253 10331787 459 483 7824459
+11 135 726 59732475 268 304 5148166
+12 261 991 80474680 294 334 5393445
+13 235 1398 86902074 341 383 7853766
+14 131 633 44447445 364 429 6839513
+15 107 420 15158171 339 398 7873916
+16 80 312 14184746 307 346 6249528
+17 141 952 55748700 364 406 6687772
+18 93 412 22923879 420 468 6769753
+19 82 285 13646190 270 287 5336477
+20 122 380 29989718 349 399 6654672
+21 81 376 25932733 363 398 7967659
+22 136 905 56242576 277 291 5590160
+23 107 491 22542999 266 429 16385753
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ge 1891 8441 508434343
+ru 505 728 30168424
+us 38 291 15390144
+gb 21 76 6281605
+pl 17 137 10818705
+ir 11 63 1350787
+ro 7 7 709176
+it 6 6 1061037
+fi 4 57 2220690
+ua 3 3 0
+se 3 3 48725
+md 2 2 353679
+id 1 1 606
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+Googlebot/ 6088 115868257 20210131235717 0
+MJ12bot/ 454 9329172 20210130101055 0
+Googlebot\-Image/ 132 25895085 20210131003739 0
+java 121 8436802 20210118235332 0
+bingbot/ 48 805637 20210131154508 0
+bot[\s_+:,\.\;\/\\-] 15 2835949 20210129190921 0
+no_user_agent 8 957454 20210127225609 0
+facebookexternalhit/ 7 211381 20210131003835 0
+YandexBot/ 2 32498 20210109203126 0
+AhrefsBot/ 1 16241 20210121053755 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+js 1636 27956650 0 0
+ttf 2 122050 0 0
+woff 8 621840 0 0
+gif 72 16690538 0 0
+map 1 100304 0 0
+svg 12 2909772 0 0
+html 1660 32107544 0 0
+css 1517 18049221 0 0
+Unknown 615 14920428 0 0
+eot 2 156326 0 0
+txt 7 547 0 0
+jpeg 2015 172595763 0 0
+php 3 60 0 0
+jpg 114 2091388 0 0
+xml 1 0 0 0
+woff2 207 12464512 0 0
+png 1933 276044918 0 0
+env 10 6060 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/.well-known/pki-validation/2B0B3C7EE201F0299FB4C9A32A3FD356.txt 6 0 483
+/.well-known/pki-validation/E3DDE1CB978DEF329A56364D535D7A23.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+macosx10 4 4
+win7 1074 167
+Unknown 1654 1595
+win8 49 4
+macosx8 1 1
+macosx9 1 1
+linux 629 98
+win10 2819 366
+macosx 218 34
+winnt 2 2
+linuxandroid 2737 191
+win8.1 105 9
+ios_iphone 520 35
+macosx12 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 63
+opera50.6.2426.201126 69 6
+chrome50.0.2227.0 33 3
+firefox57.0 2 2
+chrome83.0.4103.34 7 7
+chrome84.0.4147.89 2 2
+chrome45.0.2454.94 1 1
+mozilla 76 24
+msie11.0 67 5
+chrome39.0.2171.95 2 2
+chrome85.0.4182.0 124 6
+Unknown 1578 1571
+safari 90 9
+safari14.0.2 216 16
+opera72.0.3815.465 89 15
+opera9.80 1 1
+edge17 4 4
+chrome26.0.1410.65 1 1
+chrome35.0.1916.47 1 1
+chrome88.0.4324.93 548 33
+chrome65.0.3325.146 2 2
+chrome68.0.3440.106 2 2
+iphone 1 0
+chrome83.0.4102.0 3 3
+firefox49.0 1 1
+safari13.1.2 64 3
+chrome79.0.3945.88 1 1
+chrome67.0.3396.99 2 2
+firefox60.0 33 3
+android 1 0
+chrome68.0.3440.75 2 2
+chrome83.0.4103.101 70 8
+chrome83.0.4103.61 4 4
+chrome87.0.4280.141 4240 502
+chrome86.0.4240.198 48 4
+firefox22.0 1 0
+opera73.0.3856.329 62 5
+chrome80.0.3987.99 46 3
+chrome86.0.4240.99 45 3
+chrome77.0.3865.116 65 4
+chrome87.0.4280.101 461 38
+chrome70.0.3538.110 2 2
+chrome88.0.4324.96 65 4
+chrome80.0.3987.87 74 6
+chrome83.0.4103.7 1 1
+opera73.0.3856.344 126 23
+chrome87.0.4280.88 687 96
+safari12.1.2 67 4
+opera54.0.2952.51 2 2
+safari14.0 76 4
+safari14.0.1 74 4
+chrome68.0.3440.84 2 2
+chrome73.0.3683.90 2 2
+firefox77.0 7 7
+firefox59.0 1 1
+opera52.0.2871.99 33 3
+chrome66.0.3359.181 38 8
+chrome81.0.4044.129 3 3
+chrome87.0.4280.66 58 3
+chrome83.0.4103.106 59 3
+chrome50.0.2661.102 1 1
+chrome85.0.4183.127 56 3
+chrome84.0.4147.105 1 1
+chrome88.0.4324.104 315 27
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+python-requests/2.25.1 20210128080156
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210128234119
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210130202149
+Mozilla/5.0_(compatible;_Domains_Project/1.3.2;__https://domainsproject.org) 20210120014851
+COMODO_DCV 20210106183510
+WordPress.com;_http://puzzle.ge 20210114123012
+Sectigo_DCV 20210106183514
+Go-http-client/1.1 20210131233052
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+COMODO_DCV 20210106183510
+WordPress.com;_http://puzzle.ge 20210114123012
+python-requests/2.25.1 20210128080156
+Go-http-client/1.1 20210131233052
+Sectigo_DCV 20210106183514
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1657 1668
+From1 1 1
+From2 90 90
+From3 1 1
+From4 760 8055
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_com 81 81
+www_google_ge 5 5
+google_com 1 1
+yandexru 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://facebook.com//twitter.com//vk.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+301 74 17342
+206 31 1269894
+302 54 12793
+405 17 5279050
+403 103 0
+404 1128 627026
+419 107 92555
+500 659 1270479
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 343
+/.well-known/pki-validation/30F8EA8BDCEA2458312967265E7E1A75.txt 1 -
+/public/uploads/products/photos/XYrte8SJI0rmvkEXye6p1Oc3tZpIhT8nBzQp0rbW.png 1 -
+/.well-known/pki-validation/5D7FA71543B00DEEBEFAE14B7713AE91.txt 1 -
+/public/uploads/products/photos/gGmlG2bZYJj53Iwtv1UC72Ro2gFBKuPXH0BmDxAd.jpeg 1 -
+/product/--kBFzn 1 -
+/public/uploads/products/photos/t8Afdm9D82dXOQ7AprzZDfRjUfp430aY0xfxN0zS.png 1 -
+/.well-known/pki-validation/4992322618AF0C8AFB2554C530AA5921.txt 1 -
+/product/--A4-ZUS6Y 2 -
+/public/uploads/products/photos/3ZwgnGQnFIPGvpREgvvLHMArAbiyVnhYJVF6d05g.png 1 -
+/bak/ 2 -
+/public/uploads/products/photos/d0iBOe6hjtR1WZRZop2dEzQ3pV3NkV0CBHhrgnlM.png 1 -
+/product/----m8v9f 2 -
+/product/--Qnsj6 1 -
+/.well-known/pki-validation/80D8BD241D2A3905A933CF41FE5D373E.txt 1 -
+/ads.txt 4 -
+/product/---60---l3GV8 1 -
+/2019/ 2 -
+/new/ 2 -
+/public/uploads/products/photos/iN0oldFGDw3mL6EuiimiA51XxmkAH2GOZiM01IEW.jpeg 1 -
+/public/uploads/products/photos/q7Jup354FnQfq6QDF0fw5SJH3zuCKomi8l7krtQz.png 1 -
+/product/--RLrTG 1 -
+/public/uploads/products/photos/cp71silwesWiltyYj82CvNwzecCr3XQsXrpj0I0E.jpeg 1 -
+/product/--bwVCZ 1 -
+/product/----RIO-A4-Deli-Stationery-nd9AL 1 -
+/.well-known/pki-validation/AE17A85D3081362F695825728E364AFF.txt 1 -
+/product/--Bullet-tip-07mm-RED-tjzrT 1 -
+/public/uploads/products/photos/xkK8Ci8I18VjU3s3V267SIcFbFnZb43cymBuHCZX.jpeg 1 -
+/.well-known/pki-validation/3EFA2087FB6E75D33042CA722912CEA9.txt 1 -
+/product/---GOLDEN--jsxw2 1 -
+/.well-known/pki-validation/C5F79034F2ADDED32968A5AD81AEFC87.txt 1 -
+/public/uploads/products/photos/CUig6TQvkwMgirwrze5xnp7FZXWkZA0Yez4iNVuZ.jpeg 1 -
+/wp/ 2 -
+/product/-A4-----30---NTweG 1 -
+/product/---DnC0S 1 -
+/public/uploads/products/photos/Q3n0LKqjXqEteX136ZGu1XQIJsa3NzOsPw6rxlNj.png 1 -
+/sitemap.txt 4 -
+/public/uploads/products/photos/QR7IQjJY7wDddbbLSUfnPLHWnfjDB5AdzkMqrdWY.png 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/product/--07--1Fy7p 1 -
+/product/---lWUn2 1 -
+/product/--iQcHE 3 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/public/uploads/products/photos/x3DZCACeC9ky0PU0gh5ir6XsuCmRxxvh0nCtWlBf.png 1 -
+/old-site/ 2 -
+/.well-known/pki-validation/31DEF38973A663C73AAD871D1A279EDA.txt 1 -
+/bk/ 2 -
+/public/uploads/products/photos/abvVPpn19niAheRFGOtVg06NYTkmRTJrrsgzBm2v.jpeg 1 -
+/public/uploads/products/photos/v1W5SSE8AJXFoSXIdlZKQsVcYI4nRu0ilSxMcApp.jpeg 1 -
+/product/--55vVL 1 -
+/2018/ 2 -
+/site/ 2 -
+/.well-known/pki-validation/DC876D91477A8278AB57D0779602BE44.txt 1 -
+/product/--IkLAE 2 -
+/.well-known/pki-validation/AB649DC5FF5FF5010407BB5C92FA7DE8.txt 1 -
+/.well-known/pki-validation/CFEB29AC687914E5416CF4E8706C1C80.txt 1 -
+/password/reset 1 -
+/xmlrpc.php 2 http://puzzle.ge/xmlrpc.php
+/public/frontend/images/xloading.gif 27 http://www.puzzle.ge/public/frontend/css/xzoom.css
+/.well-known/pki-validation/1307F9C51E68F1A6404A1C37AE502367.txt 1 -
+/public/uploads/products/photos/Q1UXRyO31UOQoZrAu3DqobVTooZ5OWLqqgUpg0PZ.jpeg 1 -
+/.well-known/pki-validation/E19DBFFDE2741273EF4703C44872C331.txt 1 -
+/public/uploads/products/photos/gbZ7nWX549uoqiX9qbPziWa5Oos3SOcXczwFeiXw.jpeg 1 -
+/blog/wp-login.php 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/18BE2EDA2F29FB8140E05397CEC72941.txt 1 -
+/public/uploads/products/photos/UIh6ERTMqFiNGwys5kdBdastY0rYAUC7iHbnI7GX.png 1 -
+/product/---xrp19 2 -
+/.well-known/pki-validation/BE5A0D4B3643C7A6D4214CE3B434E0BC.txt 1 -
+/humans.txt 3 -
+/public/uploads/products/photos/Pwo0dmeyYgnaY2v5NcF1Xnn1a9RaYTZmyMAJeSLi.jpeg 1 -
+/product/--snbpA 1 -
+/public/uploads/products/photos/KhfNGCVKPiePBKzwuccwYsZ0c40zXK2WxjdzEUHk.jpeg 1 -
+/.well-known/pki-validation/DDB454ED8A881AC42BE84C1386B8CF8E.txt 1 -
+/public/uploads/products/photos/NnKf6hvv947GjyA1WiN1BgYnSfKQJVkFhmLHKCZu.jpeg 1 -
+/product/--A4-80-100-GR190-m2qbf 1 -
+/product/-175-Deli-Stationery-mFiMf 1 -
+/public/uploads/products/photos/dnrDDmahXL5RCwOaS7j26g5607HRFKIYgmUFIK17.png 1 -
+/product/--twFZo 1 -
+/.well-known/pki-validation/2D16ED39150ED4742D7B723BEFFC06A6.txt 1 -
+/product/-175-IRLjn 2 -
+/product/--IChkb 2 -
+/.well-known/pki-validation/411182960BF9EC0F523812900ADBD946.txt 1 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/cart 2 -
+/product/--Th7iv 1 -
+/public/uploads/products/photos/miLot9nKRsoqS97tl0Fuy8hcbtpTY9eoAj6mNsX2.jpeg 1 -
+/product/-----PwfFY 2 -
+/19837437_notfound.html 1 http://puzzle.ge
+/public/uploads/products/photos/HMGhlLiXVhpwcOk0jGGot99oxBPmx2WweLHKWvYQ.png 1 -
+/public/uploads/products/photos/6mUMs5xr9miLm6mhM7RPK0tHdBfDqMx2tnybcaUp.png 1 -
+/product/--A4-hR9Sv 2 -
+/product/----TjZSO 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/public/uploads/products/photos/atheSfjvNIaCu3KuAj4WZTHVSoFbljEhvOIxI8jB.png 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/0334ABC6B22CB89159927C1C9F3ABF63.txt 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/product/--19--12--Deli-Stationery-qvG1s 1 -
+/public/uploads/products/photos/IIPl4RKhnpDhNAoiVLv70xbZoIJUljCAjGB2kIxC.jpeg 1 -
+/.well-known/pki-validation/158CB75CACD42BEE8817FBAAC4F18863.txt 1 -
+/product/-G3Tuq 1 -
+/home/ 2 -
+/administrator/ 1 -
+/.well-known/pki-validation/17C746DB3070E4A8D7375EE483DB6B37.txt 1 -
+/product/----ein3B 1 -
+/.well-known/pki-validation/53A78FC4288D38933B5DAE2BC5773E1F.txt 1 -
+/17jzb37s4 14 -
+/.well-known/pki-validation/079BD35E7197FC823524C876C602DD82.txt 1 -
+/.well-known/pki-validation/52F91815AF440C24A8E7BAF51531E7F2.txt 1 -
+/admin/users/login_do/ 1 -
+/public/uploads/products/photos/crYGjTGLzzz3ICu8DVAaEoinRXAVgpg7akzTGxvA.png 1 -
+/robots.txt 140 -
+/.well-known/pki-validation/6AA510238B3DBD59959FB3E3065BB20C.txt 1 -
+/.well-known/pki-validation/2CC3E37FCE24F6552F85643A0943A0BD.txt 1 -
+/product/--YuFgc 1 -
+/product/-LJiKg 2 -
+/product/--105240-110-2tJ6Z 1 -
+/.well-known/pki-validation/5CB12A556A0ACB15413924C458EC00D6.txt 1 -
+/.well-known/pki-validation/35A96B10DDB7711694A15F7DD20502ED.txt 1 -
+/.well-known/pki-validation/06B3ADDC6C44F156CF03C1490FE1ED6F.txt 1 -
+/product/--10--qx6JT 1 -
+/product/-High-glossy-CGP230G-A3-20-GzRJ3 2 https://www.google.com/
+/public/uploads/products/photos/mo1rDFzyXYUjbk7rx0kH0ceBbIT3x012G7NnPvvG.jpeg 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/public/uploads/products/photos/8RLZgkiNTMGIGE71AREWFNGO14IVD9eTjk3v8Y8f.jpeg 1 -
+/.well-known/pki-validation/4BC8483CDA94A28D98BF373669F56C9D.txt 1 -
+/public/uploads/products/photos/H6NaVgKIj8XrWbdCWs7Su7EGONTjuxSuAA5YOJPh.jpeg 1 -
+/product/------wysca 1 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/B77ACE8B468E16C0D7B1667FA43A8423.txt 1 -
+/product/---3rfgS 1 -
+/public/uploads/products/photos/g80Ou7hYWt60EowyIrHcvFMNZloQ294kcd9bMJTm.png 1 -
+/wordpress/ 2 -
+/.well-known/pki-validation/A184FDA2B3D45A85637F947DF3317973.txt 1 -
+/public/uploads/products/photos/KoOrxaSHZmvt9ttX5HLjMQHYzkBkOpY0dC80CfJr.png 1 -
+/public/uploads/categories/icon/tM8AZtAcAhZhfpSqHFagikUM36SVSJKZkJYVrDUq.jpeg 1 -
+/public/uploads/products/photos/0S4il6TpcuVqwoMzM4POHxNB6D7P4dOczBoPOPYs.jpeg 1 -
+/.well-known/pki-validation/7FE394235FDA7E097F197E3128DA5FC4.txt 1 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/product/---1CS6q 1 -
+/public/uploads/products/photos/FnCf7YlTN4jRtOhTOTzIlqWN7S24dbpijYUKPtVE.png 1 -
+/public/uploads/products/photos/UJUQOMimPFrC5gFZKqUtvxmlaQyxB1DutmTW6JAG.jpeg 1 -
+/public/uploads/products/photos/WqQQdIXsxCv1eKkptksDwxBPDSd6R6vWkpxWopiG.png 1 -
+/admin/index.php 1 -
+/manager/ 1 -
+/product/---RUXbP 1 -
+/.well-known/pki-validation/2769A0A70A7D60DECD9194B887792119.txt 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/product/--110220-110-WW84J 1 -
+/.well-known/pki-validation/8F13327350DD2C447B26E2FCD7985783.txt 1 -
+/2020/ 2 -
+/pma/index.php 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/public/uploads/products/photos/NLbTUbHupYhT86We4v1uxuR4aO310UvbI1TrYnap.jpeg 1 -
+/product/----8JwGO 2 -
+/public/uploads/products/photos/3LtUngWimKAoyfYBibvA70p65oRIuBqjQcnfpFH4.jpeg 1 -
+/.well-known/pki-validation/3A8A718AAFD3DEFD304967C4418DB86A.txt 1 -
+/product/-A4-----30---Kvb60 1 -
+/.well-known/pki-validation/2E10B28885603AA396D8EB1B9BA4AC70.txt 1 -
+/product/-NP502-7oer7 1 -
+/.well-known/pki-validation/AEBF4F812F5028A6184C8055DD1D3224.txt 1 -
+/.well-known/pki-validation/3619D39B36986F34BCBCE9CA1746100F.txt 1 -
+/.well-known/pki-validation/E974B16C87FE6C727757F00A5BFE85C2.txt 1 -
+/.well-known/pki-validation/ADF21C2846131C232C54712360D9F11E.txt 1 -
+/product/-17--x7H65 1 -
+/.well-known/pki-validation/43CA7661CFE9284753548998E0894095.txt 1 -
+/.well-known/pki-validation/B05D68984E98C66630BFC8DA4C385A1F.txt 1 -
+/public/uploads/products/photos/uh2eV1aD0Uj2tVEt9YaFGEwrPAnycERnYCE0bj3g.png 1 -
+/product/DAFIS-MARKERI-cKgaY 1 -
+/dashboard 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/public/uploads/products/photos/k5BZROmiuE5jQGq7RHAzaoJv5hpOF3MTkyIABzKl.jpeg 1 -
+/product/---JJN0c 1 -
+/adminer.php 6 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/dev/ 2 -
+/.well-known/pki-validation/09F9659A30697C99BB7C97AE1ECC9ECD.txt 1 -
+/product/--CkxZZ 2 -
+/product/--138-Deli-Stationery-RdiFv 3 -
+/.well-known/pki-validation/40FAB9BA7659A9154F2EA1DE3BA09B99.txt 1 -
+/product/--3lBAf 1 -
+/user/login/ 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/test/ 2 -
+/product/--s3t4E 1 -
+/public/uploads/products/photos/pcjYN01kFEy9PxAicfmqXNyxErEZzRsYGxH3vlOT.png 1 -
+/public/uploads/products/photos/6GyXDBzH3qe8nUK7jpQLtWxa62NBEaYyxgltljvT.png 1 -
+/public/uploads/products/photos/X2I7vh6pSHhmtBRZDVJeNm4CMGERPgRHXhp7RPDz.png 1 -
+/.well-known/pki-validation/D0FFC26A35C87B93DFB620D8C00E8023.txt 1 -
+/public/uploads/products/photos/RVB3Qzx78J01xKyikW4ImmzPMOrKLsXP1CKujKIt.jpeg 1 -
+/public/uploads/products/photos/QBYopzW4Mwq6Tf3F9Wa0lpof1It6usS9VggT8ido.jpeg 1 -
+/main/ 2 -
+/product/--QPX11 1 -
+/.well-known/pki-validation/19B5EAA4B2BED0C20E067C94A7767FC0.txt 1 -
+/product/--121--Z6q1O 1 -
+/public/uploads/products/photos/5oWoK57gfuPtKYZ8XZCo6xTIdrszOgKPfhpgxVQx.jpeg 1 -
+/public/uploads/products/photos/yyuUJsqaWVppwD4H2RKHEnaFi3T6NxhbC97nF364.png 1 -
+/public/uploads/products/photos/4bhjondHlRsT7tgamErHOwDJldjnu0FysdAXqFjB.png 1 -
+/public/uploads/products/photos/gpit26bzVMkRYA0ERRZmYgUHOZJfz8vfMUQHAdLv.jpeg 1 -
+http://puzzle.ge/ 3 http://puzzle.ge/
+/product/--68xPw 1 -
+/public/uploads/products/photos/DSvs0w12rC51yClDxgYN63ijjZWCMROiQigm66wa.png 1 -
+/install/ 2 -
+/product/--56WJO 1 -
+/v1/ 2 -
+/product/--20-150--100--ECFH9 1 -
+/product/---U0TIO 1 -
+/.well-known/pki-validation/A6B48B3E2983543A7F34B5349C983C41.txt 1 -
+/old-wp/ 2 -
+/public/uploads/products/photos/M5ek0q3Ojww1BpIlIrELopFUthFV17yI1yjhmM1S.jpeg 1 -
+/product/--zip---tLG4k 1 -
+/product/--A1-610860-300--Jr84u 1 https://www.google.com/
+/.well-known/pki-validation/2AC08057021C7C624D983FF5C6739E36.txt 1 -
+/.well-known/pki-validation/3DC03E1FE76036DABF0968535EEDC7AD.txt 1 -
+/.well-known/pki-validation/C42089745DC5A5881311C83B578915BC.txt 1 -
+/wp2/ 2 -
+/product/----4-OWzLY 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/15B86E4963FBC3BACC7D066E02E73532.txt 1 -
+/product/---B3YFT 1 -
+/.well-known/pki-validation/7C75D33837E06A373146664E0702ADFE.txt 1 -
+/.well-known/pki-validation/556ADDE50F99D565C00D563BD222ADE6.txt 1 -
+/product/-----awvb4 1 -
+/.well-known/pki-validation/1F1F3260FC8C2528014269FD634AF4D3.txt 1 -
+/product/--nrL0f 1 -
+/product/--5830-69clK 3 https://www.google.com/
+/public/uploads/products/photos/v7b6WTAN7yEqis30AjK9v7uvAKjIoVo3Py7kr7aX.jpeg 1 -
+/public/uploads/products/photos/2wPbAf57b02cfc7KhvrKt4Ce5JF69mSnlWreMugB.jpeg 1 -
+/.well-known/pki-validation/159BA0018327DE500AE05FE015D188A4.txt 1 -
+/product/--A4-80-500-210-LfPVm 1 https://www.google.com/
+/product/--Bullet-tip-05mm-RED-zLURK 1 -
+/product/--1WZPL 1 -
+/public/ 149 http://www.puzzle.ge/search
+/product/-15--3NXon 1 -
+/product/----JfUCY 1 -
+/.well-known/pki-validation/619099A951B15261DB511DD7464EBCC0.txt 1 -
+/wp-login.php 49 -
+/.well-known/pki-validation/BE1579F47943C1B3A414B3D67872265C.txt 1 -
+/.well-known/pki-validation/670F9FA4F2ABA9881FA44692EAE9F552.txt 1 -
+/product/--vw3zu 1 -
+/tmp/ 2 -
+/product/--m7uOx 1 -
+/public/uploads/products/photos/v8Q1i1Qn6zpzkiVxBUYDKDpjeXnVVEVe9AMzLQi0.jpeg 1 -
+/.well-known/pki-validation/936678AE7686B4FA79467DDF68EE4392.txt 1 -
+/temp/ 2 -
+/product/----mahLB 2 -
+/.well-known/pki-validation/4293D460C3F4D4A61A0FCAB042622AE8.txt 1 -
+/public/uploads/products/photos/YdUE87cx3vRfKiDOVGaaBH2jJj2Nq0mqXCLGbI72.jpeg 1 -
+/product/---t27qn 2 -
+/product/-A3-xUZ8o 1 -
+/product/--A4-ZIP--Deli-Stationery-zGPBc 1 -
+/product/--2--19kXy 1 -
+/.well-known/pki-validation/78209720B44EF731224A4718331A0707.txt 1 -
+/product/--15-12-nZ6We 1 -
+/admin.php 1 -
+/product/-4LhxD 2 -
+/blog/ 3 -
+/product/--8Wl9m 2 -
+/.well-known/pki-validation/5C7CA4ADD343A05C26D2B86E15A420D6.txt 1 -
+/product/---9rjV7 1 -
+/public/uploads/products/photos/9M6r3t05as1vPT8qHpWMDpIAG36hM79UbiYmwDnO.jpeg 1 -
+/v2/ 2 -
+/product/----OwPX1 1 -
+/public/uploads/categories/icon/i0zX22O12OsL4MHJhLaeXlKjhBGcUZcmabksyTGY.jpeg 1 -
+/public/uploads/products/photos/MiOFYBFkBftQ6p9Icdj5y9Y76mjETYtFhMinyoTk.jpeg 1 -
+/public/uploads/products/photos/jVr5K1onuKjXBm31rfOYTplKAkPne5erOuUKoebO.png 1 -
+/user/ 1 -
+/wp1/ 2 -
+/public/uploads/products/photos/nq4K3DGd9e7uzQCJ9g0cPbsCCn0hkXeAMBtG1x6p.jpeg 1 -
+/product/--6PujI 1 -
+/product/-Bh9KR 1 -
+/.well-known/pki-validation/621301587CDDA406E5A03DAC89298A67.txt 1 -
+/public/uploads/products/photos/Yqa3kzEIwLyy7q69jaZpoWfQ5Nb1fnpIrYYthNRB.png 1 -
+/public/uploads/products/photos/BkYkBhyF3u7kSVnVOPePlTZYGVQ6aDwTY9sWFMbi.png 1 -
+/public/uploads/products/photos/DlZVYtbl3Hjj5Javq5oDey2ux6hhF6a6oDk2Q0rZ.jpeg 1 -
+/backup/ 2 -
+/product/---60---jjgc4 1 -
+/public/uploads/products/photos/wxce16QJsRChKhIYHX95KduFo3Lda2rqK4VHlbld.jpeg 1 -
+/public/uploads/products/photos/73EaxYH9cT3x4GFYfvEqE4M1xOVIpv1G04XupAuZ.png 1 -
+/product/-----HYtHs 1 -
+/.well-known/pki-validation/DD45559A4FCE056EDE6C1479010520A9.txt 1 -
+/web/ 2 -
+/public/uploads/products/photos/tOINcFBv7uMD2LafkBBv9pdGpy5lRStkxuGupvX2.jpeg 1 -
+/.well-known/pki-validation/AD6747246E8B2F1A35EDAD8EDCB3C885.txt 1 -
+/.well-known/pki-validation/1E807C5BCD5BC9D0D3DABD2B983A6493.txt 1 -
+/public/uploads/products/photos/LEDQK535nfqnF10HQphvqMyJgGodQmTJQJO05uyh.jpeg 1 -
+/%20http://puzzle.ge/public/js/jquery.min.js 3 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/product/--30-Deli-Stationery-TF9GR 1 -
+/public/uploads/products/photos/vFRPz09crol7wzlT4aqETOjqeggivIp7dkhNaf9s.jpeg 1 -
+/product/--f8RHV 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/product/--A4-JK-COPIER-VFYAI 1 -
+/.well-known/pki-validation/0E3142EF54257D42AE1B90008E7B3699.txt 1 -
+/product/-----2--Deli-Stationery-6nBD0 1 -
+/.well-known/pki-validation/E1970F0F2E8F57A46A30674C75A152E1.txt 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/4187EA00BCA116DC1AF997B338DFB4B2.txt 1 -
+/new-site/ 2 -
+/public/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js.map 1 -
+/product/--KSOJJ 1 -
+/.well-known/pki-validation/ED017A094151CEC5FACCB299B4A05AEE.txt 1 -
+/.well-known/pki-validation/F6167F4F6FEA402FE8760A92AA612E6A.txt 1 -
+/product/--EGbUM 1 -
+/.well-known/pki-validation/55D6AF6837F9E6804CE246E4BBD9CBED.txt 1 -
+/public/uploads/products/photos/GnzmOwckYDS0aPGhTM7ANgjT3alaxDrrH309xroP.png 1 -
+/public/uploads/products/photos/P1NMR16X7AY9xIICMZ7taAC2J4G2aU0JDHAjJAbw.jpeg 1 -
+/product/--1VCP4 1 -
+/.well-known/pki-validation/C09BB4E3AEC74F5761A60323FEDE46E5.txt 1 -
+/public/uploads/products/photos/fCq3iwb1mzlfp650zobpeeEXZiIcfAfJP9LU4t4D.png 1 -
+/public/uploads/products/photos/2dd5NnTseEZgx2xVEsV4SteUPVk3LsfJGYJ5BstT.jpeg 1 -
+/phpMyAdmin/index.php 2 -
+/phpmyadmin/index.php 2 -
+/ 215 -
+/public/uploads/products/photos/fmSJyH1heLBXosxKavfPAZTZe3umRZfs7b0AlZH6.png 1 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/.well-known/pki-validation/E34C4E9280B697EBA41DA1FA78A5700D.txt 1 -
+/public/uploads/products/photos/3YKCb83V2CD4f2ozHsCgeijhRe42V5Vic66T6kb1.jpeg 1 -
+/public/uploads/categories/icon/BMz07p7i32atzVddoS8CtDbBBNTzQojnMRT8Iphj.jpeg 1 -
+/public/uploads/products/photos/ZP0sIjqtbdmNGFxeYt1ZY02JbcUb6ZpVBFwLiwjx.jpeg 1 -
+/cms/ 2 -
+/public/uploads/products/photos/GXhvr8BLvCWMqNhBDAGsfWV5IWy1Wqe0otXgbloA.png 1 -
+/product/--mZO88 1 -
+/demo/ 2 -
+/public/uploads/products/photos/BGCqOaLL6HXx7IYFfPgjsb8l64z15oNUiRH88Mxb.png 1 -
+/public/uploads/products/photos/8mQcSOb7coJbk09KZt9AB5WrqBXJsMdumAWABydp.jpeg 1 -
+/product/--A4------a4LTq 2 -
+/public/uploads/products/photos/HlhgWKTKxmRhIHzI8mMxh4eZlrGfBL4mYZnCMP2d.png 1 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/product/--KfDzl 1 -
+/product/--Bullet-tip-07mm-BLACK-NMzOT 1 -
+/product/-kUW6f 1 https://www.google.com/
+/public/uploads/products/photos/dSndY8c9SDsSRwbQzRqfsp77bJZY0fiYe8n870Nl.jpeg 1 -
+/product/--YsEsq 1 -
+/.well-known/pki-validation/10B9231871D29A2250DF4619CEC41499.txt 1 -
+/old/ 2 -
+/product/-A4-----35---WYjUG 1 -
+/.well-known/pki-validation/448D4B7311B49A79919916A46143D092.txt 1 -
+/.well-known/pki-validation/E79402354D54554F875D6D2E9F236BCA.txt 1 -
+/public/uploads/products/photos/NvBJ7tJXU6enUXwAOIQKU1dUmLaP7r6xPKDHNSCt.png 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/search 123 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 151
+80.241.247.57 1055 1055 17156338 20210131233052
+185.139.56.200 461 465 7496991 20210118133022
+146.255.226.74 145 429 36968224 20210125120956
+188.169.11.131 97 632 49057029 20210120175607
+80.241.252.195 50 50 813103 20210109233426
+91.151.136.210 48 231 16050615 20210112124246
+37.232.6.238 29 193 20566270 20210110205838
+91.151.138.194 26 177 20544397 20210118145611
+95.104.27.238 20 69 2686097 20210122220136
+51.222.43.125 18 18 4119934 20210130201631
+185.168.225.41 17 156 13941295 20210119141630
+77.79.198.14 17 137 10818705 20210118235351
+176.221.229.254 17 77 3434334 20210126140111
+46.49.71.137 15 89 6669855 20210113174347
+46.49.0.35 14 126 8916414 20210111145029
+212.58.103.48 13 172 38775044 20210121123818
+185.104.194.4 11 63 1350787 20210124154921
+91.151.136.153 11 37 4489636 20210118153505
+185.70.52.95 11 115 12604580 20210116133957
+109.172.130.228 10 70 9302820 20210129114705
+31.146.29.120 10 161 4926389 20210111183223
+213.131.44.162 10 92 6100714 20210125121207
+5.178.236.181 10 146 11530743 20210130220907
+31.146.2.38 9 85 4559261 20210121142521
+176.221.235.74 9 90 6054869 20210115174204
+91.79.52.183 4 4 686663 20210117061543
+81.16.245.61 3 60 2554284 20210128120528
+185.210.217.54 2 2 353679 20210112030018
+66.102.8.245 0 16 485524 
+185.70.52.160 3 36 2875157 20210118191222
+31.146.34.198 6 99 4843396 20210121145155
+54.203.145.178 1 1 16241 20210126075152
+178.134.54.109 3 45 1698891 20210111202724
+212.58.103.126 3 58 2110075 20210115195137
+188.169.1.130 3 52 873181 20210112233209
+89.232.34.141 3 50 832370 20210125153409
+92.54.227.209 5 77 4941751 20210117221004
+5.152.5.116 6 69 3674901 20210114221748
+91.184.106.159 3 44 1773639 20210130184136
+3.214.184.98 6 6 3050 20210121194816
+185.70.52.37 3 59 2484627 20210118210503
+84.247.48.6 2 2 353679 20210119133756
+109.172.229.194 4 65 3273610 20210131102107
+54.166.182.200 4 63 3645334 20210130131751
+212.58.103.70 3 63 3500258 20210121105938
+185.70.54.233 5 58 4551801 20210124144750
+91.151.137.7 3 56 2259412 20210113181227
+62.168.173.164 3 56 2204456 20210120135802
+212.58.103.89 5 51 2023520 20210130174945
+129.213.109.135 2 2 32481 20210129013117
+91.151.138.176 3 46 1886956 20210130112714
+91.79.21.227 6 6 1042226 20210118112651
+92.241.73.166 3 57 2301812 20210125130635
+213.200.31.51 3 67 2618076 20210120173820
+91.184.106.27 3 46 1729281 20210131141835
+51.91.61.117 3 55 2161419 20210130202149
+84.17.49.225 2 2 353679 20210119175935
+188.129.144.189 5 73 4908958 20210131193433
+185.70.52.76 5 68 3694884 20210124224047
+91.151.137.59 8 70 3763197 20210110224438
+94.43.74.45 4 77 4928005 20210127011047
+80.77.61.225 3 58 2283886 20210120132201
+66.249.88.122 1 20 1022544 20210122074032
+173.252.95.29 0 4 42323 
+176.103.93.146 2 2 17764 20210121183714
+188.129.242.244 3 59 2484630 20210119042928
+31.146.140.90 4 50 1014242 20210120155507
+91.184.107.43 6 68 3710406 20210119234243
+95.104.43.219 4 71 10177082 20210111181720
+185.70.55.92 1 1 16234 20210110201632
+82.193.104.168 3 3 0 20210120014851
+95.137.140.232 3 67 2407802 20210121125428
+66.102.8.247 2 26 2109913 20210122074036
+173.252.95.18 0 6 47160 
+212.58.103.159 5 62 2974053 20210118183943
+188.169.20.209 4 49 1940169 20210119183238
+109.172.250.21 4 49 1991285 20210121132459
+80.77.53.46 7 111 4713320 20210111165447
+162.158.151.134 1 1 18189 20210114131816
+81.16.253.205 3 59 4265616 20210119112935
+158.255.179.94 2 2 353679 20210120201454
+213.200.31.19 3 60 2476580 20210118171707
+84.17.48.105 2 2 353679 20210111151307
+54.88.224.238 4 63 3646503 20210130131752
+212.58.121.184 3 63 3500259 20210111161928
+5.178.235.220 4 67 3681165 20210122223528
+158.255.190.44 4 4 686663 20210119021218
+94.43.131.52 5 60 2373767 20210127234926
+129.213.31.250 2 2 32529 20210129005208
+66.102.8.249 1 23 954147 20210122074033
+31.146.98.26 3 56 2204450 20210108225408
+192.36.248.249 1 1 16241 20210113230946
+188.121.223.12 0 1 91036 
+95.137.180.77 4 71 7123593 20210130123026
+192.71.225.127 1 1 16246 20210118185550
+23.102.70.47 1 1 20 20210128080156
+93.177.175.156 4 65 2602593 20210120002405
+3.25.151.144 1 1 16241 20210129172758
+89.44.9.71 3 3 1818 20210119141803
+149.3.9.69 0 1 597956 
+84.17.48.245 2 2 353679 20210125190551
+66.249.88.118 1 23 1257165 20210122074029
+64.246.165.190 1 1 16257 20210125231212
+185.232.21.116 2 2 353679 20210126182151
+109.172.167.215 6 43 688523 20210116130547
+46.49.35.16 6 120 6389707 20210120115421
+178.134.98.209 3 59 4752756 20210123212116
+176.74.98.179 3 52 894194 20210114234912
+134.209.214.176 1 1 16242 20210130225956
+185.70.55.176 1 1 16236 20210115113008
+45.12.223.132 2 2 353679 20210125130635
+94.43.69.165 3 62 3890149 20210111220059
+212.58.119.54 3 50 1936087 20210125150334
+176.221.172.134 3 51 1979145 20210122235702
+149.3.65.40 4 60 2502731 20210115133026
+185.168.225.39 5 85 5235785 20210114174919
+212.58.121.229 3 41 699390 20210109002858
+84.247.48.5 2 2 353679 20210110045817
+37.232.94.131 3 56 2513787 20210128121233
+161.35.191.245 1 1 189273 20210128234119
+149.3.119.116 3 50 2356340 20210114194621
+173.252.95.24 0 1 28260 
+82.211.168.106 3 60 3576902 20210123173636
+185.70.52.176 1 1 16238 20210115123253
+212.58.120.42 3 56 2433220 20210118070323
+46.49.118.130 8 75 3879276 20210123172255
+212.58.119.192 3 59 2484630 20210129100249
+192.71.44.44 1 1 16238 20210128204444
+31.146.229.124 4 41 652338 20210128133057
+109.172.209.29 2 2 18692 20210125001742
+36.73.122.40 1 1 606 20210111231359
+213.200.15.112 3 56 2433223 20210123094708
+40.75.65.193 2 2 626 20210110081132
+192.0.82.48 1 1 16236 20210114123012
+66.249.88.120 1 21 1192779 20210122074032
+185.70.52.6 3 59 2484630 20210121134226
+5.178.132.165 3 63 3500259 20210130220624
+34.203.226.209 1 2 231185 20210130113615
+92.54.196.176 3 59 2484629 20210124112418
+91.155.255.115 4 57 2220690 20210115130708
+149.3.10.14 4 65 3273608 20210121211347
+149.3.110.155 4 48 1948233 20210109154551
+5.178.161.186 4 76 11550529 20210109222417
+176.221.166.165 3 54 1838663 20210112153858
+199.244.88.132 1 1 16243 20210120050602
+178.175.142.134 2 2 353679 20210118153246
+91.184.106.180 3 56 2309859 20210127123106
+94.240.238.224 7 80 3711740 20210118171422
+82.211.160.183 6 74 4930375 20210120162316
+91.199.212.132 0 3 252 
+212.58.102.117 3 66 10144900 20210121210915
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20210106 0 7 547 0
+20210108 7 60 2269493 3
+20210109 107 261 15759292 6
+20210110 138 364 26261115 7
+20210111 143 739 40335904 13
+20210112 152 446 20795050 6
+20210113 115 243 10597737 5
+20210114 115 354 13756820 8
+20210115 118 363 14481964 8
+20210116 114 308 17026168 5
+20210117 105 177 7189559 4
+20210118 163 789 55456151 16
+20210119 95 517 32597047 11
+20210120 174 1053 65967901 13
+20210121 104 781 72781570 14
+20210122 81 364 16149037 9
+20210123 65 298 15422708 5
+20210124 72 296 12862661 5
+20210125 219 733 49662088 10
+20210126 68 128 4584814 4
+20210127 60 241 10392199 4
+20210128 63 210 6739019 9
+20210129 64 180 12616759 6
+20210130 107 671 42439905 13
+20210131 60 232 10692413 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 111
+5mn-15mn 5
+30s-2mn 17
+1h+ 33
+2mn-5mn 15
+15mn-30mn 2
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 113
+/ 1660 32107544 94 62
+/search 218 7189081 53 24
+/public/frontend/fonts/line-awesome.woff2 102 4557928 1 42
+/public/frontend/fonts/fontawesome-webfont.woff2 101 7716200 1 9
+/ajax-search 91 63608 0 1
+/product/variant_price 66 3813 0 11
+/cart/nav-cart-items 27 37421 0 0
+/contact 18 2227593 0 13
+/cart/updateQuantity 17 37714 0 0
+/cart 11 332505 0 0
+/cart/addtocart 9 5735 0 0
+/users/login 9 1499360 0 2
+/admin/orders 8 82261 0 0
+/subcategory/8 8 129065 0 0
+/product/--A5-2020------HELIO-fiwBT 7 132726 5 0
+/admin/brands 6 44333 0 1
+/.env 6 3636 4 2
+/public/frontend/fonts/fontawesome-webfont.woff 4 392096 0 1
+/admin 4 25782 0 0
+/product/--CkxZZ 4 67852 2 2
+//.env 4 2424 2 2
+/public/frontend/fonts/line-awesome.woff 4 229744 0 0
+/product/--A4-80-JK-500-e31Ws 4 71496 0 0
+/subcategory/9 3 46232 0 0
+/product/---Deli-Stationery-9O4wk 3 55892 2 0
+/subsubcategories/get_subsubcategories_by_subcategory 2 44 0 0
+/product/--35-HVFbQ 1 18306 0 1
+/admin/customers 2 15150 0 0
+/subcategories/get_subcategories_by_category 1 641 0 0
+/language 1 20 0 0
+/admin/orders/eyJpdiI6IlFPdG1YMEE0K2J2K0ZQZ0RMcVFkOUE9PSIsInZhbHVlIjoiaFl6ckFhNGM1eERjaGZWSm9cLzdJdHc9PSIsIm1hYyI6IjM1YWZiZDIxODBmZmM4MDk3YWE4OWVhZjlmMzMxYmQ4YzAwMWM3MGU1YWE2YTRhZGY0MzMxMzg1MWEzYTkwZTgifQ==/show 1 6761 0 0
+/product/---6090-WGR--Z6p5V 1 18446 1 0
+/product/-kUW6f 1 18538 1 0
+/product/-80--Deli-Stationery-3gRvO 1 18547 0 0
+/product/-A5-80--Deli-Stationery-c4JlE 2 37637 0 0
+/product/-A3-0556-4AY5u 1 18376 0 0
+/product/---90120-Deli-Stationery-vIV1k 1 17186 1 0
+/admin/flash_deals 1 5447 0 0
+/subcategory/17 2 30299 0 0
+/admin/products/admin 2 467822 0 0
+/admin/orders_by_pickup_point 1 5274 0 0
+/admin/orders/eyJpdiI6IjcyRFU1eFpHeVwvMlBtUDFKQldIa2NRPT0iLCJ2YWx1ZSI6InJjM2xEXC9CUlpINmtkdTcyXC9sdmFUdz09IiwibWFjIjoiMzUyZTU0Y2MxMjQzZTYyMzg0Mjg4ZDBiMjI3OWI2NThjMmRmNWI5YTg2NTM5OWFhODM5ZTliOGNlNzc4MDAyOCJ9/show 1 6782 0 0
+/product/--9pcsMetal-box-5fqAB 1 18358 0 0
+/product/---05---8928E 1 18306 0 0
+/product/---A4--7--Deli-Stationery-ewC8g 1 18734 1 0
+/admin/brands/eyJpdiI6IkdwRG12XC9hZmFqdWhYV2FON1hhVzVRPT0iLCJ2YWx1ZSI6Ik5aOWQwYkpFeWRyZjUxVGVOcDBUUFE9PSIsIm1hYyI6ImQ3OTRlMmIzMWJlNzgyNmNlZDE3YTNkYjIyNzA2Y2I0YzA3ODMxODE1OTQzNmJhODljZDYyYzc1Yjk2YjIyY2YifQ==/edit 1 5547 0 0
+/public/frontend/fonts/line-awesome.eot 1 57909 1 0
+/product/---9--hskrx 2 36792 2 0
+/product/-A5----70--Deli-Stationery-zoVe2 1 18572 0 0
+/product/-A4-80--Deli-Stationery-mcdvT 1 18537 1 0
+/product/-A5-120--Deli-Stationery-Zy93p 1 18533 0 1
+/product/--1--oVNjn 1 17297 1 0
+/sitemap.xml 1 0 0 0
+/product/---05mm--VtKPh 1 18344 0 1
+/product/--A4-Deli-Stationery-5Ci63 1 18688 0 0
+/terms 1 161275 0 0
+/product/-A5-Deli-Stationery-9KsnM 2 37504 0 1
+/product/6--------4--ZhXXB 1 17357 1 0
+/product/--A4-80-500-210-LfPVm 1 18413 1 0
+/product/--A4--Deli-Stationery-DG6hg 2 37279 0 0
+/product/--Se8Cu 1 19563 0 0
+/cart/removeFromCart 1 2078 0 0
+/checkout 2 32348 0 0
+/login 1 1525 0 1
+/admin/subcategories 1 23491 0 0
+/product/-A4-Deli-Stationery-VovH3 3 56370 0 0
+/track_your_order 1 14427 1 0
+/subcategory/6 3 45589 0 0
+/admin/sales 1 9985 0 0
+/product/---9dxGY 2 37092 0 0
+/product/-Double-side-High-glossy-CGD220GA450-1w3lS 2 36918 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 60 1 3
+/product/----4-xQnsI 1 18366 1 0
+/product/--ybvi4 1 18414 1 0
+/public/frontend/fonts/fontawesome-webfont.eot 1 98417 0 1
+/checkout/delivery_info 2 32817 0 1
+/product/--T-shirt-transfer-STW140G-A4-5-mpj4W 2 36946 0 0
+/products/sku_combination_edit 1 20 0 0
+/product/----RIO-A4-Deli-Stationery-nd9AL 1 18512 1 0
+/product/-A4--0554-ACI8O 1 18296 0 0
+/admin/brands/eyJpdiI6Ink2eHE2d2VyT056bGJyY3RTbWpDakE9PSIsInZhbHVlIjoidWhLYlwvYzc3T3NVVEJHcVZjaVZlQUE9PSIsIm1hYyI6ImYyODhmYTQyZjMwMzk5YTAwYTU3OTg2YjQxNmM5OWNlOGQ4NTNmZDhjZjExZmNjMzllYjU5NDJiNWI5ZTE3YjcifQ==/edit 1 5547 0 0
+/product/--A4-80-500-Double-A-cGIUG 1 17901 0 0
+/product/--nNfuw 1 18698 1 0
+/product/--T-shirt-transfer-STB140G-A4-5-IcNmA 2 36948 0 1
+/product/---400--Deli-Stationery-FDTB5 1 18486 0 0
+/product/-16-Deli-Stationery-jdLx6 2 38099 0 0
+/product/-NP603-A6-PRPZw 1 18448 1 0
+/subcategory/19 2 29661 1 0
+/product/---5HWGV 1 18303 0 0
+/public/fonts/glyphicons-halflings-regular.woff2 2 36060 0 0
+/public/css/demo/fonts/nifty-demo-icons.ttf 2 122050 0 0
+/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2 2 154324 0 0
+/product/--A4-100--Deli-Stationery-gondM 1 17020 1 0
+/admin/orders/eyJpdiI6IlNhUXErenhcLzdESnpMWUJPWUZiY2ZRPT0iLCJ2YWx1ZSI6IjRrNFA1RlBZaFJNZU8rdGhia1RsMHc9PSIsIm1hYyI6ImIyMDJhYmEzNTIwOGYyOTdhZjVlYzczMjhmZTc5NTQ3ZmRiODIwYzQyM2Q3OGUwNDc3NDJiMTdiNjAwZGQ1YTEifQ==/show 1 6761 0 0
+/subcategory/7 1 15368 0 1
+/admin/categories 2 18486 0 0
+/invoice/seller/239 1 785956 0 0
+/product/--138-Deli-Stationery-RdiFv 1 19140 0 0
+/product/-A5-035-100-HL-30535-Db52n 1 18420 0 0
+/product/-HP-LJ-PRO-MFP-M225125127201-283A-PFFBq 1 16620 1 0
+/admin/products/admin/eyJpdiI6IlhDMGtWWG5VU1kxVGhvSm4yTzc1bUE9PSIsInZhbHVlIjoiZzFVa1dIWnNIeWVBZlRKMlNlQUw0QT09IiwibWFjIjoiNjNiZGY0YjdjYTRjMGYzYWQ2ZDYzZTIxMzQ2YzM5ZmVhN2NiMjgxYmFiYjQyODI0YTk4OWVkM2Q3ZWYwNmIwNyJ9/edit 1 10990 0 0
+/admin/orders/eyJpdiI6InlTQzFRYStlNDFFQkRoUGdcL0dcL3RaZz09IiwidmFsdWUiOiJtUER5eVRpVGkzcmR0ZXU0Rjl2OTZRPT0iLCJtYWMiOiJmNzc4OWYzMjFiNjY3Nzg2M2MxNzlkZGQyNWVhNmUwOGQ1YWQ5MjE2Mzg0MjRlNTRkNmRjMDFmZWYxZDI3MmI4In0=/show 1 7343 0 0
+/product/--07MM--cGuu7 1 18677 0 0
+/product/-----3--Deli-Stationery-nZPYP 1 17930 1 0
+/product/---90120-Deli-Stationery-KcUt6 1 18361 1 0
+/public/css/bootstrap.min.css.map 1 100304 0 0
+/admin/frontend_settings/home 1 7531 0 1
+/product/-Matte-coated-MMP110G-A4100-nP1m7 1 18482 0 1
+/product/--100200-nLTId 1 18277 0 1
+/product/--05---t4WWH 2 36706 0 0
+/product/-102---DELI-STATIONERY-rYXAq 1 18701 1 0
+/admin/orders/eyJpdiI6InorU0RJbVIxTXVOSlwvZFI3bzZpczJRPT0iLCJ2YWx1ZSI6ImpBeWJxM1RcLzBTcE5EaTlRd3F3NWRBPT0iLCJtYWMiOiJkY2E5ZDg1M2Q2YTgzOTEwZDU2NzViYTBkOTgyMDljZmExYzEzNzIxNDhmM2IyM2NjZjk0MDI0NTQ1OTFlZjY4In0=/show 1 7343 0 0
+/compare/addToCompare 1 187 0 1
+END_SIDER

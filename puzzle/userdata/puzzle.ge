@@ -1,0 +1,25 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/puzzle.ge
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/puzzle.ge-bytes_log
+documentroot: /home/puzzle/public_html
+group: puzzle
+hascgi: 0
+homedir: /home/puzzle
+ip: 185.139.56.200
+owner: root
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/puzzle/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@puzzle.ge
+serveralias: mail.puzzle.ge www.puzzle.ge
+servername: puzzle.ge
+usecanonicalname: 'Off'
+user: puzzle

@@ -1,0 +1,989 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/puzzle/tmp/awstats/ssl/awstats.puzzle.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2675                
+POS_VISITOR 25310               
+POS_DAY 29233               
+POS_DOMAIN 3589                
+POS_LOGIN 3931                
+POS_ROBOT 4086                
+POS_WORMS 4794                
+POS_EMAILSENDER 4925                
+POS_EMAILRECEIVER 5068                
+POS_SESSION 29921               
+POS_SIDER 30128               
+POS_FILETYPES 5203                
+POS_DOWNLOADS 5580                
+POS_OS 5628                
+POS_BROWSER 5807                
+POS_SCREENSIZE 6662                
+POS_UNKNOWNREFERER 6736                
+POS_UNKNOWNREFERERBROWSER 6918                
+POS_ORIGIN 7031                
+POS_SEREFERRALS 7172                
+POS_PAGEREFS 7437                
+POS_SEARCHWORDS 7665                
+POS_KEYWORDS 7956                
+POS_MISC 2338                
+POS_ERRORS 8156                
+POS_CLUSTER 3787                
+POS_SIDER_404 8345                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201000209 74 17300 17803660685026
+FirstTime 0
+LastTime 20210131185837
+LastUpdate 20210201164500 74 0 73 0 0
+TotalVisits 106                 
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 115                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 22 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 92 6805728 261 339 9984662
+1 7 132 7081133 243 328 7027133
+2 4 68 3509909 225 287 7753760
+3 1 4 230457 279 357 8910267
+4 1 6 327053 166 213 5191841
+5 0 0 0 283 333 7404497
+6 1 1 0 307 375 10195346
+7 3 63 3467355 806 914 20068338
+8 0 0 0 1270 1326 28236185
+9 0 3 848298 882 944 22412958
+10 5 77 5017671 1415 1494 31666245
+11 54 512 8295828 1372 1418 30814533
+12 203 989 61649715 1042 1118 25704019
+13 149 986 59490276 468 532 10732600
+14 182 855 54052517 695 771 19504583
+15 137 485 27826789 643 698 14466350
+16 18 264 10506490 227 284 5781720
+17 80 423 27799530 300 389 7555361
+18 144 729 44356044 443 520 9814345
+19 13 137 6378789 788 844 18738985
+20 4 72 4427286 358 436 8752656
+21 7 138 9202441 368 418 8161327
+22 55 314 11442304 345 384 7920724
+23 30 300 7988585 220 280 7902620
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+ge 1072 6201 338730156
+ru 13 316 17519724
+de 9 25 1156731
+us 6 57 1015114
+cl 3 48 1952634
+nl 0 1 137957
+mk 0 1 106804
+id 0 1 85078
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+MJ12bot/ 8479 178145994 20210131222745 0
+AhrefsBot/ 1613 30395472 20210131223549 0
+YandexBot/ 932 19468906 20210131232311 0
+bot[\s_+:,\.\;\/\\-] 920 71697871 20210131233526 0
+Googlebot/ 614 9591471 20210131234938 0
+bingbot/ 496 19693776 20210131233240 0
+yandex 13 503505 20210131011313 0
+Mail\.RU_Bot/ 11 670157 20210126173135 0
+no_user_agent 8 595834 20210129141623 0
+Googlebot\-Image/ 7 1101071 20210129201037 0
+facebookexternalhit/ 6 172201 20210131003906 0
+YandexImages/ 3 105334 20210127002447 0
+bingpreview 2 3650 20210128214050 0
+LinkedInBot/ 1 52589 20210122004303 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+png 1928 210980558 0 0
+js 1178 13655734 0 0
+css 1017 7217559 0 0
+jpeg 1272 101712417 0 0
+html 103 2136535 0 0
+ttf 14 366150 0 0
+woff2 137 5784494 0 0
+woff 1 97913 0 0
+Unknown 839 6936374 0 0
+svg 12 1174992 0 0
+env 1 606 0 0
+webp 3 213322 0 0
+cgi 1 1690 0 0
+jpg 97 1415316 0 0
+eot 4 312652 0 0
+gif 43 8697886 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 357 20
+Unknown 2 1
+macosx 7 3
+ios_iphone 896 48
+win7 933 193
+win10 4169 822
+linux 60 6
+win8.1 226 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 37
+chrome40.0.2214.109 1 0
+safari13.0.4 61 3
+chrome88.0.4324.104 902 266
+safari14.0.3 67 4
+msie11.0 122 9
+chrome87.0.4280.88 1072 139
+chrome83.0.4103.106 3 0
+safari12.1.2 68 4
+chrome63.0.3237.0 1 0
+chrome80.0.3987.99 1 0
+firefox82.0 1 1
+chrome87.0.4280.101 137 8
+chrome58.0.3029.110 1 1
+safari14.0.2 505 26
+chrome86.0.4240.77 124 6
+chrome87.0.4280.141 2852 567
+chrome79.0.3945.130 16 1
+firefox68.0 1 1
+chrome70.0.3538.110 1 0
+safari13.1.2 1 1
+chrome77.0.3865.116 1 0
+opera73.0.3856.329 77 7
+chrome86.0.4240.185 1 0
+firefox78.0 1 1
+mozilla 1 0
+chrome40.0.2214.85 3 3
+chrome86.0.4240.198 1 1
+opera73.0.3856.344 168 26
+chrome81.0.4044.129 1 1
+chrome88.0.4324.93 79 6
+safari14.0.1 195 11
+chrome88.0.4324.96 6 0
+Unknown 1 1
+chrome57.0.2987.133 39 3
+msie9.0 15 0
+chrome86.0.4240.114 62 3
+chrome86.0.4240.183 62 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20210111184111
+Go_http_package 20210111024818
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go_http_package 20210111024818
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 61 79
+From1 0 0
+From2 34 115
+From3 2 2
+From4 1006 6454
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+yandexcom 0 1
+yandexru 4 7
+www_google_ru 0 2
+www_google_ge 0 4
+bing 1 4
+www_google_com 29 94
+images_search_yahoo_com 0 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://3dacq.georgiancard.ge 1 1
+https://freevpn.space/web-proxy/puzzle.ge 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%e1%83%9b%e1%83%90%e1%83%92%e1%83%98%e1%83%93%e1%83%98%e1%83%a1+%e1%83%9b%e1%83%9d%e1%83%9a%e1%83%91%e1%83%94%e1%83%a0%e1%83%a2%e1%83%98 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%e1%83%9b%e1%83%9d%e1%83%9a%e1%83%91%e1%83%94%e1%83%a0%e1%83%a2%e1%83%98 1
+%e1%83%9b%e1%83%90%e1%83%92%e1%83%98%e1%83%93%e1%83%98%e1%83%a1 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+206 4 276964
+302 87 16902
+301 38 8878
+419 26 21632
+503 1 428
+500 88 502602
+404 1551 1586007
+403 72 0
+405 1 47512
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 411
+/product/--Deli-Stationery-7Nkwk 1 -
+/public/uploads/products/photos/r53LyXYrkbYymtIfRKmpJzZriYI3jK82ySsLzNBz.png 1 -
+/product/--Sr4UH 1 -
+/product/-Super-glue-3-Deli-Stationery-nUBvw 1 -
+/product/--ZFCJu 2 -
+/product/-175-Deli-Stationery-mFiMf 1 -
+/product/---vAmWY 2 -
+/product/--76x76-50-Deli-Stationery-3LkDs 1 -
+/product/---05OB9 1 -
+/public/uploads/products/photos/8mJdeJD0iOzJ8hNkRMMVfRb2PP5Ak3svp7azuVnn.jpeg 1 -
+/product/--Deli-Stationery-Do2cc 1 -
+/product/---KoP2N 1 -
+/product/---RD0YT 5 -
+/product/-LJiKg 2 -
+/public/uploads/products/photos/CKKljmnP6swOIXEeMI9K6aMWVUiwgZnZhRk04l46.jpeg 1 -
+/product/---6090--Deli-Stationery-VZu72 1 -
+/product/--nJuvz 2 -
+/product/--IkLAE 1 -
+/product/--A5-ZIP-Deli-Stationery-RTada 1 -
+/product/--m7uOx 1 -
+/product/---CyBuq 1 -
+/product/--A4-80-100-BL-180-fTVR9 1 -
+/.git/config 1 -
+/public/uploads/products/photos/dcKGlXRwOrSsPxPCf8EcCQuxNU1mEp8g9an6urq1.jpeg 1 -
+/product/--gcVB3 1 -
+/public/uploads/products/photos/PsBqXcuNqOCujMAS8HtL78o84ODOqVWKs8zcBdXb.jpeg 1 -
+/public/uploads/products/photos/zkBCwewDbKb6YQMyi825d0eLKvB37aItBTbdK5ZN.jpeg 1 -
+/product/---t27qn 3 -
+/product/-C6-114162-110-iQmWq 1 -
+/product/--Roller-Pen-05mm-BLUE-95Zwi 1 -
+/product/---Deli-Stationery-8aKTF 1 -
+/product/--Deli-Stationery-uuXal 1 -
+/product/---60---l3GV8 2 -
+/public/uploads/categories/icon/tM8AZtAcAhZhfpSqHFagikUM36SVSJKZkJYVrDUq.jpeg 5 https://www.google.lv/
+/public/uploads/products/photos/4C4et5KD0qNjN6iVSu02JZUriEiB3GMbYYBkqTFL.jpeg 1 -
+/product/-4-140-100-525x297---40--Tanex-KBRQE 1 -
+/public/uploads/products/photos/6ubvOsgoKPhod8F4Osx0wv2aXSXSYZNrTLE322Dh.jpeg 1 -
+/product/Camelion---KD-362-Red-j5Bdu 1 -
+/public/uploads/products/photos/tGoQcX1oIbqcmC1TYNYlcKG3jyYoithKs0wbwjix.png 1 -
+/public/ 81 https://www.puzzle.ge/search
+/product/-2B-12-iyXhO 1 -
+/product/-4--Deli-Stationery-N5RC0 1 -
+/product/--Mini-tip-05mm-BLACK-11Ve3 1 -
+/product/--100-Deli-Stationery-4vGU5 1 -
+/product/-PjROp 2 -
+/product/--80-3nIMU 1 -
+/product/--A4--Deli-Stationery-Z5F7K 3 -
+/public/uploads/products/photos/gAdXJzRu8dH2SnXBUf4vyIRemM9AHuixWsF6I5Ai.jpeg 1 -
+/product/-----M3gHO 1 -
+/product/---kGPyj 2 -
+/product/---kUKDu 1 -
+/product/--Q2Ahn 1 -
+/public/uploads/products/photos/FyShaK6YEFUdstnOXmaw88kvc2XQ8uqYMh8TScbh.png 1 -
+/product/---107X96-Deli-Stationery-QVNXn 1 -
+/public/uploads/products/photos/cx8UyzeS9lPSbM4s454L0jXhfv2NrfFhR97CUvqE.png 1 -
+/public/uploads/products/photos/Lzm8eYzbibyVSWguzg6loKqjUkFdv7It8DnAqLw5.jpeg 1 -
+/public/uploads/products/photos/0nrg61PFYd9CJzfkaXZf7dqlIdw7QVHdNOKaRoYW.png 1 -
+/product/--68xPw 1 -
+/public/uploads/products/photos/PgQhrGWq4Oany6UBsPDKWKHxgkCxKBqUmDU2xpdq.jpeg 1 -
+/product/--3lBAf 1 -
+/product/--wqnxn 1 -
+/product/---60---jjgc4 3 -
+/product/--BNmyz 1 -
+/product/--Deli-Stationery-4ujhc 1 -
+/product/-U0Oqr 2 -
+/public/uploads/products/photos/KRrNr77NCO0658gaDNpKQROkTjLeRhOC0KqSstTZ.jpeg 1 -
+/product/-8--Deli-Stationery-Rc8HB 1 -
+/product/--07--Vinson-wGCRv 1 -
+/product/--A4--Deli-Stationery-LXA1I 1 -
+/product/----yTDBo 1 -
+/product/--07mm-DYGtj 1 -
+/product/---iRC26 2 -
+/product/-10-Deli-Stationery-TH51Q 1 -
+/product/-rEVx9 1 -
+/product/--375x290-Deli-Stationery-jj7JL 1 -
+/product/Test-product-LEWJz 1 -
+/product/-A3-xUZ8o 2 -
+/products 26 -
+/ 38 -
+/product/---CELLO-JD4jp 1 -
+/product/--Deli-Stationery-QjJjn 2 -
+/product/--4---yqOzm 1 -
+/product/-4-110-100-9906x57---10--Tanex-J1i6y 1 -
+/product/-JyAsf 1 -
+/public/uploads/products/photos/KfpSCuKfoFMlemaB2CES0sK2teW5KFfO4t5cJBQO.jpeg 1 -
+/product/--A4-80-100-TARO-274-EnO2i 1 -
+/apple-touch-icon-120x120.png 1 -
+/product/--A4-80-500-250-MfuWf 1 -
+/product/--NuoiY 2 -
+/public/uploads/products/photos/hjx1ojTkFTi0nxM0ZbKPUwBvIqFYdBn8TqHX1QQ2.png 1 -
+/product/-A4--0553-bv85X 2 -
+/public/uploads/products/photos/C0Pe0K5BwDLnTW4gnxjzvW2x2SXTINBAqadTKItB.jpeg 1 -
+/public/uploads/products/photos/RhtsI7UBRygJ71KczLMbBC2TtrpSH480PX0ktnqk.jpeg 1 -
+/product/--30--Deli-Stationery-UXNYr 1 -
+/public/uploads/products/photos/Fxto2l9mAFsLu59bFQQkq80aZ1HUL8jIgfrULEKG.png 1 -
+/product/---Bs1Ll 2 -
+/product/--Foz5j 2 -
+/product/--bwVCZ 1 -
+/product/--IChkb 1 -
+/product/--abY1A 1 -
+/product/-12--DELI-STATIONERY-2s24Y 1 -
+/product/--n90pY 2 -
+/product/-180----Deli-Stationery-yHBj8 1 -
+/product/--IEjZo 1 -
+/public/uploads/products/photos/xXUOlFb8kbbweACJoR1FtfAe1Q3gW3kSf73ygfOq.jpeg 1 -
+/product/--07--1Fy7p 2 -
+/product/--TePkq 3 -
+/product/--A4-80-500-110-Yho0H 1 -
+/public/uploads/products/photos/Pl2CpNs7pRgoehWVgI6NB9tyjS517WVWRVhHsXeP.png 1 -
+/product/----4-OWzLY 1 -
+/product/--QOvb9 2 -
+/product/--HfATH 1 -
+/product/---105-NQGog 1 -
+/product/--Bullet-tip-05mm-BLACK-u5xdS 1 -
+/dasdasd 2 -
+/public/uploads/products/photos/N1mFQy6XyfK80mzBxIbxq40OkSGqxZ94B9Wi7DIr.jpeg 1 -
+/product/--e7XH4 2 -
+/product/--2kzgB 2 -
+/product/-aaqk8 1 -
+/wp-login.php 5 -
+/product/---mMoiX 1 -
+/product/---lWUn2 2 -
+/public/uploads/products/photos/Zwg0BNgY3Zax5JSvXodBV81HXOfa4wNtaW4ZOQTY.jpeg 1 -
+/product/--Deli-Stationery-bPBhN 1 -
+/checkout 1 -
+/public/uploads/products/photos/NdG8wUOCTkyH84IjpXBkBcHna2A7dmPZoD9iPtZh.jpeg 1 -
+/product/-20--Deli-Stationery-7Hbz9 1 -
+/product/--100-76x101-Deli-Stationery-jgaC9 1 -
+/product/--iQcHE 2 -
+/product/---30---HOSyS 1 -
+/product/--EG3fg 1 -
+/public/uploads/products/photos/5Z2wErj2Mx0VrxOgcxtdN2Qk59rtRwDzSLaGDc4f.jpeg 1 -
+/public/uploads/products/photos/gQqYAdiEJuRPbCascnSpVjQbShvOQITXRw14ODdr.jpeg 1 -
+/product/--76126mm-100--Deli-Stationery-NpNul 1 -
+/product/-NP502-7oer7 1 -
+/product/---GOLDEN--jsxw2 1 -
+/public/uploads/products/photos/n1RM7Rk3UQRPGojpJ6HWvZVaDcHJ3nQrvsLzR5v9.png 1 -
+/product/-12--DELI-STATIONERY-JkPvy 1 -
+/product/--OAAa0 1 -
+/product/----z3cP8 1 -
+/public/uploads/products/photos/tBqv1qBCpPCQUbo4YobwPafqrnXWTVN8UY183Rl4.png 1 -
+/product/--KfDzl 2 -
+/product/-HB-12--wF2Vm 1 -
+/product/------3Nsjr 1 -
+/product/----7u0td 1 -
+/public/uploads/products/photos/UxK5rHhafVgW6g9pUKTivGSxclcwRqJK1NMlFBQF.png 1 -
+/product/----OwPX1 1 -
+/product/--Deli-Stationery-mvCyX 2 -
+/product/--RIO-100--Deli-Stationery-KHjdV 1 -
+/product/--12-4FUIX 1 -
+/product/---SUPER-WINGS-owqiN 1 -
+/public/uploads/products/photos/ZJU4Z8mrGYKK4wcBnCnhgJYJA7cw4MTRkapvsuCX.png 1 -
+/product/--Y2tgT 1 -
+/robots.txt 653 -
+/product/--Roller-Pen-05mm-BLUE-7Tw07 1 -
+/product/-HB-12---Rp9UF 1 -
+/product/--07--Lantu-zjGZa 1 -
+/public/uploads/products/photos/0L0BgBeoiXIyhpKp7GhlJ8gJE4PowRTx1wELcZ1w.jpeg 1 -
+/returnpolicy 1 -
+/product/--Bullet-tip-05mm-BLUE-sJIPg 1 -
+/product/---DA-auLPw 1 -
+/product/--N3-Deli-Stationery-ehK9H 1 -
+/public/uploads/products/photos/6LmBOb5mM8dkubO9qerj8ZfGXcDO5wtByOVmlqpd.jpeg 1 -
+/public/uploads/products/photos/LNZea6AecdFrUSc0DiwZLWX2kVakK8riXOQuPrHQ.jpeg 1 -
+/public/uploads/products/photos/xQWhShI3NDtnguuoS1dz7G0NnRnMZPQWkNTucUhI.jpeg 1 -
+/product/--YNtIA 1 -
+/product/--Deli-Stationery-gn1ys 1 -
+/product/--15-50---Deli-Stationery-pFI8h 1 -
+/product/--3--Deli-Stationery-uhLsW 1 -
+/product/-17--x7H65 1 -
+/product/--07mm---SjXT3 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/product/-15--3NXon 2 -
+/product/--56WJO 1 -
+/product/--s3t4E 1 -
+/product/--TENFON-516-sr0r5 1 -
+/product/--sX5kt 1 -
+/product/-35--Deli-Stationery-h8z6s 1 -
+/public/uploads/subcategories/banner/Jm7YZjRgW92dyXrUs7K78psBBGdJQToiPAOhNgbW.png 1 -
+/product/--40-4--Deli-Stationery-3yZO1 1 -
+/product/-502-Super-Glue-8-Deli-Stationery-8HGRv 1 -
+/product/----mahLB 1 -
+/public/uploads/products/photos/iRr8g0vE0O6rPMb1Jv5oIjEDIvlN3kyarJ4d524z.png 1 -
+/product/--EGbUM 1 -
+/product/--2TxNL 2 -
+/product/--OibBb 3 -
+/product/-17--QMEbt 1 -
+/public/uploads/products/photos/V0xtdqmSnNVgMqOr611M9asNZa55Grwv14lmB0oR.png 1 -
+/public/uploads/products/photos/Snnpl77ADQMzBMwz2tHKXc31ZmVarLZrkEYHvqxZ.png 1 -
+/public/uploads/products/photos/RVB3Qzx78J01xKyikW4ImmzPMOrKLsXP1CKujKIt.jpeg 1 -
+/product/--A4--Deli-Stationery-gbhC0 1 -
+/product/-87rdv 1 -
+/public/uploads/products/photos/eBRe2UDkyrtjcutGTJhRbs5IPhVWBrlzIdmtwTHJ.jpeg 1 -
+/public/uploads/products/photos/7YEhVwHcH0FgJUHnk1ON8z64xT3Mo5N0N3Cvph01.jpeg 1 -
+/public/uploads/subcategories/banner/E9MbAY549Qt55sGtVb6uZrYTTrtEKXNNMTKq2wUc.jpeg 1 -
+/public/uploads/products/photos/FaqGvxVfvO9M3T9cJ5kOtcesvO8APYcPTEzZj8ko.jpeg 1 -
+/product/--6PujI 3 -
+/product/--QvtZx 2 -
+/public/uploads/products/photos/qYh4jFlKZULMStLQhjpaXZMjgzdAwiZUvwD20EH8.jpeg 1 -
+/product/-A4-----30---Wd7TV 1 -
+/product/--HL--777--XmiHd 1 -
+/product/-100-sIvWF 1 -
+/product/----TtD3m 1 -
+/public/img/favicon.png 1 -
+/product/--Bullet-tip-07mm-RED-tjzrT 1 -
+/product/-A4-40--Deli-Stationery-b2FsY 1 -
+/product/-High-glossy-CGP180G-A5-20-Yw4wp 1 -
+/public/uploads/products/photos/76BUtivW8Wb2ixPE58ZeabOyBGFsjhEyNGVDcSa1.png 1 -
+/product/-18--jaNZ4 2 -
+/product/---5tQJ6 1 -
+/product/--ZIP--Deli-Stationery-nQqtc 1 -
+/categories 1 -
+/product/-Self-Adhesive-Glossy-Photo-Paper-SGS115-A320-DLFbW 1 -
+/product/-10-R2bJ9 1 -
+/public/uploads/products/photos/Zcv21AJZIl57tjvzK9itsTypceFU4AuSqUVIWwBD.png 1 -
+/public/uploads/products/photos/L2ohN3r9VdonV5asj1be0tOzLHbytafreZuzFsAB.png 1 -
+/product/--2--nh2Vm 1 -
+/product/--Bullet-tip-05mm-BLACK-EUCrc 1 -
+/product/--KSOJJ 1 -
+/subcategory/8 1 -
+/apple-touch-icon-precomposed.png 1 -
+/product/--A4-80-500-200-bGjaa 1 -
+/product/--100-76x76-RT4Ct 1 -
+/product/--4-20-6HbRM 1 -
+/product/---U0TIO 1 -
+/product/--76x76-30-UOERw 1 -
+/product/-B5----260x185-Deli-Stationery-qa0o1 1 -
+/public/uploads/products/photos/c1akUOaeGbYNsICqjbpBiQQxumnaCrfTkl0jBRBv.png 1 -
+/product/--A4--Deli-Stationery-Z23WU 1 -
+/product/--ntiNY 1 -
+/product/--A2Ku1 1 -
+/product/--5----DhPDA 1 -
+/terms 2 -
+/product/---20---fbIyO 1 -
+/public/uploads/products/photos/2PeseOOSy898LeRPFxHO3597GvEDHZGNe87KErRb.jpeg 1 -
+/product/--xTZ2n 1 -
+/product/--Deli-Stationery-Syv4H 1 -
+/product/--Deli-Stationery-CLbsj 1 -
+/subcategory/13 1 -
+/product/--6zcpl 1 -
+/product/--07--Cello-jaKWn 1 -
+/product/--mGAI9 1 -
+/product/-12--DELI-STATIONERY-jhsGQ 1 -
+/product/--A4-80-500-240-xj4gG 1 -
+/product/--16-115--100--7402v 1 -
+/public/uploads/categories/banner/PSqzgYLAqMpEOvb7yg2d4nQibuvFW65X7YP8de1Y.jpeg 1 -
+/product/---DnC0S 2 -
+/product/----Deli-Stationery-0A38l 1 -
+/product/--Bullet-tip-07mm-BLUE-7wFkl 1 -
+/product/--A4-80-500-COBALT-421-lNC9q 1 -
+/product/--A4-75-100-O-371-rIXX5 1 -
+/public/uploads/products/photos/WHlX9QVQD6c9gUMebnQ0ZzOypb66nfPMUpQaE2ZP.jpeg 1 -
+/product/--Deli-Stationery-UpCcU 1 -
+/public/uploads/products/photos/ea3ZYMKBm8hs921rhHznd6AlYTE7pMp7gjBOBsRP.jpeg 1 -
+/public/uploads/products/photos/fPNiOQeAfhcEPwGtSHudEI8n7WwTL38xhosIbjs0.png 1 -
+/public/uploads/products/photos/DzCBtqdfWZYuEtArysW91jI8UvpSjPdi4F7UHs0n.png 1 -
+/product/--2--19kXy 1 -
+/product/--Bullet-tip-07mm-BLUE-9ZegS 1 -
+/public/uploads/products/photos/rUK0kEo6qUTnQT6iRsb1ktQipa8RYzkOyrohgE6e.png 1 -
+/product/-ILz86 1 -
+/product/-A5-wpYvM 2 -
+/product/--spFHE 2 -
+/product/---QifH9 1 -
+/product/--ruhYt 2 -
+/product/---SUPER-WINGS-ufR3l 1 -
+/public/frontend/images/xloading.gif 23 https://puzzle.ge/public/frontend/css/xzoom.css
+/public/uploads/products/photos/zHBXo6IhfieImsb28d1AtIXZVezGz3kwW9WGlX30.png 1 -
+/product/---RUXbP 2 -
+/product/--ien5a 1 -
+/product/--YsEsq 2 -
+/sitemap.txt 16 -
+/product/-xHON7 1 -
+/public/uploads/products/photos/Nb07IyWWcqYKvTjOu0dSAfFzkdBbdiX6rZTqVbcT.jpeg 1 -
+/product/--4560-Deli-Stationery-vFNSL 1 -
+/product/---PAP4s 1 -
+/admin/orders/eyJpdiI6IkJrTWVQUjJUV2tkXC93b0hvZzJWSkVnPT0iLCJ2YWx1ZSI6IkhqTzZwWlRjbGRTM2tcLzd1WWJQS1BRPT0iLCJtYWMiOiI2MTIzMzQ2MTZjZjkwODk0ODZkZjNlNTgxNDNiNzQ0YWM3ZmU3YTE5ZTAzODUzYTI0NDExNWViMDZjNTIwM2Q5In0=/show 1 https://puzzle.ge/admin/orders
+/product/--1WZPL 1 -
+/public/uploads/categories/banner/Sdy28s6nhgLVEA8dajG59sH8oTJCxwU4H8k1SD70.png 2 https://yandex.com/images/search
+/product/--05---2MawG 1 -
+/public/uploads/products/photos/j9ojsNyD6OHSeWjBkSiHeTFaOTsJ1JzF7Vym8pUl.jpeg 1 -
+/product/----rdoAT 2 -
+/product/--tpDcC 1 -
+/product/--4Md54 1 -
+/product/------LLFqk 1 -
+/checkout/payment_select 1 -
+/product/---svPJr 2 -
+/public/uploads/products/photos/cbnQxDQoRk8oul8n32QmJz6fX3vkZTrXuH49W6Vq.jpeg 1 -
+/product/--55FK5 1 -
+/product/--121--Z6q1O 1 -
+/product/--A4-hR9Sv 1 -
+/public/uploads/products/photos/LRwJ3hvqVkAEo0BoHwQ7q1XhDbRaDxheYm5yXaK5.png 1 -
+/product/----6desn 1 -
+/search 217 -
+/public/uploads/products/photos/92KA6gbyFCy8uO6pQ76LKwfi7yGqQ5MqUWhR27YW.jpeg 1 -
+/product/---ui64T 2 -
+/product/-Bh9KR 2 -
+/product/--66rag 3 -
+/public/uploads/products/photos/E2M4T8zp4pYMnohCn1y2TClW6BwG5YruRucc8i6H.png 1 -
+/public/uploads/products/photos/LwWmVU3zHkjyNEVZ9WzJGHWqfvMsMt9mX2VrDsm2.jpeg 1 -
+/product/--07--Vinson-2SJys 1 -
+/product/----3n0m5 2 -
+/product/----8JwGO 2 -
+/product/--20-LOEJB 1 -
+/product/--Deli-Stationery-5UQcv 1 -
+/product/-30-n6Ihw 1 -
+/product/---175x95---98-----Deli-Stationery-9Rc3p 1 -
+/product/---WSisp 1 -
+/product/----m8v9f 3 -
+/public/uploads/products/photos/kuBrKNvkFlmXcXvqr9oP0eSWLQLNBrVbyY7WfGA0.jpeg 1 -
+/product/--Deli-Stationery-it6OK 1 -
+/product/--07mm---514QW 1 -
+/product/--Qnsj6 2 -
+/product/-343iR 1 -
+/product/--60--Deli-Stationery-tAzx0 1 -
+/product/---iY9hd 2 -
+/public/uploads/products/photos/CpRS4unj87lnbJNYrYELO4I0cRM0dS5EjLD9UHIp.jpeg 1 -
+/product/--UqiQH 1 -
+/product/-A4--Deli-Stationery-AGYlg 1 -
+/product/---54CWq 1 -
+/product/--A4-80-100-S-240-nnTKq 1 -
+/product/--A4-HrVe7 2 -
+/public/uploads/products/photos/cp71silwesWiltyYj82CvNwzecCr3XQsXrpj0I0E.jpeg 2 -
+/product/----Deli-Stationery-IXxL8 1 -
+/product/--RLrTG 1 -
+/product/--vSeHH 1 -
+/product/--f8RHV 2 -
+/public/uploads/products/photos/tRThk7MDeKraJIiksnONeTBudpKOO5Ot5D6NyWQe.jpeg 1 -
+/product/-A4-----35---dJi6d 1 -
+/product/----TjZSO 2 -
+/product/--Bullet-tip-07mm-BLACK-Nt56S 1 -
+/product/----6R0bD 1 -
+/public/uploads/products/photos/lMV37SPWj2ST5oqysv7hK2fF4MqbmJcq8S0aA9eo.jpeg 1 -
+/public/uploads/products/photos/9GRyARPxy1ezlDM1Jw40t543MSJopR8RmuZ6PSlP.png 1 -
+/product/---90120-Deli-Stationery-vIV1k 1 -
+/public/uploads/products/photos/nq4K3DGd9e7uzQCJ9g0cPbsCCn0hkXeAMBtG1x6p.jpeg 1 -
+/product/--07mm-KIXBB 1 -
+/public/uploads/products/photos/V66UqOWPmvYwWvUf7p8Mqkk2mPYppJMfDb3XVIOT.jpeg 1 -
+/product/--07--Cello-Et3KA 1 -
+/product/--7----Deli-Stationery-A4-Z5wWm 1 -
+/product/--20--Deli-Stationery-eDGAK 1 -
+/product/--7J28X 2 -
+/product/--Th7iv 1 -
+/product/--A4-75-100-P-342-nsfLz 1 -
+/product/--51vJQ 2 -
+/product/--Zip--Deli-Stationery-t5U7x 1 -
+/product/-A3-VuUxK 2 -
+/product/-4-133-100-70x23-33--pQb1t 1 -
+/product/-----Deli-Stationery-aRJB9 1 -
+/public/uploads/products/photos/HuJb2fRdaNe5dSQvOH9GbzFwdMNbqdWn1Hu9ygiw.png 1 -
+/product/-102---DELI-STATIONERY-rYXAq 1 -
+/product/--07--Vinson-3Ze35 1 -
+/product/-A4-----35---WYjUG 2 -
+/product/---B3YFT 1 -
+/product/---40----46pzI 1 -
+/public/uploads/subcategories/banner/CMHtPnVUFaysM6Cj4hOgrrglfcs1ZUJBSwBCal4d.png 1 -
+/apple-touch-icon.png 1 -
+/product/-10-Deli-Stationery-SmaIm 1 -
+/product/-175mm-eRotC 1 -
+/product/----A4-Deli-Stationery-JoKED 1 -
+/product/-3-330450-110-294M5 2 -
+/product/-175-Deli-Stationery-Hs4KF 2 -
+/product/-175--KrUKK 2 -
+/product/--ANkle 1 -
+/product/---d4CtZ 1 -
+/product/------yuDWJ 1 -
+/product/--15-12-nZ6We 1 -
+/product/--60-76x83-sM85J 1 -
+/product/-4B-rj5mI 1 -
+/product/--zip---tLG4k 2 -
+/product/---11-UMATS 1 -
+/public/uploads/products/photos/yRvHUUxllGtvn15WezEjRiwTLly4cSfd0lRp0A4A.png 1 -
+/product/--5wDtK 2 -
+/product/--Roller-Pen-05mm-BLACK-BINsp 1 -
+/product/--07--Lantu-sZquo 1 -
+/product/-------rLtCF 1 -
+/product/--A4-80-100-LE-210-IiR1K 1 -
+/product/--330240mmA4-bZWcC 1 -
+/product/--44nuz 1 -
+/product/--YuFgc 1 -
+/product/---xrp19 2 -
+/product/-A3-8DsVR 3 -
+/product/-Contact-Adhesive-7149-6CifL 1 -
+/public/uploads/products/photos/0vHmGRJP2pKJUHWAj9zvtO4eJxVhN9Hl8l5YHyVY.png 1 -
+/product/--07--cKdJL 1 -
+/public/uploads/products/photos/kU7AxuCgaRlUGrphEjKcJKMnomvJK1C01qvAiLFE.png 1 -
+/subcategory 1 -
+/public/uploads/products/photos/CGyqqZIuB7ucPpwlVA6bZW6fhzvLSc1xhspS235v.png 1 -
+/product/--NhcQe 2 -
+/product/-4-165-100-381x212---65--Tanex-tUL85 1 -
+/product/---LJxW8 1 -
+/public/uploads/products/photos/DlA6OqebO1HnhUOSlqiq4AEbjh1AnZqkTIkw7jLD.png 1 -
+/product/--toLvS 1 -
+/product/--CXfvR 1 -
+/product/------240--Deli-Stationery-SF3av 1 -
+/product/--g6cQu 3 -
+/product/--UYVEj 1 -
+/subcategory/15 2 -
+/product/--VX8AI 1 -
+/product/--30-48--Deli-Stationery-suPq7 1 -
+/public/uploads/products/photos/KNMUHuXCZp0ZyEqrD5ygeYCkuLvZPzbI9xoj5N9w.jpeg 1 -
+/product/-----HYtHs 1 -
+/product/---f2zI6 1 -
+/product/-A5-80-Deli-Stationery-X3sKC 1 -
+/product/---Deli-Stationery-DLilW 1 -
+/product/-20--Deli-Stationery-93qKs 1 -
+/product/--20-J6kPd 1 -
+/public/uploads/subcategories/banner/uflPzHylpxED8Z54JQHw02os16FvZ2n84kYXILyw.png 1 -
+/product/-12--DELI-STATIONERY-QX3hZ 1 -
+/product/--5840-OQt6I 1 -
+/subcategory/4 1 -
+/product/--A4-ZUS6Y 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 115
+178.134.113.29 386 1003 60138343 20210129141632
+188.169.11.131 319 1897 99973246 20210128235129
+95.137.202.196 76 412 30941157 20210128134505
+31.146.29.120 56 126 3552924 20210111184436
+95.104.27.238 25 102 4877118 20210122220058
+188.169.33.233 18 129 6504885 20210111151019
+188.129.228.230 17 103 7149382 20210131104526
+95.104.43.219 14 94 7054220 20210111182118
+92.54.239.214 14 274 6878738 20210129234420
+95.104.66.28 13 184 7799516 20210131185837
+212.58.114.210 10 79 4191515 20210110233132
+91.151.136.200 10 100 1124912 20210118133610
+176.221.251.177 10 119 6878407 20210130140612
+94.43.105.137 8 8 49134 20210126221950
+212.72.135.198 7 76 4620706 20210112111345
+95.104.44.45 6 46 15939 20210123153757
+62.168.165.17 6 100 8459517 20210117122756
+212.58.103.9 6 73 4471191 20210120180209
+85.238.63.72 6 76 4033658 20210130183611
+144.76.168.111 5 20 936025 20210120110540
+212.72.132.86 5 62 2774876 20210126164435
+5.152.78.167 5 71 4427039 20210110132326
+81.16.253.99 4 67 3678643 20210131014133
+95.137.207.73 4 67 3679177 20210125211322
+5.178.142.147 3 61 2803433 20210110233704
+213.200.31.69 0 1 33894 
+149.3.33.225 0 1 33894 
+95.104.99.162 0 1 243670 
+93.177.174.51 0 1 597956 
+181.214.241.30 3 48 1952634 20210118140749
+188.121.214.187 1 61 3326855 20210129161031
+185.70.54.53 3 63 3449143 20210117154029
+13.66.139.72 0 5 52620 
+91.151.136.144 2 2 7982 20210131135424
+94.137.189.103 0 1 99727 
+91.151.136.182 1 1 776 20210108170803
+185.143.178.82 0 2 140590 
+31.220.3.98 1 1 188415 20210115033538
+176.221.154.170 3 62 3299511 20210122012258
+176.221.233.87 0 1 25016 
+13.66.139.122 0 3 131191 
+212.58.102.204 0 1 44328 
+178.134.60.186 3 56 2204444 20210121110136
+94.19.254.216 3 62 3457224 20210128011808
+212.58.119.192 0 1 597956 
+46.42.134.5 3 62 3457197 20210115021758
+212.58.121.220 0 1 102894 
+91.151.138.214 0 3 847710 
+109.172.128.199 0 2 617200 
+209.17.96.186 1 1 1690 20210111024818
+13.66.139.112 0 7 51663 
+188.169.183.229 0 1 771679 
+188.121.223.12 0 1 91036 
+149.3.31.239 0 2 1418796 
+176.74.78.161 0 1 1618603 
+178.134.188.7 0 4 1558771 
+180.243.133.20 0 1 85078 
+212.58.120.64 0 1 34791 
+185.168.227.33 0 1 26240 
+185.70.52.180 3 66 16230 20210128160454
+46.49.58.164 3 64 3492204 20210120100202
+5.178.229.81 3 64 3492204 20210128133421
+84.39.247.62 3 62 3457227 20210129075814
+91.151.138.165 0 1 27934 
+24.132.41.42 0 1 137957 
+188.169.183.138 3 63 3500255 20210114174637
+81.16.253.77 2 18 22680 20210122195517
+188.169.228.113 0 1 44766 
+176.221.190.127 0 1 534654 
+138.246.253.24 3 3 0 20210117061132
+188.169.96.41 0 2 217568 
+188.169.164.164 3 63 3500256 20210114220452
+31.146.30.191 0 1 579330 
+109.172.229.194 0 1 243670 
+31.146.184.206 0 2 21413 
+149.3.68.90 3 62 2330780 20210111144007
+185.70.52.160 2 31 858356 20210118191213
+91.226.179.138 0 1 14676 
+77.29.223.35 0 1 106804 
+185.168.225.41 1 61 3326858 20210119132921
+93.177.175.156 0 1 37665 
+185.70.52.95 0 1 1159040 
+23.102.70.47 1 1 606 20210122150350
+212.58.103.166 0 2 358640 
+37.232.73.56 0 1 22736 
+82.211.175.30 0 1 37665 
+54.196.62.239 1 1 189559 20210111040313
+94.43.220.118 0 1 580688 
+80.77.53.46 0 1 44328 
+94.43.220.113 0 1 14676 
+185.12.28.3 0 1 10128 
+185.134.173.65 0 1 16880 
+185.83.36.4 0 3 911368 
+195.64.208.233 0 2 170156 
+91.151.136.153 3 57 2212541 20210118153525
+93.177.128.20 0 1 58763 
+212.58.120.55 0 3 111944 
+188.169.227.202 0 1 76433 
+46.172.14.249 3 62 3457224 20210114163807
+94.137.162.196 0 1 14952 
+188.121.221.139 0 1 597956 
+31.192.63.240 3 67 4326423 20210124211300
+213.131.41.166 0 3 364412 
+176.221.173.33 0 2 33760 
+31.146.197.163 0 1 14676 
+91.151.136.107 3 3 24727 20210118160039
+185.70.52.243 0 2 523981 
+212.58.121.244 0 1 44328 
+213.200.15.67 0 1 597956 
+212.184.200.75 0 1 32291 
+81.16.242.155 0 1 19244 
+35.169.210.33 3 39 587785 20210118140535
+91.151.137.15 0 1 14676 
+82.211.148.148 0 3 500278 
+37.232.89.157 0 1 25016 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20210108 1 1 776 1
+20210109 16 189 10211686 3
+20210110 18 211 11421987 3
+20210111 117 535 23225677 9
+20210112 27 196 6628856 4
+20210113 46 341 28249339 6
+20210114 21 366 14842656 6
+20210115 27 243 24967728 6
+20210116 39 229 19078812 2
+20210117 10 169 12790130 3
+20210118 40 308 7207356 9
+20210119 1 66 5023586 1
+20210120 109 629 39608380 5
+20210121 23 175 5565346 5
+20210122 31 185 8723896 4
+20210123 10 124 2250079 3
+20210124 12 214 10401222 3
+20210125 196 566 28415242 5
+20210126 122 375 14553537 4
+20210127 20 205 8776516 4
+20210128 18 204 9267015 7
+20210129 158 727 46861457 5
+20210130 34 359 21634204 4
+20210131 7 33 998715 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 10
+30s-2mn 9
+0s-30s 66
+15mn-30mn 6
+30mn-1h 5
+2mn-5mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 108
+/ajax-search 290 205350 1 3
+/search 118 2492194 1 8
+/ 103 2136535 62 17
+/product/variant_price 100 5848 0 2
+/public/frontend/fonts/fontawesome-webfont.woff2 56 3317966 1 6
+/public/frontend/fonts/line-awesome.woff2 55 1895376 0 17
+/admin/orders 48 500909 4 10
+/admin 45 290746 2 14
+/login 23 35039 20 0
+/cart/nav-cart-items 17 19301 0 0
+/cart/addtocart 16 10227 0 0
+/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2 14 462972 0 1
+/public/css/demo/fonts/nifty-demo-icons.ttf 14 366150 0 0
+/subcategory/8 12 198685 0 0
+/admin/customers 12 90927 0 5
+/public/fonts/glyphicons-halflings-regular.woff2 12 108180 0 1
+/cardpayment 8 132664 0 0
+/contact 8 571585 0 1
+/subcategory/6 6 92174 2 2
+/subcategory/9 5 77728 0 0
+/products 4 87734 1 1
+/product/--347247mm-Deli-Stationery-ZWDSJ 4 73949 0 0
+/subsubcategories/get_subsubcategories_by_subcategory 4 88 0 0
+/product/--5--DJqmv 4 72110 1 0
+/profile 3 48714 0 0
+/admin/orders/eyJpdiI6ImYyeFBnNUMxbEVheENpbVwvaktuUUdnPT0iLCJ2YWx1ZSI6ImV0N0xQSGpWT3RFakVjMVJ5alVDVGc9PSIsIm1hYyI6IjAzZDg2YzEyNThjNDliOTk5YmRmNWQ4NTE5N2RmNTcxYTI0ZjI1OWY2ZDVkMDdhYTUxZWNjMWZkZWMyNDE5MDUifQ==/show 1 7345 0 1
+/admin/generalsettings 1 5673 0 0
+/admin/orders/eyJpdiI6IlJlMkp3TUJldmZ6bU8xbkllXC9aWVlRPT0iLCJ2YWx1ZSI6IjEyeTlpVVJ2VXVWSnNkYlNpVTNiMWc9PSIsIm1hYyI6IjAwYzg1MTczYzM5NDYzZjc0OTE5YTVlMGQ4NzZiNDAxYzg0Y2JlZmIwYzczZmZiYWI2N2JkNzU5ODZlZjgzYmMifQ==/show 2 13974 0 0
+/product/---s34eS 1 17598 1 0
+/admin/frontend_settings/home 2 15064 0 0
+/admin/links 1 5264 0 0
+/purchase_history/details 1 1152 0 0
+/subcategory/13 1 15442 0 0
+/product/--4560-f6F0E 1 19124 0 0
+/product/--lWXEr 2 36336 0 0
+/checkout 3 48994 0 0
+/admin/orders/eyJpdiI6Im55UERneEpsNE5PN2JGa0dJOGF2cnc9PSIsInZhbHVlIjoiU3JFVWlhK0xJTWI0VWNCTWxnM2ZGZz09IiwibWFjIjoiM2I1Yjc3N2M2OTlmOWU4Y2Y2NzA1ZWZhZTAyMTVhNGU4MGRmNGUyOWIxZThlODY2ZGQ0ZTQ0N2ZiYzIwMWI1YyJ9/show 1 7271 0 0
+/products/published 1 21 1 0
+/product/--07--Cello-Et3KA 1 18292 0 0
+/product/--A4--Deli-Stationery-DG6hg 1 18335 0 0
+/product/-A5-80--Deli-Stationery-c4JlE 1 18799 0 0
+/.env 1 606 1 1
+/admin/orders/eyJpdiI6ImZMTXg4MlZ6aG9yVFg0RGo2RnpyeHc9PSIsInZhbHVlIjoicmVKTEltb0pQdXdwdG5cL1JrOWVzUXc9PSIsIm1hYyI6IjYwM2Y3NjJhMjBkYjJmYTU2NjZmYzA5YTY4ZTg4OGIwMDgxYTg3ZDI2OGE5MzliNzZiNzE1Yjk0YjAwNTZlOGUifQ==/show 1 7145 0 0
+/admin/activation 1 6268 0 1
+/subcategory/5 2 30430 0 0
+/admin/orders/eyJpdiI6IndYUVlKNERHUWhnUzQydTdzNWNoMnc9PSIsInZhbHVlIjoiQkZ0QUQzWjNaeXVSTGM4TUxmXC9QaXc9PSIsIm1hYyI6IjAxNDU4NzYxMjVhNTQ4NTAyN2YzNWRhMmY0YzliYmY1YjY0N2U3ZjY4ZDNhYjUzOWU4NzNjZTZkMWYxYzlhM2YifQ==/show 1 7244 0 0
+/product/--A4-160-250-160-7Cbt4 1 18385 0 1
+/checkout/delivery_info 3 49580 0 0
+/product/-NA5-80037--GIWRA 3 56245 0 0
+/admin/privacypolicy/privacy_policy 1 5321 0 0
+/public/uploads/subcategories/banner/UClfTF9bz45wXKXcoM6I0gGm9qq4CGkI0QaRtEgM.webp 1 23080 0 0
+/admin/orders/eyJpdiI6ImI0TlwvQ09OQVIxUFVicW92XC9jXC8wV0E9PSIsInZhbHVlIjoiMGRcLzdNcFZrYk1VaU5YMktxK1BPd1E9PSIsIm1hYyI6ImI1YzJmMTJlMTU0MDMxNDk2MDk0ODFmODE1MTY1Y2Q4Y2ZhNjAzMTEzYTg4YjdkMDcxMTY5NGE0YTEwOWI4M2IifQ==/show 1 7346 0 1
+/product/-NP-503-A5-EfNNg 1 18525 0 0
+/admin/products/admin/eyJpdiI6IjJzdTRrOG1obkdRY2kzVERtUHo0Y3c9PSIsInZhbHVlIjoiUXVkN0FEUGJiZXhJMTVrcGpHbU1ZQT09IiwibWFjIjoiMDU3NTI5Yzg3Mzc2Y2FiMTRiZGJkZTRiYjc3YWEyY2RjNjY2YTcxNWM2ODg1MTkxOWI3OGZjNDYzODlkNzBhOCJ9/edit 1 10974 0 0
+/cgi-sys/suspendedpage.cgi 1 1690 1 1
+/public/frontend/fonts/fontawesome-webfont.eot 2 196834 0 1
+/product/--320700--Deli-Stationery-kpaAX 1 18660 0 0
+/product/15----Deli-Stationery-iBZMq 1 18361 0 1
+/admin/orders/eyJpdiI6IlFzOEo1Z3dqNUl4QVByU1E1QnpSWlE9PSIsInZhbHVlIjoidHl2SGlJYjBSakdcLzZIa1BWY3NIN0E9PSIsIm1hYyI6ImU3NGEyYThmNjg5NTUzMzc4NjIxNzlmYjU4MDc0ZTJkNzMyN2MyYTg5YzkxM2NiMjE4MTA2NmViMWVhMjQ5ZjgifQ==/show 1 7347 0 1
+/product/----2NU2a 1 19232 0 0
+/recharge 2 40 0 1
+/product/-A4--0554-ACI8O 1 18292 0 0
+/admin/products/admin/eyJpdiI6IkpDNVBsVm9VWmlpTnArUjQ3dDNzUFE9PSIsInZhbHVlIjoiUDFmOVkzT2JMWDZ5Nm5EXC9NSGo1R0E9PSIsIm1hYyI6ImI0MWVlNmU3M2MxY2EzNGIxZjEyNmE5NGIzN2U2Y2M2M2VhZWJlOGJiZTIwMjFkOGI2N2EwZGI4OWNlOTgwOTEifQ==/edit 1 11067 0 0
+/admin/orders/eyJpdiI6ImY4cFhPM2FSYnVvalV5ck1GRGxTXC93PT0iLCJ2YWx1ZSI6ImdnN2NjXC9NMjBNNW9sWkpKMFkrdUhRPT0iLCJtYWMiOiJlZDEyYTVkYWUwOWRjNDJhZmEwMmZhNWUwMjIwMDc0OGMzZjU0OTA5Y2ViYWMwZjgwN2UzNGQ3YjlkODg0YTcxIn0=/show 1 7144 0 0
+/purchase_history 1 16519 0 0
+/product/--Deli-Stationery-549vL 2 37260 0 0
+/product/-A4-035-100-HL-30335-VtOvs 3 57097 0 0
+/admin/orders/eyJpdiI6ImZZeFpTcDF4UTVUeElaM2g1UHZRZ1E9PSIsInZhbHVlIjoiYW1JQktXeHFzQ3F3WU14OXNiZDVoZz09IiwibWFjIjoiM2U2MTBkZDBlOThiYTc2NjFmNDQ3Y2EyMDcwY2MyZTk4ZDRmNjQ2MGY1MmU3MGRiMGM0ZmQ3OTFiNmYwNzZhMSJ9/show 1 6685 0 0
+/admin/orders/eyJpdiI6IkFGYWxsdkM0eXpPcGpkQU5ONDZueUE9PSIsInZhbHVlIjoiZFVBQTY1OXFWbTBJMVFWVElDNkVhdz09IiwibWFjIjoiNzA1ZmM3ODVhMzU0OWRkYmM2M2JhOGE5ZTJkYWM3YjQxNWJjYjNiZTNhMzJlMWQ4NWE2OGMzN2ZkNmMwYWIxNyJ9/show 2 14690 0 0
+/product/--07--Vinson-2SJys 2 36476 0 1
+/admin/orders/eyJpdiI6IjMxeDlMSExDNVRQMDZcL3ZiTUJJNXJnPT0iLCJ2YWx1ZSI6IlRYQUdkYnhMZHhEamhBOTIxbmhOaUE9PSIsIm1hYyI6ImRhZTEzZWU5MDZhZTc4NTY5MmI0NjViZmE5YjhlMWMyYzMyZGE0ODMyY2VhZWY2ODdlM2NmYWM1NzdkNmEzODcifQ==/show 1 7347 0 0
+/subcategory/11 2 31911 0 1
+/subcategory/15 1 14948 0 0
+/product/--20076mm-Deli-Stationery-2Kcpw 3 50850 0 0
+/public/uploads/subcategories/banner/ScgRCFZ26xK5aRyPHH2B81KXVtd39f4MUL1WWgeC.webp 2 190242 0 1
+/product/---9dxGY 1 18333 0 0
+/public/frontend/fonts/fontawesome-webfont.woff 1 97913 0 1
+/product/--CkxZZ 2 33934 0 0
+/admin/orders/eyJpdiI6Ijc2akxvNUhPZlZlUG1uVlZOV0JRVkE9PSIsInZhbHVlIjoiV0tuZEp0Wk1VTzduSUpHV1A4TEtzZz09IiwibWFjIjoiMjY2NDM0NTMwOGZiNmM3ZTM0MzRiOGViMjAyNmU3NTY0ZDM1OGRhZTIxNjhiNDNjMDZjZjM2ODY5MTZhZjQxMSJ9/show 1 6761 0 0
+/product/-16-Deli-Stationery-jdLx6 1 18523 0 0
+/product/-----72--Deli-Stationery-IUrtc 1 18428 0 0
+/product/--30-48--Deli-Stationery-suPq7 3 52985 1 1
+/sellerpolicy 1 16384 0 0
+/product/----BiNPq 2 37483 0 0
+/product/--Deli-Stationery-Sbvgq 3 56244 0 0
+/subcategory/14 2 30382 0 0
+/product/--35-HVFbQ 1 18280 0 0
+/product/--NAVIGATOR-A4-80-hDlNi 1 17854 0 0
+/admin/orders/eyJpdiI6IndoTmFaMEdob1d4QmV5ZkVveGVDSHc9PSIsInZhbHVlIjoiU0luV1lHU3NUVzlQYTRMcHBBeTB4UT09IiwibWFjIjoiMTI5NDE1ODMwMDU1Njk5NTU2ZWM0NmVlMWU0NjBiMDY3OGZjZGYyOTVmMTViYmNiYjE4OTBjZjRkMzNiODgyNSJ9/show 1 7112 0 0
+/product/---DA-auLPw 1 18870 0 0
+/cart/removeFromCart 1 1667 0 0
+/users/login 2 29615 2 0
+/admin/orders/eyJpdiI6Ik55bW9jMHU5b2FOamV0WVRUYWN2bWc9PSIsInZhbHVlIjoiVlJRUVkzMWxiNEJLeUJZZGNETXJIZz09IiwibWFjIjoiNWZlOTNiNTY5YTUzM2MxZGNkOGMyMzM4YzdlYzEyZDAyNDRhNTgxZWMzNGMwNTI5NWRkMDBmNjlmMmJmMjlkOCJ9/show 2 14690 0 0
+/products/sku_combination_edit 2 40 0 0
+/product/--Deli-Stationery-4ujhc 2 36891 2 0
+/cart/show-cart-modal 2 2576 0 0
+/returnpolicy 1 16764 0 1
+/cart 2 33540 0 1
+/admin/orders/eyJpdiI6ImZ4WWRvWE9cLzBJYXdFQTlzM0FvRkF3PT0iLCJ2YWx1ZSI6IkxDd2xsTzBIdFwvQVwvcEtubWZtY2pnQT09IiwibWFjIjoiNWIxNzQ0ZWVjNDRkNDVlYzI4ZWUzMzAwMDY0ZTNkNzQ1NDMxNzA3OWQ4ZDQyMzY2MDJmMzIzNTVmOTQ2NTE4NSJ9/show 1 6988 0 0
+/product/--A5-2020------HELIO-fiwBT 1 19037 0 0
+/subcategories/get_subcategories_by_category 2 3276 0 0
+/admin/products/admin 2 468048 1 1
+/product/--138-Deli-Stationery-RdiFv 3 55933 0 0
+/product/---AHrhq 1 18251 0 0
+/admin/orders/eyJpdiI6ImdsTmdzR1JJalJsZFRCTUhBaWRcL0VnPT0iLCJ2YWx1ZSI6IkVCVFZobXJ3RlNpdnZEOU5sQ2RZSnc9PSIsIm1hYyI6IjBiNzNkYTA4ZjM4ZDU1ZWZmMWYxNGFmMjZmYTExNzEyMDAwMTY1N2UwMzMyZjdjNmQ2NmUwZTk4MDIwYjIwM2EifQ==/show 1 6686 0 0
+/admin/orders/eyJpdiI6Ik05aGxzQWhKMFRxNDdFVkZJZE8wdXc9PSIsInZhbHVlIjoiOFpXaDR2ZGZpSisySzRvc01DRWJaQT09IiwibWFjIjoiMjkxYzRiYTFkZTcxODg1ZjkwYzY3MzQzZWQ3ZjM4YjkzZWEwNWVjMzU4MzRhMzMxYWQ4MjY3MmRlY2NmNWY1NyJ9/show 1 7139 0 0
+/product/--4-vpjoG 1 17615 1 0
+/public/frontend/fonts/line-awesome.eot 2 115818 0 0
+END_SIDER

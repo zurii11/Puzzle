@@ -1,0 +1,154 @@
+# Webalizer V2.23-08 Incremental Data - 03/30/2021 15:42:47
+2021 3 30 15 42 47
+86 86 1 16 0 0 1820331 1 1 1
+1 42 5965 27 30
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+30 30 155197 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+56 56 1665134 1 1 1
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+14 14 900884 0
+42 42 764250 1
+30 30 155197 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+86
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/puzzle/public_html/public/frontend/images/icons/cards/bitcoin.png
+0 1 0 1438 0 0
+/home/puzzle/public_html/app/Http/Controllers/Controller.php
+0 1 0 361 0 0
+/home/puzzle/public_html/public/frontend/images/icons/cards/order-ms-2.svg
+0 2 38983888 4186 0 0
+/home/puzzle/public_html/app/Http/Controllers/HomeController.php
+0 1 0 19214 0 0
+/home/puzzle/public_html/routes/web.php
+0 1 38984896 11961 0 0
+/home/puzzle/public_html/resources/views/frontend/payment_select.blade.php
+0 15 38985136 220953 0 0
+/home/puzzle/public_html/resources/views/frontend/delivery_info0.blade.php
+0 5 0 36060 0 0
+/home/puzzle/public_html/resources/views/frontend/delivery_info0
+0 1 0 7212 1 0
+/home/puzzle/public_html/public/frontend/css/custom-style.css
+0 11 0 979838 0 0
+/home/puzzle/public_html/public/frontend/images/icons/cards/order-ms-1.svg
+0 2 38983712 8516 0 0
+/home/puzzle/public_html/app/Http/Controllers/CheckoutController.php
+0 1 0 16021 0 0
+/home/puzzle/public_html/app/Http/Controllers/CartController.php
+0 18 0 101689 0 0
+/home/puzzle/public_html/app/Http/Controllers/Auth/LoginController.php
+0 12 0 53508 0 0
+/home/puzzle/public_html/resources/lang/ge.json
+0 3 38982608 166830 0 0
+/home/puzzle/public_html/resources/views/frontend/delivery_info.blade.php
+0 10 38984400 182188 0 0
+/home/puzzle/public_html/public/frontend/images/icons/cards/order-ms-3.svg
+0 2 38984064 10356 0 0
+# End Of Table - urls
+# -sites- (monthly)
+45.9.45.103
+0 86 86 1820331 1 1617117385
+/home/puzzle/public_html/resources/views/frontend/delivery_info0
+# End Of Table - sites (monthly)
+# -sites- (daily)
+45.9.45.103
+0 56 56 1665134 1 1617117385
+/home/puzzle/public_html/resources/views/frontend/delivery_info0
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+merabi@puzzle.ge
+0 86 86 1820331 2 1617117385
+# End Of Table - usernames

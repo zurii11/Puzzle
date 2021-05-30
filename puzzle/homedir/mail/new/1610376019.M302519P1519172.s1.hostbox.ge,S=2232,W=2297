@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 2IXgEVNj/F9ELhcADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Mon, 11 Jan 2021 18:40:19 +0400
+Return-path: <>
+Envelope-to: info@puzzle.ge
+Delivery-date: Mon, 11 Jan 2021 18:40:19 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1kyyMl-006NU7-2r
+	for info@puzzle.ge; Mon, 11 Jan 2021 18:40:19 +0400
+X-Failed-Recipients: iatsiklauri85@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: info@puzzle.ge
+References: <662392834da758cca2149650b69f95af@puzzle.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1610376019-eximdsn-746926068
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kyyMl-006NU7-2r@s1.hostbox.ge>
+Date: Mon, 11 Jan 2021 18:40:19 +0400
+
+--1610376019-eximdsn-746926068
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  iatsiklauri85@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (62%)) allowed. Message discarded.
+
+--1610376019-eximdsn-746926068
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;iatsiklauri85@gmail.com
+Status: 5.0.0
+
+--1610376019-eximdsn-746926068
+Content-type: text/rfc822-headers
+
+Return-path: <info@puzzle.ge>
+Received: from puzzle (helo=puzzle.ge)
+	by s1.hostbox.ge with local-smtp (Exim 4.93)
+	(envelope-from <info@puzzle.ge>)
+	id 1kyyMi-006NTJ-Rp
+	for iatsiklauri85@gmail.com; Mon, 11 Jan 2021 18:40:18 +0400
+Message-ID: <662392834da758cca2149650b69f95af@puzzle.ge>
+Date: Mon, 11 Jan 2021 18:40:16 +0400
+Subject: Order Placed - 20210111-064011
+From: info@puzzle.ge
+To: iatsiklauri85@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="_=_swift_1610376016_86033ea1ec61ca22022a660962a1003e_=_"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1610376019-eximdsn-746926068--

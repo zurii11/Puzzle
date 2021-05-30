@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: info@puzzle.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id 2I8rIUPWD2DafxgADX6OZQ
+	(envelope-from <>)
+	for <info@puzzle.ge>; Tue, 26 Jan 2021 12:43:47 +0400
+Return-path: <>
+Envelope-to: info@puzzle.ge
+Delivery-date: Tue, 26 Jan 2021 12:43:47 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.93)
+	id 1l4Jwx-006jhF-9J
+	for info@puzzle.ge; Tue, 26 Jan 2021 12:43:47 +0400
+X-Failed-Recipients: gulovarshanidze@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: info@puzzle.ge
+References: <ac4c8ccfbe69ff5fc1a1fda6e5570d90@www.puzzle.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1611650627-eximdsn-803809602
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l4Jwx-006jhF-9J@s1.hostbox.ge>
+Date: Tue, 26 Jan 2021 12:43:47 +0400
+
+--1611650627-eximdsn-803809602
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gulovarshanidze@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1611650627-eximdsn-803809602
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gulovarshanidze@gmail.com
+Status: 5.0.0
+
+--1611650627-eximdsn-803809602
+Content-type: text/rfc822-headers
+
+Return-path: <info@puzzle.ge>
+Received: from puzzle (helo=www.puzzle.ge)
+	by s1.hostbox.ge with local-smtp (Exim 4.93)
+	(envelope-from <info@puzzle.ge>)
+	id 1l4Jwx-006jh1-2B
+	for gulovarshanidze@gmail.com; Tue, 26 Jan 2021 12:43:47 +0400
+Message-ID: <ac4c8ccfbe69ff5fc1a1fda6e5570d90@www.puzzle.ge>
+Date: Tue, 26 Jan 2021 12:43:46 +0400
+Subject: Order Placed - 20210126-124346
+From: info@puzzle.ge
+To: gulovarshanidze@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="_=_swift_1611650626_82ca403f5f35a9f01d1b636c22607067_=_"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1611650627-eximdsn-803809602--

@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: puzzle@s1.hostbox.ge
+Received: from s1.hostbox.ge
+	by s1.hostbox.ge with LMTP
+	id yG1jG8Heb2CwtzMADX6OZQ
+	(envelope-from <>)
+	for <puzzle@s1.hostbox.ge>; Fri, 09 Apr 2021 08:57:37 +0400
+Return-path: <>
+Envelope-to: puzzle@s1.hostbox.ge
+Delivery-date: Fri, 09 Apr 2021 08:57:37 +0400
+Received: from mailnull by s1.hostbox.ge with local (Exim 4.94)
+	id 1lUjD7-00EE7D-Bc
+	for puzzle@s1.hostbox.ge; Fri, 09 Apr 2021 08:57:37 +0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@s1.hostbox.ge>
+To: puzzle@s1.hostbox.ge
+References: <E1lUhNW-00DhmB-Dk@s1.hostbox.ge>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1617944257-eximdsn-1948295308
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lUjD7-00EE7D-Bc@s1.hostbox.ge>
+Date: Fri, 09 Apr 2021 08:57:37 +0400
+
+--1617944257-eximdsn-1948295308
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    Domain puzzle.ge has exceeded the max defers and failures per hour (5/5 (83%)) allowed. Message discarded.
+
+--1617944257-eximdsn-1948295308
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; s1.hostbox.ge
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+
+--1617944257-eximdsn-1948295308
+Content-type: message/rfc822
+
+Return-path: <puzzle@s1.hostbox.ge>
+Received: from puzzle by s1.hostbox.ge with local (Exim 4.94)
+	(envelope-from <puzzle@s1.hostbox.ge>)
+	id 1lUhNW-00DhmB-Dk
+	for gzhandler@gmail.com; Fri, 09 Apr 2021 07:00:14 +0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: puzzle.ge/index.php for 92.221.145.57
+X-PHP-Filename: /home/puzzle/public_html/index.php REMOTE_ADDR: 92.221.145.57
+Message-Id: <E1lUhNW-00DhmB-Dk@s1.hostbox.ge>
+From: puzzle@s1.hostbox.ge
+Date: Fri, 09 Apr 2021 07:00:14 +0400
+
+https://puzzle.ge/product/-Double-side-High-glossy-CGD220GA450-1w3lS
+
+--1617944257-eximdsn-1948295308--
