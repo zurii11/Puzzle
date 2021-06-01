@@ -1,0 +1,1 @@
+[27-Mar-2021 16:07:26 Asia/Tbilisi] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/puzzle/public_html/app/Http/Controllers/CartController.php on line 68
