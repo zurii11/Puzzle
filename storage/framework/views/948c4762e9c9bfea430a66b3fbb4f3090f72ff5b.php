@@ -52,41 +52,41 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="<?php echo e(asset('frontend/css/bootstrap.min.css')); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo e(asset('public/frontend/css/bootstrap.min.css')); ?>" type="text/css">
 
 <!-- Icons -->
-<link rel="stylesheet" href="<?php echo e(asset('frontend/css/font-awesome.min.css')); ?>" type="text/css">
-<link rel="stylesheet" href="<?php echo e(asset('frontend/css/line-awesome.min.css')); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo e(asset('public/frontend/css/font-awesome.min.css')); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo e(asset('public/frontend/css/line-awesome.min.css')); ?>" type="text/css">
 
-<link type="text/css" href="<?php echo e(asset('frontend/css/bootstrap-tagsinput.css')); ?>" rel="stylesheet">
-<link type="text/css" href="<?php echo e(asset('frontend/css/jodit.min.css')); ?>" rel="stylesheet">
-<link type="text/css" href="<?php echo e(asset('frontend/css/sweetalert2.min.css')); ?>" rel="stylesheet">
-<link type="text/css" href="<?php echo e(asset('frontend/css/slick.css')); ?>" rel="stylesheet">
-<link type="text/css" href="<?php echo e(asset('frontend/css/xzoom.css')); ?>" rel="stylesheet">
-<link type="text/css" href="<?php echo e(asset('frontend/css/jquery.share.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/bootstrap-tagsinput.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/jodit.min.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/sweetalert2.min.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/slick.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/xzoom.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/jquery.share.css')); ?>" rel="stylesheet">
 
 <!-- Global style (main) -->
-<link type="text/css" href="<?php echo e(asset('frontend/css/active-shop.css')); ?>" rel="stylesheet" media="screen">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/active-shop.css')); ?>" rel="stylesheet" media="screen">
 
 <!--Spectrum Stylesheet [ REQUIRED ]-->
-<link href="<?php echo e(asset('css/spectrum.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('public/css/spectrum.css')); ?>" rel="stylesheet">
 
 <!-- Custom style -->
-<link type="text/css" href="<?php echo e(asset('frontend/css/custom-style.css')); ?>" rel="stylesheet">
+<link type="text/css" href="<?php echo e(asset('public/frontend/css/custom-style.css')); ?>" rel="stylesheet">
 
 <?php if(\App\Language::where('code', Session::get('locale', Config::get('app.locale')))->first()->rtl == 1): ?>
      <!-- RTL -->
-    <link type="text/css" href="<?php echo e(asset('frontend/css/active.rtl.css')); ?>" rel="stylesheet">
+    <link type="text/css" href="<?php echo e(asset('public/frontend/css/active.rtl.css')); ?>" rel="stylesheet">
 <?php endif; ?>
 
 <!-- Facebook Chat style -->
-<link href="<?php echo e(asset('frontend/css/fb-style.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('public/frontend/css/fb-style.css')); ?>" rel="stylesheet">
 
 <!-- color theme -->
-<link href="<?php echo e(asset('frontend/css/colors/'.\App\GeneralSetting::first()->frontend_color.'.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('public/frontend/css/colors/'.\App\GeneralSetting::first()->frontend_color.'.css')); ?>" rel="stylesheet">
 
 <!-- jQuery -->
-<script src="<?php echo e(asset('frontend/js/vendor/jquery.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/vendor/jquery.min.js')); ?>"></script>
 
 
 <?php if(\App\BusinessSetting::where('type', 'google_analytics')->first()->value == 1): ?>
@@ -148,19 +148,19 @@
 <a href="#" class="back-to-top btn-back-to-top"></a>
 
 <!-- Core -->
-<script src="<?php echo e(asset('frontend/js/vendor/popper.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/vendor/bootstrap.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/vendor/popper.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/vendor/bootstrap.min.js')); ?>"></script>
 
 <!-- Plugins: Sorted A-Z -->
-<script src="<?php echo e(asset('frontend/js/jquery.countdown.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/select2.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/nouislider.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/jquery.countdown.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/select2.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/nouislider.min.js')); ?>"></script>
 
 
-<script src="<?php echo e(asset('frontend/js/sweetalert2.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/slick.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/sweetalert2.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/slick.min.js')); ?>"></script>
 
-<script src="<?php echo e(asset('frontend/js/jquery.share.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/jquery.share.js')); ?>"></script>
 
 <script type="text/javascript">
     function showFrontendAlert(type, message){
@@ -546,14 +546,14 @@
      }
 
 </script>
-<script src="<?php echo e(asset('frontend/js/bootstrap-tagsinput.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/jodit.min.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/xzoom.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/bootstrap-tagsinput.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/jodit.min.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/xzoom.min.js')); ?>"></script>
 
 <!-- App JS -->
-<script src="<?php echo e(asset('frontend/js/active-shop.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/main.js')); ?>"></script>
-<script src="<?php echo e(asset('frontend/js/fb-script.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/active-shop.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/main.js')); ?>"></script>
+<script src="<?php echo e(asset('public/frontend/js/fb-script.js')); ?>"></script>
 
 <?php echo $__env->yieldContent('script'); ?>
 
