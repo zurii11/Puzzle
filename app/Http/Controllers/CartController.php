@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Product;
 use App\SubSubCategory;
 use App\Category;
+use App\Carts;
 use Session;
 use Auth;
 use App\Color;
@@ -124,15 +125,27 @@ class CartController extends Controller
         //     $data['shipping'] = $product->shipping_cost;
         // }
 
-        if($request->session()->has('cart')){
+        if (Auth::check()) {
+            $cart = Carts::where('user_id', Auth::user()->id)->where('product_id', $request->id)->first();
+            if ($cart == null) {
+                $cart = new Carts;
+                $cart->user_id = Auth::user()->id;
+                $cart->product_id = $data['id'];
+                $cart->color = $data['color'];
+                $cart->quantity = $data['quantity'];
+                $cart->price = $data['price'];
+                $cart->tax = $data['tax'];
+                $cart->shipping = $data['shipping'];
+                $cart->save();
+            }
+        } else if ($request->session()->has('cart')) {
             $cart = $request->session()->get('cart', collect([]));
             $cart->push($data);
-        }
-        else{
+        } else {
             $cart = collect([$data]);
             $request->session()->put('cart', $cart);
         }
-
+        
         return view('frontend.partials.addedToCart', compact('product', 'data'));
     }
 

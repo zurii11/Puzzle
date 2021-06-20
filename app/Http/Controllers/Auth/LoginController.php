@@ -6,7 +6,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Socialite;
 use App\User;
+use App\Carts;
 use App\Customer;
+use App\Http\Controllers\CartController;
 use Illuminate\Http\Request;
 
 class LoginController extends Controller
@@ -31,6 +33,10 @@ class LoginController extends Controller
      */
     /*protected $redirectTo = '/';*/
 
+    /**
+     * Get cart items from session and add to database
+     */
+    // public fun
 
     /**
       * Redirect the user to the Google authentication page.
@@ -99,11 +105,24 @@ class LoginController extends Controller
      */
     public function authenticated()
     {
+        // Create collection from 'cart' object from session, for every entry check database
+        // if product is not in database add it
+        $cart = collect(session('cart'));
+        foreach ($cart as $key => $prod) {
+            $prodInCart = Carts::where('user_id', auth()->user()->id)->where('product_id', $prod['id'])->first();
+            if ($prodInCart == null) {
+                $newCart = new Carts;
+                $newCart->user_id = auth()->user()->id;
+                $newCart->product_id = $prod['id'];
+                $newCart->save();
+            }
+        }
+
         if(auth()->user()->user_type == 'admin' || auth()->user()->user_type == 'staff')
         {
             return redirect()->route('admin.dashboard');
         }
-        elseif(session('link') != null){
+        else if(session('link') != null){
             return redirect(session('link'));
         }
         else{

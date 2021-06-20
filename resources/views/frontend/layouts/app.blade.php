@@ -288,6 +288,7 @@
     function addToWishList(id){
         @if (Auth::check())
             $.post('{{ route('wishlists.store') }}', {_token:'{{ csrf_token() }}', id:id}, function(data){
+                console.log(data);
                 if(data != 0){
                     $('#wishlist').html(data);
                     showFrontendAlert('success', 'Item has been added to wishlist');
@@ -415,7 +416,6 @@
         }
 
         $.post('{{ route('purchase_history.details') }}', { _token : '{{ @csrf_token() }}', order_id : order_id}, function(data){
-            console.log(data);
             $('#order-details-modal-body').html(data);
             $('#order_details').modal();
             $('.c-preloader').hide();
