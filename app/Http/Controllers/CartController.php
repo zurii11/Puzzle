@@ -124,7 +124,6 @@ class CartController extends Controller
         // else{
         //     $data['shipping'] = $product->shipping_cost;
         // }
-
         if (Auth::check()) {
             $cart = Carts::where('user_id', Auth::user()->id)->where('product_id', $request->id)->first();
             if ($cart == null) {
@@ -138,21 +137,28 @@ class CartController extends Controller
                 $cart->shipping = $data['shipping'];
                 $cart->save();
             }
-        } else if ($request->session()->has('cart')) {
+        }
+        else if ($request->session()->has('cart')) {
             $cart = $request->session()->get('cart', collect([]));
             $cart->push($data);
-        } else {
+        }
+        else {
             $cart = collect([$data]);
             $request->session()->put('cart', $cart);
         }
-        
+
         return view('frontend.partials.addedToCart', compact('product', 'data'));
     }
 
     //removes from Cart
     public function removeFromCart(Request $request)
     {
-        if($request->session()->has('cart')){
+        if (Auth::check()) {
+            $cart = Carts::where('id', $request->key)->firstOrFail();
+            if ($cart != null) {
+                Carts::destroy($request->key);
+            }
+        } else if($request->session()->has('cart')){
             $cart = $request->session()->get('cart', collect([]));
             $cart->forget($request->key);
             $request->session()->put('cart', $cart);

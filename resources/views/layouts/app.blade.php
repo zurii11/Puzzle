@@ -19,7 +19,7 @@
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!--active-shop Stylesheet [ REQUIRED ]-->
-    <link href="{{ asset('css/active-shop.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/active-shop.min.css')}}" rel="stylesheet">
 
     <!--active-shop Premium Icon [ DEMONSTRATION ]-->
     <link href="{{ asset('css/demo/active-shop-demo-icons.min.css')}}" rel="stylesheet">
