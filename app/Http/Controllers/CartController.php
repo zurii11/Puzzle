@@ -130,17 +130,33 @@ class CartController extends Controller
                 $cart = new Carts;
                 $cart->user_id = Auth::user()->id;
                 $cart->product_id = $data['id'];
-                $cart->color = $data['color'];
                 $cart->quantity = $data['quantity'];
                 $cart->price = $data['price'];
                 $cart->tax = $data['tax'];
                 $cart->shipping = $data['shipping'];
+
+                if($data['color'] != null) {
+                    $cart->color = $data['color'];
+                }
+
                 $cart->save();
             }
         }
         else if ($request->session()->has('cart')) {
             $cart = $request->session()->get('cart', collect([]));
-            $cart->push($data);
+            $hasItem = false;
+            foreach ($cart as $key => $cartItem) {
+                if($cartItem['id'] == $data['id']) {
+                    $hasItem = true;
+                    break;
+                } else {
+                    $hasItem = false;
+                }
+            }
+
+            if (!$hasItem) {
+                $cart->push($data);
+            }
         }
         else {
             $cart = collect([$data]);

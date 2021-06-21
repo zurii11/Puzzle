@@ -114,6 +114,17 @@ class LoginController extends Controller
                 $newCart = new Carts;
                 $newCart->user_id = auth()->user()->id;
                 $newCart->product_id = $prod['id'];
+                $newCart->quantity = $prod['quantity'];
+                $newCart->price = $prod['price'];
+                $newCart->tax = $prod['tax'];
+                $newCart->shipping = $prod['shipping'];
+
+                $hasItem = in_array('color', $prod);
+
+                if(!$hasItem) {
+                    $newCart->color = $prod['color'];
+                }
+
                 $newCart->save();
             }
         }

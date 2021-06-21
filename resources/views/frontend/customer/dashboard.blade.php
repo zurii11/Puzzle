@@ -44,8 +44,8 @@
                                 <div class="dashboard-widget text-center green-widget mt-4 c-pointer">
                                     <a href="{{ route('cart') }}" class="d-block">
                                         <i class="fa fa-shopping-cart"></i>
-                                        @if(Session::has('cart'))
-                                            <span class="d-block title">{{ count(Session::get('cart'))}} {{__('Productss')}}</span>
+                                        @if(count($cart = App\Carts::where('user_id', Auth::user()->id)->get()) > 0)
+                                            <span class="d-block title">{{ count($cart)}} {{__('Productss')}}</span>
                                         @else
                                             <span class="d-block title">0 {{__('Productss')}}</span> 
                                         @endif

@@ -43,8 +43,8 @@
                                 <div class="dashboard-widget text-center green-widget mt-4 c-pointer">
                                     <a href="<?php echo e(route('cart')); ?>" class="d-block">
                                         <i class="fa fa-shopping-cart"></i>
-                                        <?php if(Session::has('cart')): ?>
-                                            <span class="d-block title"><?php echo e(count(Session::get('cart'))); ?> <?php echo e(__('Productss')); ?></span>
+                                        <?php if(count($cart = App\Carts::where('user_id', Auth::user()->id)->get()) > 0): ?>
+                                            <span class="d-block title"><?php echo e(count($cart)); ?> <?php echo e(__('Productss')); ?></span>
                                         <?php else: ?>
                                             <span class="d-block title">0 <?php echo e(__('Productss')); ?></span> 
                                         <?php endif; ?>
