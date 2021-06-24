@@ -23,9 +23,8 @@
                     <div class="dropdown-cart-items c-scrollbar">
                         <?php
                             $total = 0;
-                            $cartDB = App\Carts::where('user_id', Auth::user()->id)->get();
                         ?>
-                        <?php $__currentLoopData = $cartDB; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $cartItem): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <?php $__currentLoopData = $cart; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $cartItem): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                             <?php
                                 $product = \App\Product::find($cartItem['product_id']);
                                 $total = $total + $cartItem['price']*$cartItem['quantity'];

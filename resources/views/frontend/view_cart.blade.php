@@ -50,7 +50,7 @@
 
     <section class="py-4 gry-bg" id="cart-summary">
         <div class="container">
-            @if(Session::has('cart'))
+            @if(count($cart = App\Carts::where('user_id', Auth::user()->id)->get()) > 0)
                 <div class="row cols-xs-space cols-sm-space cols-md-space">
                 <div class="col-xl-8">
                     <!-- <form class="form-default bg-white p-4" data-toggle="validator" role="form"> -->
@@ -72,23 +72,22 @@
                                         @php
                                         $total = 0;
                                         @endphp
-                                        @foreach (Session::get('cart') as $key => $cartItem)
+                                        @foreach ($cart as $cartItem)
                                             @php
-                                            $product = \App\Product::find($cartItem['id']);
+                                            $product = \App\Product::find($cartItem['product_id']);
                                             $total = $total + $cartItem['price']*$cartItem['quantity'];
                                             $product_name_with_choice = $product->name;
-                                            if(isset($cartItem['color'])){
+                                            $key = $cartItem['id'];
+                                            $quantity = $cartItem['quantity'];
+                                            if($cartItem['color'] != null){
                                                 $product_name_with_choice .= ' - '.\App\Color::where('code', $cartItem['color'])->first()->name;
-                                            }
-                                            foreach (json_decode($product->choice_options) as $choice){
-                                                $str = $choice->name; // example $str =  choice_0
-                                                $product_name_with_choice .= ' - '.$cartItem[$str];
                                             }
                                             @endphp
                                             <tr class="cart-item">
                                                 <td class="product-image">
                                                     <a href="#" class="mr-3">
-                                                        <img loading="lazy"  src="{{ asset($product->thumbnail_img) }}">
+                                                        <!-- <img loading="lazy"  src="{{ asset($product->thumbnail_img) }}"> -->
+                                                        <img loading="lazy"  src="{{ asset($product->thumbnail_img) }}" class="img-fluid" alt="">
                                                     </a>
                                                 </td>
 
@@ -107,7 +106,7 @@
                                                                 <i class="la la-minus"></i>
                                                             </button>
                                                         </span>
-                                                        <input type="text" name="quantity[{{ $key }}]" class="form-control input-number" placeholder="1" value="{{ $cartItem['quantity'] }}" min="1" max="1000" onchange="updateQuantity({{ $key }}, this)">
+                                                        <input type="text" name="quantity[{{ $key }}]" class="form-control input-number" placeholder="1" value="{{ $quantity }}" min="1" max="1000" onchange="updateQuantity({{ $key }}, this)">
                                                         <span class="input-group-btn">
                                                             <button class="btn btn-number" type="button" data-type="plus" data-field="quantity[{{ $key }}]">
                                                                 <i class="la la-plus"></i>
@@ -140,8 +139,6 @@
                             <div class="col-6 text-right">
                                 @if(Auth::check())
                                     <a href="{{ route('checkout.shipping_info') }}" class="btn btn-styled btn-base-1">{{__('Continue to Shipping')}}</a>
-                                @else
-                                    <button class="btn btn-styled btn-base-1" onclick="showCheckoutModal()">{{__('Continue to Shipping')}}</button>
                                 @endif
                             </div>
                         </div>
@@ -150,7 +147,7 @@
                 </div>
 
                 <div class="col-xl-4 ml-lg-auto">
-                    @include('frontend.partials.cart_summary')
+                    
                 </div>
             </div>
             @else

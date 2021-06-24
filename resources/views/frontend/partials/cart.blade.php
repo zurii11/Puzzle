@@ -23,9 +23,8 @@
                     <div class="dropdown-cart-items c-scrollbar">
                         @php
                             $total = 0;
-                            $cartDB = App\Carts::where('user_id', Auth::user()->id)->get();
                         @endphp
-                        @foreach ($cartDB as $cartItem)
+                        @foreach ($cart as $cartItem)
                             @php
                                 $product = \App\Product::find($cartItem['product_id']);
                                 $total = $total + $cartItem['price']*$cartItem['quantity'];

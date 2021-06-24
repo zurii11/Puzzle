@@ -135,7 +135,7 @@ class CartController extends Controller
                 $cart->tax = $data['tax'];
                 $cart->shipping = $data['shipping'];
 
-                if($data['color'] != null) {
+                if(array_key_exists('color', $data)) {
                     $cart->color = $data['color'];
                 }
 
@@ -170,7 +170,7 @@ class CartController extends Controller
     public function removeFromCart(Request $request)
     {
         if (Auth::check()) {
-            $cart = Carts::where('id', $request->key)->firstOrFail();
+            $cart = Carts::where('id', $request->key)->first();
             if ($cart != null) {
                 Carts::destroy($request->key);
             }
