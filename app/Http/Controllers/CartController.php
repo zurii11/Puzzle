@@ -170,7 +170,7 @@ class CartController extends Controller
     public function removeFromCart(Request $request)
     {
         if (Auth::check()) {
-            $cart = Carts::where('id', $request->key)->first();
+            $cart = Carts::where('user_id', Auth::user()->id)->where('id', $request->key)->first();
             if ($cart != null) {
                 Carts::destroy($request->key);
             }
@@ -180,20 +180,26 @@ class CartController extends Controller
             $request->session()->put('cart', $cart);
         }
 
-        return view('frontend.partials.cart_details');;
+        return view('frontend.partials.cart_details');
     }
 
     //updated the quantity for a cart item
     public function updateQuantity(Request $request)
     {
-        $cart = $request->session()->get('cart', collect([]));
-        $cart = $cart->map(function ($object, $key) use ($request) {
-            if($key == $request->key){
-                $object['quantity'] = $request->quantity;
-            }
-            return $object;
-        });
-        $request->session()->put('cart', $cart);
+        if (Auth::check()) {
+            $product = Carts::where('user_id', Auth::user()->id)->where('id', $request->key)->first();
+            $product->quantity = $request->quantity;
+            $product->save();
+        } else {
+            $cart = $request->session()->get('cart', collect([]));
+            $cart = $cart->map(function ($object, $key) use ($request) {
+                if($key == $request->key){
+                    $object['quantity'] = $request->quantity;
+                }
+                return $object;
+            });
+            $request->session()->put('cart', $cart);
+        }
 
         return view('frontend.partials.cart_details');
     }
