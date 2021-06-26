@@ -136,9 +136,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <?php if(Auth::check()): ?>
-                                        <a href="<?php echo e(route('checkout.shipping_info')); ?>" class="btn btn-styled btn-base-1"><?php echo e(__('Continue to Shipping')); ?></a>
-                                    <?php endif; ?>
+                                    <a href="<?php echo e(route('checkout.shipping_info')); ?>" class="btn btn-styled btn-base-1"><?php echo e(__('Continue to Shipping')); ?></a>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +242,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <?php if(Auth::check()): ?>
-                                        <a href="<?php echo e(route('checkout.shipping_info')); ?>" class="btn btn-styled btn-base-1"><?php echo e(__('Continue to Shipping')); ?></a>
-                                    <?php else: ?>
-                                        <button class="btn btn-styled btn-base-1" onclick="showCheckoutModal()"><?php echo e(__('Continue to Shipping')); ?></button>
-                                    <?php endif; ?>
+                                    <button class="btn btn-styled btn-base-1" onclick="showCheckoutModal()"><?php echo e(__('Continue to Shipping')); ?></button>
                                 </div>
                             </div>
                         </div>

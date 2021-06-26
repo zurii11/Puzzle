@@ -260,9 +260,9 @@ class OrderController extends Controller
             $array['file_name'] = 'Order#'.$order->code.'.pdf';
 
             //sends email to customer with the invoice pdf attached
-            if(env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null){
-                Mail::to($request->session()->get('shipping_info')['email'])->queue(new InvoiceEmailManager($array));
-            }
+            // if(env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null){
+            //     Mail::to($request->session()->get('shipping_info')['email'])->queue(new InvoiceEmailManager($array));
+            // }
             unlink($array['file']);
 
             $request->session()->put('order_id', $order->id);

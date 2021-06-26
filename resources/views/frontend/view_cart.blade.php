@@ -137,9 +137,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 text-right">
-                                    @if(Auth::check())
-                                        <a href="{{ route('checkout.shipping_info') }}" class="btn btn-styled btn-base-1">{{__('Continue to Shipping')}}</a>
-                                    @endif
+                                    <a href="{{ route('checkout.shipping_info') }}" class="btn btn-styled btn-base-1">{{__('Continue to Shipping')}}</a>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +242,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 text-right">
-                                    @if(Auth::check())
-                                        <a href="{{ route('checkout.shipping_info') }}" class="btn btn-styled btn-base-1">{{__('Continue to Shipping')}}</a>
-                                    @else
-                                        <button class="btn btn-styled btn-base-1" onclick="showCheckoutModal()">{{__('Continue to Shipping')}}</button>
-                                    @endif
+                                    <button class="btn btn-styled btn-base-1" onclick="showCheckoutModal()">{{__('Continue to Shipping')}}</button>
                                 </div>
                             </div>
                         </div>

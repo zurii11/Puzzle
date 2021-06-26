@@ -12,6 +12,7 @@ use App\Http\Controllers\PublicSslCommerzPaymentController;
 use App\Http\Controllers\OrderController;
 use App\Order;
 use App\BusinessSetting;
+use App\Carts;
 use App\Coupon;
 use App\CouponUsage;
 use Session;
@@ -102,8 +103,8 @@ class CheckoutController extends Controller
                         $seller->save();
                     }
                 }
-
-                $request->session()->put('cart', collect([]));  
+                
+                $deleteCart = Carts::where('user_id', Auth::user()->id)->delete();  
                 $request->session()->forget('order_id');
                 $request->session()->forget('delivery_info');
                 $request->session()->forget('coupon_id');
@@ -175,16 +176,16 @@ class CheckoutController extends Controller
     {
        
         if(Auth::check()){
-            if(Session::has('cart') && count(Session::get('cart')) > 0){
+            if(count(Carts::where('user_id', Auth::user()->id)->get()) > 0){
                 $categories = Category::all();
                 return view('frontend.shipping_info', compact('categories'));
             }
             flash(__('Your cart is empty'))->success();
             return back();
-            }else{
+        } else{
             flash(__('Login First'))->success();
             return back();
-            }
+        }
 
 
     }
