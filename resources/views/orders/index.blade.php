@@ -7,7 +7,7 @@
 <div class="panel">
     <div class="panel-heading">
         <h3 class="panel-title">{{__('Orders')}}</h3>
-    </div>
+    </div>  
     <div class="panel-body">
         <table class="table table-striped table-bordered demo-dt-basic" cellspacing="0" width="100%">
             <thead>

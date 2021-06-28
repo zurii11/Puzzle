@@ -16,104 +16,104 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!--Bootstrap Stylesheet [ REQUIRED ]-->
-    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!--active-shop Stylesheet [ REQUIRED ]-->
-    <link href="{{ asset('css/active-shop.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/active-shop.min.css')}}" rel="stylesheet">
 
     <!--active-shop Premium Icon [ DEMONSTRATION ]-->
-    <link href="{{ asset('css/demo/active-shop-demo-icons.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/demo/active-shop-demo-icons.min.css')}}" rel="stylesheet">
 
     <!--Font Awesome [ OPTIONAL ]-->
-    <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
     <!--Switchery [ OPTIONAL ]-->
-    <link href="{{ asset('plugins/switchery/switchery.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/plugins/switchery/switchery.min.css')}}" rel="stylesheet">
 
     <!--DataTables [ OPTIONAL ]-->
-    <link href="{{ asset('plugins/datatables/media/css/dataTables.bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/plugins/datatables/media/css/dataTables.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css') }}" rel="stylesheet">
 
     <!--Select2 [ OPTIONAL ]-->
-    <link href="{{ asset('plugins/select2/css/select2.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/plugins/select2/css/select2.min.css')}}" rel="stylesheet">
 
     <!--Chosen [ OPTIONAL ]-->
-    {{-- <link href="{{ asset('plugins/chosen/chosen.min.css')}}" rel="stylesheet"> --}}
+    {{-- <link href="{{ asset('public/plugins/chosen/chosen.min.css')}}" rel="stylesheet"> --}}
 
     <!--Bootstrap Tags Input [ OPTIONAL ]-->
     <link href="{{ asset('plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.css') }}" rel="stylesheet">
 
     <!--Summernote [ OPTIONAL ]-->
-    <link href="{{ asset('css/jodit.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/jodit.min.css') }}" rel="stylesheet">
 
     <!--Theme [ DEMONSTRATION ]-->
     <!-- <link href="{{ asset('css/themes/type-full/theme-dark-full.min.css') }}" rel="stylesheet"> -->
-    <link href="{{ asset('css/themes/type-c/theme-navy.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/themes/type-c/theme-navy.min.css') }}" rel="stylesheet">
 
     <!--Spectrum Stylesheet [ REQUIRED ]-->
-    <link href="{{ asset('css/spectrum.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/spectrum.css')}}" rel="stylesheet">
 
     <!--Custom Stylesheet [ REQUIRED ]-->
-    <link href="{{ asset('css/custom.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/css/custom.css')}}" rel="stylesheet">
 
 
     <!--JAVASCRIPT-->
     <!--=================================================-->
 
     <!--jQuery [ REQUIRED ]-->
-    <script src=" {{asset('js/jquery.min.js') }}"></script>
+    <script src=" {{asset('public/js/jquery.min.js') }}"></script>
 
 
     <!--BootstrapJS [ RECOMMENDED ]-->
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
 
 
     <!--active-shop [ RECOMMENDED ]-->
-    <script src="{{ asset('js/active-shop.min.js') }}"></script>
+    <script src="{{ asset('public/js/active-shop.min.js') }}"></script>
 
     <!--Alerts [ SAMPLE ]-->
-    <script src="{{ asset('js/demo/ui-alerts.js') }}"></script>
+    <script src="{{ asset('public/js/demo/ui-alerts.js') }}"></script>
 
     <!--Switchery [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/switchery/switchery.min.js')}}"></script>
+    <script src="{{ asset('public/plugins/switchery/switchery.min.js')}}"></script>
 
     <!--DataTables [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/datatables/media/js/jquery.dataTables.js')}}"></script>
-    <script src="{{ asset('plugins/datatables/media/js/dataTables.bootstrap.js')}}"></script>
-    <script src="{{ asset('plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js')}}"></script>
+    <script src="{{ asset('public/plugins/datatables/media/js/jquery.dataTables.js')}}"></script>
+    <script src="{{ asset('public/plugins/datatables/media/js/dataTables.bootstrap.js')}}"></script>
+    <script src="{{ asset('public/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js')}}"></script>
 
     <!--DataTables Sample [ SAMPLE ]-->
-    <script src="{{ asset('js/demo/tables-datatables.js')}}"></script>
+    <script src="{{ asset('public/js/demo/tables-datatables.js')}}"></script>
 
     <!--Select2 [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/select2/js/select2.min.js')}}"></script>
+    <script src="{{ asset('public/plugins/select2/js/select2.min.js')}}"></script>
 
     <!--Summernote [ OPTIONAL ]-->
-    <script src="{{ asset('js/jodit.min.js') }}"></script>
+    <script src="{{ asset('public/js/jodit.min.js') }}"></script>
 
     <!--Bootstrap Tags Input [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js')}}"></script>
+    <script src="{{ asset('public/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js')}}"></script>
 
     <!--Bootstrap Validator [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/bootstrap-validator/bootstrapValidator.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/bootstrap-validator/bootstrapValidator.min.js') }}"></script>
 
     <!--Bootstrap Wizard [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js') }}"></script>
 
     <!--Bootstrap Datepicker [ OPTIONAL ]-->
-    <script src="{{ asset('plugins/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
 
     <!--Form Component [ SAMPLE ]-->
-    <script src="{{asset('js/demo/form-wizard.js')}}"></script>
+    <script src="{{asset('public/js/demo/form-wizard.js')}}"></script>
 
     <!--Spectrum JavaScript [ REQUIRED ]-->
-    <script src="{{ asset('js/spectrum.js')}}"></script>
+    <script src="{{ asset('public/js/spectrum.js')}}"></script>
 
     <!--Spartan Image JavaScript [ REQUIRED ]-->
-    <script src="{{ asset('js/spartan-multi-image-picker-min.js') }}"></script>
+    <script src="{{ asset('public/js/spartan-multi-image-picker-min.js') }}"></script>
 
     <!--Custom JavaScript [ REQUIRED ]-->
-    <script src="{{ asset('js/custom.js')}}"></script>
+    <script src="{{ asset('public/js/custom.js')}}"></script>
 
     <script type="text/javascript">
 

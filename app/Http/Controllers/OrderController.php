@@ -283,6 +283,12 @@ class OrderController extends Controller
         return view('orders.show', compact('order'));
     }
 
+    public function show1()
+    {
+       return view ('orders.show1');
+    }
+    
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -343,9 +349,11 @@ class OrderController extends Controller
         $order->save();
 		
 		$generalsetting = \App\GeneralSetting::first();
+
+        //ფინასთან კავშირის არ ქონის გამო არის დაკომენტარებული.
 		
-		$Fina = new Fina();
-		$token = $Fina->gettoken(); 		
+		// $Fina = new Fina();
+		// $token = $Fina->gettoken(); 		
 		
 		$personal_id = DB::table('users')
                         ->where('email', json_decode($order->shipping_address)->email)
@@ -354,36 +362,38 @@ class OrderController extends Controller
                         ->get();
 						
 	  
+		//ფინასთან კავშირის არ ქონის გამო არის დაკომენტარებული.
+
+		// $ifthereiscustumer = $Fina->getCustomersByCode($token,$personal_id[0]->usertype_id);
+		// if(isset($ifthereiscustumer->contragents[0]->id)){
+		// 	$cutomer = $ifthereiscustumer->contragents[0]->id;
+		// }else{
 		
-		$ifthereiscustumer = $Fina->getCustomersByCode($token,$personal_id[0]->usertype_id);
-		if(isset($ifthereiscustumer->contragents[0]->id)){
-			$cutomer = $ifthereiscustumer->contragents[0]->id;
-		}else{
+		// if($personal_id[0]->profile_type == 2){
+		// 	$is_company = true;
+		// }else{
+		// 	$is_company = false;
+		// }
 		
-		if($personal_id[0]->profile_type == 2){
-			$is_company = true;
-		}else{
-			$is_company = false;
-		}
-		
-		
-		$savecutomerpost = array(
-			"id" => 0, 
-			"code" => $personal_id[0]->usertype_id,
-			"name" => $personal_id[0]->name,
-			"group_id" => 5,
-			"address" => $personal_id[0]->address,
-			"phone" => $personal_id[0]->phone,
-			"email" => $personal_id[0]->email,
-			"vat_type" => 1,
-			"is_resident" => true,
-			"is_company" => $is_company,
-			"cons_period" => 30
-		); 
-		$savecutomerpost = json_encode($savecutomerpost);	
-		$resultsavecutomer = $Fina->saveCustomer($token,$savecutomerpost);
-		$cutomer = $resultsavecutomer->id;
-		}
+		//ფინასთან კავშირის არ ქონის გამო არის დაკომენტარებული.
+
+		// $savecutomerpost = array(
+		// 	"id" => 0, 
+		// 	"code" => $personal_id[0]->usertype_id,
+		// 	"name" => $personal_id[0]->name,
+		// 	"group_id" => 5,
+		// 	"address" => $personal_id[0]->address,
+		// 	"phone" => $personal_id[0]->phone,
+		// 	"email" => $personal_id[0]->email,
+		// 	"vat_type" => 1,
+		// 	"is_resident" => true,
+		// 	"is_company" => $is_company,
+		// 	"cons_period" => 30
+		// ); 
+		// $savecutomerpost = json_encode($savecutomerpost);	
+		// $resultsavecutomer = $Fina->saveCustomer($token,$savecutomerpost);
+		// $cutomer = $resultsavecutomer->id;
+		// }
 		
         if(Auth::user()->user_type == 'admin' || Auth::user()->user_type == 'seller'){
             foreach($order->orderDetails->where('seller_id', Auth::user()->id) as $key => $orderDetail){
@@ -398,37 +408,40 @@ class OrderController extends Controller
             }
         }
 		
-		$products = array(); 
-		$grand_total = 0;
-		foreach ($order->orderDetails->where('seller_id', Auth::user()->id) as $key => $orderDetail){
-			$products[] = array(
-				"id" => $orderDetail->product->finaid,
-				"quantity" => $orderDetail->quantity,
-				"price" => $orderDetail->price
-			); 	
-			$grand_total = $grand_total + $orderDetail->price;
-		}
-		$purpose = $request->order_id;
-		$post = array(
-			"id" => 0, 
-			"date" => date("Y-m-dDh:i:s"), 
-			"num_pfx" => "", 
-			"doc_num" => 0, 
-			"purpose" => $purpose, 
-			"amount" => $grand_total, 
-			"currency" => "GEL", 
-			"rate" => 1, 
-			"store" => 1, 
-			"user" => 1, 
-			"project" => 1, 
-			"customer" => $cutomer, 
-			"is_vat" => true, 
-			"pay_type" => 0, 
-			"tr_start" => $generalsetting->address, 
-			"tr_end" => json_decode($order->shipping_address)->address, 
-			"reserved" => true, 
-			"products" => $products
-		); 
+        //ფინასთან კავშირის არ ქონის გამო არის დაკომენტარებული.
+
+		// $products = array(); 
+		// $grand_total = 0;
+		// foreach ($order->orderDetails->where('seller_id', Auth::user()->id) as $key => $orderDetail){
+		// 	$products[] = array(
+		// 		"id" => $orderDetail->product->finaid,
+		// 		"quantity" => $orderDetail->quantity,
+		// 		"price" => $orderDetail->price
+		// 	); 	
+		// 	$grand_total = $grand_total + $orderDetail->price;
+		// }
+		// $purpose = $request->order_id;
+		// $post = array(
+		// 	"id" => 0, 
+		// 	"date" => date("Y-m-dDh:i:s"), 
+		// 	"num_pfx" => "", 
+		// 	"doc_num" => 0, 
+		// 	"purpose" => $purpose, 
+		// 	"amount" => $grand_total, 
+		// 	"currency" => "GEL", 
+		// 	"rate" => 1, 
+		// 	"store" => 1, 
+		// 	"user" => 1, 
+		// 	"project" => 1, 
+		// 	"customer" => $cutomer, 
+		// 	"is_vat" => true, 
+		// 	"pay_type" => 0, 
+		// 	"tr_start" => $generalsetting->address, 
+		// 	"tr_end" => json_decode($order->shipping_address)->address, 
+		// 	"reserved" => true, 
+		// 	"products" => $products
+		// ); 
+        
 		if ($request->status == 'on_delivery') {
 		//$Fina->saveDocCustomerOrder($token,$post);
 		}

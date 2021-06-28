@@ -1,6 +1,4 @@
-@extends('layouts.app')
 
-@section('content')
 
     <div class="panel">
     	<div class="panel-body">
@@ -10,10 +8,7 @@
     			</div>
     		</div>
             <div class="row">
-                @php
-                    $delivery_status = $order->orderDetails->first()->delivery_status;
-                    $payment_status = $order->orderDetails->first()->payment_status;
-                @endphp
+                
                 <div class="col-lg-offset-6 col-lg-3">
                     <label for="update_payment_status">{{__('Payment Status')}}</label>
                     <select class="form-control demo-select2"  data-minimum-results-for-search="Infinity" id="update_payment_status">
@@ -22,7 +17,7 @@
                     </select>
                 </div>
                 <div class="col-lg-3">
-                    <label for="update_delivery_status">{{__('Delivery Status')}}</label>
+                    <label for="update_delivery_status"">{{__('Delivery Status')}}</label>
                     <select class="form-control demo-select2"  data-minimum-results-for-search="Infinity" id="update_delivery_status">
                         <option value="pending" @if ($delivery_status == 'pending') selected @endif>{{__('Pending')}}</option>
                         <option value="on_review" @if ($delivery_status == 'on_review') selected @endif>{{__('On review')}}</option>
@@ -56,15 +51,13 @@
     					<td class="text-main text-bold">
     						{{__('Order Status')}}
     					</td>
-                        @php
-                            $status = $order->orderDetails->first()->delivery_status;
-                        @endphp
+                        
     					<td class="text-right">
-                            @if($status == 'delivered')
+                            
                                 <span class="badge badge-success">{{ ucfirst(str_replace('_', ' ', $status)) }}</span>
-                            @else
+                            
                                 <span class="badge badge-info">{{ ucfirst(str_replace('_', ' ', $status)) }}</span>
-                            @endif
+                            
     					</td>
     				</tr>
     				<tr>
@@ -130,35 +123,27 @@
             				</tr>
         				</thead>
         				<tbody>
-                            @foreach ($order->orderDetails->where('seller_id', Auth::user()->id) as $key => $orderDetail)
+                            
                                 <tr>
                                     <td>{{ $key+1 }}</td>
                 					<td>
-                                        @if ($orderDetail->product != null)
+                                        
                     						<strong><a href="{{ route('product', $orderDetail->product->slug) }}" target="_blank">{{ $orderDetail->product->name }}</a></strong>
                     						<small>{{ $orderDetail->variation }}</small>
-                                        @else
+                                        
                                             <strong>{{ __('Product Unavailable') }}</strong>
-                                        @endif
+                                        
                 					</td>
                 					<td>
-                                        @if ($orderDetail->product != null)
+                                        
                     						<strong><a href="{{ route('product', $orderDetail->product->slug) }}" target="_blank">{{ $orderDetail->product->productcode }}</a></strong>
                     						<small>{{ $orderDetail->variation }}</small>
-                                        @else
+                                       
                                             <strong>{{ __('Product Unavailable') }}</strong>
-                                        @endif
+                                        
                 					</td>
                                     <td>
-                                        @if ($orderDetail->shipping_type != null && $orderDetail->shipping_type == 'home_delivery')
-                                            {{ __('Home Delivery') }}
-                                        @elseif ($orderDetail->shipping_type == 'pickup_point')
-                                            @if ($orderDetail->pickup_point != null)
-                                                {{ $orderDetail->pickup_point->name }} ({{ __('Pickup Point') }})
-                                            @else
-                                                {{ __('Pickup Point') }}
-                                            @endif
-                                        @endif
+                                       
                                     </td>
 									<!--
                 					<td class="text-center">
@@ -265,7 +250,7 @@
     					<strong>{{__('Sub Total')}} :</strong>
     				</td>
     				<td>
-    					{{ single_price($order->orderDetails->where('seller_id', Auth::user()->id)->sum('price')) }}
+    					
     				</td>
     			</tr>
     			<tr>
@@ -273,7 +258,7 @@
     					<strong>{{__('Tax')}} :</strong>
     				</td>
     				<td>
-    					{{ single_price($order->orderDetails->where('seller_id', Auth::user()->id)->sum('tax')) }}
+    					
     				</td>
     			</tr>
                 <tr>
@@ -300,9 +285,7 @@
     		</div>
     	</div>
     </div>
-@endsection
 
-@section('script')
     <script type="text/javascript">
         $('#orderfina').on('click', function(){
 			var purchase_price = $(this).prev().prev().prev().prev('input').val()
@@ -332,4 +315,4 @@
             });
         });
     </script>
-@endsection
+
